@@ -137,6 +137,18 @@
   .bottom-bar{display:flex; align-items:center; justify-content:space-between; margin-top:14px; font-size:12.5px; color:var(--text-muted);}
   .clear-btn{border:none; background:none; color:var(--pink-dark); font-weight:700; font-size:12.5px; cursor:pointer;}
 
+  /* Calendar */
+  .event-card{display:flex; align-items:center; gap:12px; background:#fff; border-radius:18px; padding:12px; box-shadow:0 4px 14px rgba(224,80,125,0.10); border:1px solid #ffeef3;}
+  .event-card.past{opacity:0.55;}
+  .event-date-badge{min-width:54px; text-align:center; background:var(--pink-pale); border-radius:14px; padding:8px 4px;}
+  .event-date-badge .day{font-size:20px; font-weight:800; color:var(--pink-dark); line-height:1;}
+  .event-date-badge .mon{font-size:9.5px; color:var(--text-muted); text-transform:uppercase; margin-top:2px; letter-spacing:0.5px;}
+  .event-info{flex:1; min-width:0;}
+  .event-title{font-weight:700; font-size:14px; color:var(--text-dark); word-break:break-word;}
+  .event-when{font-size:11.5px; color:var(--pink-dark); font-weight:700; margin-top:2px;}
+  .event-when.muted{color:var(--text-muted); font-weight:600;}
+  .section-label{font-size:11.5px; font-weight:800; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; margin:16px 0 8px;}
+
   /* Mood */
   .mood-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-bottom:14px;}
   .mood-opt{
@@ -160,6 +172,11 @@
   .mood-entry .mood-time{font-size:11px; color:var(--text-muted); margin-left:auto;}
   .mood-entry .mood-text{font-size:13.5px; margin-top:6px; line-height:1.4; color:var(--text-dark);}
 
+  .mood-suggestion{background:linear-gradient(135deg,#fff5f9,#ffeef5); border:1.5px dashed var(--pink-mid); border-radius:18px; padding:14px; margin-bottom:14px;}
+  .mood-suggestion .ms-label{font-size:11px; font-weight:800; color:var(--pink-dark); text-transform:uppercase; letter-spacing:0.4px;}
+  .mood-suggestion .ms-text{font-size:14px; color:var(--text-dark); margin-top:6px; line-height:1.4;}
+  .mood-suggestion .ms-refresh{border:none; background:none; color:var(--pink-dark); font-weight:700; font-size:11.5px; margin-top:8px; padding:0; cursor:pointer;}
+
   /* News */
   .chip-row{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px;}
   .chip{
@@ -178,22 +195,6 @@
   .news-updated{text-align:center; font-size:11px; color:var(--text-muted); margin-bottom:10px;}
   .refresh-row{display:flex; justify-content:flex-end; margin-bottom:8px;}
   .refresh-btn{border:none; background:none; color:var(--pink-dark); font-weight:700; font-size:12px; cursor:pointer;}
-
-  /* Settings sheet */
-  .sheet-overlay{position:fixed; inset:0; background:rgba(92,42,62,0.35); z-index:20; display:none; align-items:flex-end; justify-content:center;}
-  .sheet-overlay.active{display:flex;}
-  .sheet{width:100%; max-width:440px; background:#fff8fb; border-radius:26px 26px 0 0; padding:20px 20px calc(24px + env(safe-area-inset-bottom)); box-shadow:0 -10px 30px rgba(0,0,0,0.15);}
-  .sheet h3{margin:0 0 14px; color:var(--pink-dark); font-size:17px;}
-  .sheet label{font-size:12.5px; color:var(--text-muted); font-weight:700;}
-  .sheet input[type=date]{width:100%; margin-top:6px; margin-bottom:16px; border:none; border-radius:14px; padding:11px; background:#fff; box-shadow:inset 0 0 0 1.5px #ffd9e6; font-size:14px;}
-  .toggle-row{display:flex; align-items:center; justify-content:space-between; padding:10px 0; border-top:1px solid #ffe3ec;}
-  .toggle-row .t-label{font-size:13.5px; font-weight:700; color:var(--text-dark);}
-  .toggle-row .t-hint{font-size:11px; color:var(--text-muted); margin-top:2px;}
-  .switch{width:44px; height:26px; border-radius:20px; background:#ffd9e6; position:relative; cursor:pointer; flex-shrink:0;}
-  .switch.on{background:var(--pink-deep);}
-  .switch .knob{position:absolute; top:3px; left:3px; width:20px; height:20px; border-radius:50%; background:#fff; transition:left .15s ease; box-shadow:0 2px 4px rgba(0,0,0,0.2);}
-  .switch.on .knob{left:21px;}
-  .sheet-close{width:100%; border:none; border-radius:16px; padding:13px; font-weight:800; font-size:14px; margin-top:16px; background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); color:#fff; cursor:pointer;}
 
   .heart-burst{position:fixed; z-index:50; font-size:18px; pointer-events:none; animation:burst 0.8s ease forwards;}
   @keyframes burst{ 0%{opacity:1; transform:translate(0,0) scale(1);} 100%{opacity:0; transform:translate(var(--dx),-60px) scale(1.4);} }
@@ -244,7 +245,6 @@
           <div class="brand-sub" id="homeGreeting">just for you</div>
         </div>
       </div>
-      <button class="icon-btn" onclick="openSettings()">⚙️</button>
     </div>
 
     <div class="baby-banner">
@@ -279,6 +279,12 @@
         <div class="t-label">Questions for Abhilash</div>
         <div class="t-hint">Type it before it slips</div>
         <div class="t-badge" id="badgeQuestions" style="display:none;"></div>
+      </div>
+      <div class="tile" onclick="showScreen('calendar')">
+        <div class="t-emoji">📅</div>
+        <div class="t-label">Calendar</div>
+        <div class="t-hint">What's coming up</div>
+        <div class="t-badge" id="badgeCalendar" style="display:none;"></div>
       </div>
       <div class="tile" onclick="showScreen('news')" style="grid-column:span 2;">
         <div class="t-emoji">📰</div>
@@ -345,6 +351,11 @@
       </div>
     </div>
     <div class="mood-grid" id="moodGrid"></div>
+    <div class="mood-suggestion" id="moodSuggestion" style="display:none;">
+      <div class="ms-label" id="moodSuggestionLabel"></div>
+      <div class="ms-text" id="moodSuggestionText"></div>
+      <button class="ms-refresh" onclick="refreshMoodSuggestion()">↻ Try another idea</button>
+    </div>
     <div class="add-row" style="margin-bottom:0;">
       <textarea id="moodText" placeholder="What's on your mind, love? 💭"></textarea>
     </div>
@@ -370,6 +381,23 @@
       <span id="questionsProgress">0 of 0 answered</span>
       <button class="clear-btn" onclick="clearCompleted('questions')">Clear answered</button>
     </div>
+  </div>
+
+  <!-- CALENDAR -->
+  <div class="screen" data-screen="calendar">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">Calendar 📅</div>
+        <div class="header-subtitle">Tag the days that matter</div>
+      </div>
+    </div>
+    <div class="add-row" style="margin-bottom:8px;">
+      <input type="date" id="calendarDateInput" style="flex:0 0 150px;">
+      <input type="text" id="calendarEventInput" placeholder="What's happening?" maxlength="200">
+    </div>
+    <button class="add-btn" style="width:100%; margin-bottom:16px;" onclick="addCalendarEvent()">Add to Calendar</button>
+    <div class="list" id="calendarList"></div>
   </div>
 
   <!-- NEWS -->
@@ -501,25 +529,6 @@
 
 </div>
 
-<!-- SETTINGS SHEET -->
-<div class="sheet-overlay" id="settingsOverlay">
-  <div class="sheet">
-    <h3>Settings ⚙️</h3>
-    <label>Baby's due date</label>
-    <input type="date" id="dueDateInput">
-
-    <div class="toggle-row">
-      <div>
-        <div class="t-label">🔔 Notifications</div>
-        <div class="t-hint">Gentle reminders while Kancha is open</div>
-      </div>
-      <div class="switch" id="notifSwitch" onclick="toggleNotifications()"><div class="knob"></div></div>
-    </div>
-
-    <button class="sheet-close" onclick="closeSettings()">Done</button>
-  </div>
-</div>
-
 <script>
 /* ---------- storage helpers ---------- */
 function getList(key){ try{ return JSON.parse(localStorage.getItem(key)) || []; }catch(e){ return []; } }
@@ -540,8 +549,7 @@ function renderHome(){
   var greet = hour < 12 ? 'Good morning' : (hour < 17 ? 'Good afternoon' : (hour < 21 ? 'Good evening' : 'Sleep soon'));
   document.getElementById('homeGreeting').textContent = greet + ', my love';
 
-  var due = localStorage.getItem('kancha_due_date') || '2026-12-15';
-  var dueDate = new Date(due + 'T00:00:00');
+  var dueDate = new Date('2026-12-18T00:00:00');
   var today = new Date();
   var msPerDay = 86400000;
   var daysLeft = Math.round((dueDate - today) / msPerDay);
@@ -562,6 +570,7 @@ function renderHome(){
   updateBadge('todo', 'todo_items');
   updateBadge('tellhim', 'tellhim_items');
   updateBadge('questions', 'questions_items');
+  updateCalendarBadge();
 }
 function updateBadge(screenKey, storeKey){
   var items = getList(storeKey);
@@ -653,12 +662,304 @@ function addQuestion(){
   addItem('questions', el.value);
   el.value=''; el.focus();
 }
+
+/* ---------- calendar ---------- */
+function getCalendarEvents(){ return getList('calendar_events'); }
+function saveCalendarEvents(e){ saveList('calendar_events', e); }
+
+function addCalendarEvent(){
+  var dateEl = document.getElementById('calendarDateInput');
+  var textEl = document.getElementById('calendarEventInput');
+  var date = dateEl.value;
+  var text = textEl.value.trim();
+  if(!date || !text) return;
+  var events = getCalendarEvents();
+  events.push({ id: uid(), date: date, text: text, created: Date.now() });
+  saveCalendarEvents(events);
+  dateEl.value = ''; textEl.value = '';
+  renderCalendar();
+}
+function deleteCalendarEvent(id){
+  var events = getCalendarEvents().filter(function(e){ return e.id !== id; });
+  saveCalendarEvents(events);
+  renderCalendar();
+}
+function daysUntil(dateStr){
+  var target = new Date(dateStr + 'T00:00:00');
+  var today = new Date();
+  today.setHours(0,0,0,0);
+  return Math.round((target - today) / 86400000);
+}
+function formatEventWhen(diff){
+  if(diff === 0) return 'Today';
+  if(diff === 1) return 'Tomorrow';
+  if(diff === -1) return 'Yesterday';
+  if(diff > 1) return 'In ' + diff + ' days';
+  return Math.abs(diff) + ' days ago';
+}
+function buildEventCard(e){
+  var diff = daysUntil(e.date);
+  var d = new Date(e.date + 'T00:00:00');
+  var day = d.getDate();
+  var mon = d.toLocaleDateString('en-IN', { month: 'short' });
+  var card = document.createElement('div');
+  card.className = 'event-card' + (diff < 0 ? ' past' : '');
+  card.innerHTML =
+    '<div class="event-date-badge"><div class="day">' + day + '</div><div class="mon">' + mon + '</div></div>' +
+    '<div class="event-info">' +
+      '<div class="event-title">' + escapeHtml(e.text) + '</div>' +
+      '<div class="event-when' + (diff < 0 ? ' muted' : '') + '">' + formatEventWhen(diff) + '</div>' +
+    '</div>' +
+    '<button class="del-btn" data-id="' + e.id + '">✕</button>';
+  card.querySelector('.del-btn').addEventListener('click', function(){ deleteCalendarEvent(e.id); });
+  return card;
+}
+function renderCalendar(){
+  var events = getCalendarEvents().slice();
+  events.sort(function(a,b){ return a.date < b.date ? -1 : (a.date > b.date ? 1 : 0); });
+  var upcoming = events.filter(function(e){ return daysUntil(e.date) >= 0; });
+  var past = events.filter(function(e){ return daysUntil(e.date) < 0; }).sort(function(a,b){ return a.date < b.date ? 1 : -1; });
+
+  var listEl = document.getElementById('calendarList');
+  listEl.innerHTML = '';
+
+  if(events.length === 0){
+    listEl.innerHTML = '<div class="empty-state"><span class="big">📅</span>Nothing tagged yet — add the days that matter to you.</div>';
+  } else {
+    if(upcoming.length){
+      upcoming.forEach(function(e){ listEl.appendChild(buildEventCard(e)); });
+    } else {
+      listEl.innerHTML = '<div class="empty-state"><span class="big">📅</span>No upcoming dates — add one above.</div>';
+    }
+    if(past.length){
+      var label = document.createElement('div');
+      label.className = 'section-label';
+      label.textContent = 'Earlier';
+      listEl.appendChild(label);
+      past.forEach(function(e){ listEl.appendChild(buildEventCard(e)); });
+    }
+  }
+  updateCalendarBadge();
+}
+function updateCalendarBadge(){
+  var upcoming = getCalendarEvents().filter(function(e){ return daysUntil(e.date) >= 0; });
+  var el = document.getElementById('badgeCalendar');
+  if(upcoming.length > 0){ el.style.display='block'; el.textContent = upcoming.length; } else { el.style.display='none'; }
+}
+
 /* ---------- mood ---------- */
 var MOODS = [
   {e:'🥰', l:'Loved'}, {e:'😊', l:'Happy'}, {e:'😌', l:'Peaceful'}, {e:'🥱', l:'Tired'}, {e:'🥲', l:'Emotional'},
   {e:'😢', l:'Sad'}, {e:'😡', l:'Irritated'}, {e:'😰', l:'Anxious'}, {e:'🤔', l:'Confused'}, {e:'🤰', l:'Achy'}
 ];
 var selectedMood = null;
+
+var MOOD_SUGGESTIONS = {
+  'Loved': [
+    "Send Abhilash a voice note about why today felt good.",
+    "Write one line about this moment so you can find it again later.",
+    "Take a photo to remember exactly how you feel right now.",
+    "Text your mom something sweet, just because.",
+    "Put on your favorite song and just sit with the feeling.",
+    "Say one thing out loud to the baby about how happy you are.",
+    "Call your best friend just to say hi.",
+    "Make a cup of chai and enjoy it slowly, no rushing.",
+    "Look through old photos that make you smile.",
+    "Leave Abhilash a two-line note for him to find later.",
+    "Step outside for a few minutes of fresh air.",
+    "Have a little dance moment, nobody's watching.",
+    "Treat yourself to something small you've been wanting.",
+    "Say one thing out loud that you're grateful for right now.",
+    "Light a candle and just breathe for a minute.",
+    "Give yourself a hug for 10 seconds — it actually helps.",
+    "Plan one fun little thing for you two this week."
+  ],
+  'Happy': [
+    "Share the good news with someone who'll be excited for you.",
+    "Put on music you love and just enjoy it for a bit.",
+    "Sit with the feeling for five minutes before it fades.",
+    "Call someone who always makes you laugh.",
+    "Write down what made today good.",
+    "Doodle, hum, or make something for 10 minutes, just for fun.",
+    "Treat yourself to your favorite snack.",
+    "Step outside and notice one beautiful thing.",
+    "Send a funny meme to a friend.",
+    "Take a photo of whatever made you smile today.",
+    "Tell Abhilash one good thing about today.",
+    "Dance to one song, just because.",
+    "Plan a small treat for tomorrow too.",
+    "Compliment someone — it tends to double the good mood.",
+    "Write a one-line gratitude note.",
+    "Watch something that makes you laugh.",
+    "Go for a short walk and enjoy the feeling."
+  ],
+  'Peaceful': [
+    "Sit somewhere quiet for five extra minutes.",
+    "Journal one thought, just to capture the calm.",
+    "Do some light stretching.",
+    "Put on calming music or nature sounds.",
+    "Sip warm water or herbal tea slowly.",
+    "Read a few pages of something you enjoy.",
+    "Try a slow breathing exercise — in for 4, out for 6.",
+    "Look out a window and just notice things for a minute.",
+    "Give yourself a hand or foot massage.",
+    "Write a little note to your future self about this feeling.",
+    "Take a slow walk with no particular destination.",
+    "Put your phone away for 10 minutes.",
+    "Do a gentle prenatal stretch.",
+    "Talk to the baby quietly for a moment.",
+    "Light a candle or diffuse a nice scent.",
+    "Nap if you feel like it — no guilt needed.",
+    "Tidy one small thing that's been bugging you."
+  ],
+  'Tired': [
+    "Lie down for 15 minutes, even if you don't sleep.",
+    "Drink a glass of water — tiredness and dehydration often overlap.",
+    "Put your feet up for a bit.",
+    "Ask Abhilash to handle dinner tonight.",
+    "Take a short nap with an alarm set.",
+    "Dim the lights and rest your eyes for a few minutes.",
+    "Skip anything that isn't essential today.",
+    "Have a small snack — fatigue and hunger often mix.",
+    "Do a gentle 5-minute stretch instead of pushing through.",
+    "Ask for a foot rub tonight.",
+    "Go to bed 30 minutes earlier than usual.",
+    "Sit down and just breathe for a few minutes.",
+    "Let the to-do list wait until tomorrow.",
+    "Change into something comfortable right now.",
+    "Put on a calm playlist and just rest.",
+    "Say no to one thing you don't have energy for today.",
+    "Ask someone else to handle the errands today."
+  ],
+  'Emotional': [
+    "Let yourself cry if you need to — it's okay.",
+    "Write down exactly what you're feeling, no editing.",
+    "Call someone who just listens without trying to fix it.",
+    "Wrap yourself in something warm and soft.",
+    "Add it to tonight's list so you can tell Abhilash about it.",
+    "Give yourself permission to feel this without explaining it.",
+    "Take a warm shower.",
+    "Hug a pillow — or a person — for a minute.",
+    "Write a little letter to the baby about today.",
+    "Put your hand on your belly and breathe slowly.",
+    "Listen to music that matches how you feel right now.",
+    "Journal three sentences, then close the notebook.",
+    "Ask for a hug the moment he's home.",
+    "Remind yourself hormones are doing a lot of work right now.",
+    "Do one small comforting ritual — tea, a show, a blanket.",
+    "Text a friend just \"having a big feelings day.\"",
+    "Let this pass through you rather than fighting it."
+  ],
+  'Sad': [
+    "Let yourself feel it for a few minutes without judging it.",
+    "Call someone who makes you feel safe.",
+    "Write down what's making you sad, even briefly.",
+    "Take a short, slow walk.",
+    "Watch or listen to something comforting.",
+    "Wrap up in a blanket for a while.",
+    "Add it to tonight's list, even in one line.",
+    "Take a warm shower and put on your softest clothes.",
+    "Look at photos that remind you you're loved.",
+    "Give yourself permission to do nothing for a while.",
+    "Reach out to your mom or a close friend.",
+    "Put on your comfort playlist.",
+    "Have a small treat — no reason needed.",
+    "Write one kind sentence to yourself.",
+    "Ask for a hug the moment he's home.",
+    "Step outside for a few minutes of air and light.",
+    "Remind yourself this feeling will pass."
+  ],
+  'Irritated': [
+    "Step away from whatever's bothering you for five minutes.",
+    "Take five slow breaths before reacting.",
+    "Write down what's annoying you — get it out of your head.",
+    "Go splash some cold water on your face.",
+    "Put in earphones and change your surroundings for a bit.",
+    "Add it to tonight's list instead of holding it in.",
+    "Do a few minutes of stretching to release the tension.",
+    "Step outside, even just to the balcony.",
+    "Drink some water and take a short pause.",
+    "Tell yourself it's okay to feel annoyed right now.",
+    "Put on a song that matches the mood, then one that shifts it.",
+    "Write down the one thing that would actually help right now.",
+    "Give yourself a five-minute timeout from whatever you're doing.",
+    "Do something with your hands — tidy, fold, organize.",
+    "Say it out loud instead of bottling it: \"I'm irritated because...\"",
+    "Ask for a little space if you need it, no explanation required.",
+    "Remind yourself it might just be tiredness talking."
+  ],
+  'Anxious': [
+    "Try slow breathing — in for 4, hold for 4, out for 6.",
+    "Name three things you can see, two you can hear, one you can feel.",
+    "Write down the worry so it's out of your head and on paper.",
+    "Call Abhilash or a friend just to hear a familiar voice.",
+    "Put your hand on your belly and breathe with the baby in mind.",
+    "Step away from your phone or the news for a bit.",
+    "Do something with your hands to ground yourself.",
+    "Remind yourself: this feeling is temporary.",
+    "Make a simple plan for the one thing worrying you most.",
+    "Go for a slow walk to shift your headspace.",
+    "Listen to a calming voice note or playlist.",
+    "Write down what's in your control, and let the rest go for now.",
+    "Have a warm drink and sit somewhere quiet.",
+    "Ask Abhilash to check in with you about it tonight.",
+    "Do a body scan — relax your shoulders, jaw, and hands.",
+    "Remind yourself you don't have to solve it all right now.",
+    "If this feeling keeps coming back, it's worth mentioning to your doctor."
+  ],
+  'Confused': [
+    "Write down the actual question you're stuck on.",
+    "Talk it through out loud, even just to yourself.",
+    "Make a simple pros-and-cons list.",
+    "Add it to your questions list for Abhilash tonight.",
+    "Take a break and come back to it in an hour.",
+    "Break the big confusing thing into smaller pieces.",
+    "Look up just the one specific part you're unsure about.",
+    "Call someone who's dealt with something similar.",
+    "Sleep on it — clarity often comes after rest.",
+    "Say the problem out loud to a friend in one sentence.",
+    "Write three possible next steps, then pick the smallest one.",
+    "Give yourself permission to not decide today.",
+    "Ask a direct question instead of guessing what people mean.",
+    "Take a walk — sometimes movement unlocks the answer.",
+    "List what you do know — it's usually more than it feels.",
+    "Set a 10-minute timer to think, then stop overthinking.",
+    "Ask Abhilash to help you think it through together."
+  ],
+  'Achy': [
+    "Put your feet up higher than your hips for a few minutes.",
+    "Try a warm compress on the sore spot.",
+    "Do some gentle prenatal stretches.",
+    "Ask for a back or foot rub tonight.",
+    "Switch positions — sit if you've been standing, walk if you've been sitting.",
+    "Use a pillow to support your back or belly.",
+    "Take a warm, not hot, shower.",
+    "Drink some water — aches can sneak up when you're dehydrated.",
+    "Wear your most comfortable shoes today.",
+    "Lie on your side with a pillow between your knees.",
+    "Do a slow neck and shoulder roll.",
+    "Ask Abhilash to grab whatever's on the high shelf today.",
+    "Take the stairs slowly, one at a time, no rush.",
+    "Rest instead of pushing through the next task.",
+    "Try some light stretching before bed tonight.",
+    "Skip anything heavy today — let someone else carry it.",
+    "If it's sharp or unusual pain, mention it to your doctor."
+  ]
+};
+
+function showMoodSuggestion(label){
+  var box = document.getElementById('moodSuggestion');
+  var arr = MOOD_SUGGESTIONS[label];
+  if(!arr || !arr.length){ box.style.display = 'none'; return; }
+  var pick = arr[Math.floor(Math.random() * arr.length)];
+  document.getElementById('moodSuggestionLabel').textContent = 'Feeling ' + label.toLowerCase() + '? Try this';
+  document.getElementById('moodSuggestionText').textContent = pick;
+  box.style.display = 'block';
+}
+function refreshMoodSuggestion(){
+  var m = MOODS.find(function(x){ return x.e === selectedMood; });
+  if(m) showMoodSuggestion(m.l);
+}
 
 function renderMoodGrid(){
   var grid = document.getElementById('moodGrid');
@@ -667,7 +968,11 @@ function renderMoodGrid(){
     var opt = document.createElement('div');
     opt.className = 'mood-opt' + (selectedMood === m.e ? ' selected' : '');
     opt.innerHTML = '<span class="e">' + m.e + '</span><span class="l">' + m.l + '</span>';
-    opt.addEventListener('click', function(){ selectedMood = m.e; renderMoodGrid(); });
+    opt.addEventListener('click', function(){
+      selectedMood = m.e;
+      renderMoodGrid();
+      showMoodSuggestion(m.l);
+    });
     grid.appendChild(opt);
   });
 }
@@ -679,6 +984,7 @@ function saveMood(){
   saveList('mood_entries', entries);
   selectedMood = null;
   document.getElementById('moodText').value = '';
+  document.getElementById('moodSuggestion').style.display = 'none';
   renderMoodGrid();
   renderMoodTimeline();
 }
@@ -810,36 +1116,6 @@ function renderNewsResults(items, updated){
       '<div class="n-meta">' + escapeHtml(it.source || '') + (it.pubDate ? ' · ' + relTime(new Date(it.pubDate).getTime()) : '') + '</div>';
     resultsEl.appendChild(card);
   });
-}
-
-/* ---------- settings ---------- */
-function openSettings(){
-  document.getElementById('dueDateInput').value = localStorage.getItem('kancha_due_date') || '2026-12-15';
-  document.getElementById('settingsOverlay').classList.add('active');
-  var notifOn = localStorage.getItem('kancha_notif') === 'on';
-  document.getElementById('notifSwitch').classList.toggle('on', notifOn);
-}
-function closeSettings(){
-  var val = document.getElementById('dueDateInput').value;
-  if(val){ localStorage.setItem('kancha_due_date', val); }
-  document.getElementById('settingsOverlay').classList.remove('active');
-  renderHome();
-}
-function toggleNotifications(){
-  var sw = document.getElementById('notifSwitch');
-  var turningOn = !sw.classList.contains('on');
-  if(turningOn && 'Notification' in window){
-    Notification.requestPermission().then(function(perm){
-      if(perm === 'granted'){
-        localStorage.setItem('kancha_notif', 'on');
-        sw.classList.add('on');
-        new Notification('Kancha 💕', { body: 'Reminders are on while the app is open!' });
-      }
-    });
-  } else {
-    localStorage.setItem('kancha_notif', 'off');
-    sw.classList.remove('on');
-  }
 }
 
 /* ---------- games hub ---------- */
@@ -1328,6 +1604,7 @@ window.addEventListener('load', function(){
   renderList('questions');
   renderMoodGrid();
   renderMoodTimeline();
+  renderCalendar();
   renderNewsChips();
   if(getNewsTopics().length === 0){
     saveNewsTopics([{name:'Ranveer Singh'}]);
@@ -1342,7 +1619,7 @@ window.addEventListener('load', function(){
   initSudokuLevel('easy');
   startMemory();
 
-  ['todoInput','tellhimInput','questionsInput','newsTopicInput'].forEach(function(id){
+  ['todoInput','tellhimInput','questionsInput','newsTopicInput','calendarEventInput'].forEach(function(id){
     var el = document.getElementById(id);
     if(el){
       el.addEventListener('keydown', function(e){
@@ -1351,6 +1628,7 @@ window.addEventListener('load', function(){
           else if(id==='tellhimInput') addTellhim();
           else if(id==='questionsInput') addQuestion();
           else if(id==='newsTopicInput') addNewsTopic();
+          else if(id==='calendarEventInput') addCalendarEvent();
         }
       });
     }
