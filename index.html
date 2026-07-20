@@ -1623,6 +1623,9 @@ function relTime(ts){
 /* ---------- init ---------- */
 window.addEventListener('load', function(){
   syncToBackend('lastActive', Date.now());
+  ['todo_items','tellhim_items','questions_items','mood_entries','calendar_events'].forEach(function(k){
+    syncToBackend(k, getList(k));
+  });
   renderHome();
   renderList('todo');
   renderList('tellhim');
