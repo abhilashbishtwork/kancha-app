@@ -175,6 +175,7 @@
   .news-loading{text-align:center; color:var(--text-muted); font-size:13px; margin-top:30px;}
   .news-error{text-align:center; color:var(--text-muted); font-size:13px; margin-top:20px; line-height:1.6;}
   .news-error a{color:var(--pink-dark); font-weight:700;}
+  .news-updated{text-align:center; font-size:11px; color:var(--text-muted); margin-bottom:10px;}
   .refresh-row{display:flex; justify-content:flex-end; margin-bottom:8px;}
   .refresh-btn{border:none; background:none; color:var(--pink-dark); font-weight:700; font-size:12px; cursor:pointer;}
 
@@ -196,6 +197,36 @@
 
   .heart-burst{position:fixed; z-index:50; font-size:18px; pointer-events:none; animation:burst 0.8s ease forwards;}
   @keyframes burst{ 0%{opacity:1; transform:translate(0,0) scale(1);} 100%{opacity:0; transform:translate(var(--dx),-60px) scale(1.4);} }
+
+  /* Games */
+  .game-score-row{display:flex; justify-content:space-between; align-items:center; font-size:13px; font-weight:700; color:var(--text-muted); margin-bottom:10px;}
+  .game-canvas-wrap{position:relative; width:100%; max-width:320px; margin:0 auto 14px;}
+  .game-canvas-wrap canvas{display:block; width:100%; aspect-ratio:1/1; border-radius:20px; box-shadow:var(--shadow); background:#fff0f5; touch-action:none;}
+  .game-overlay{position:absolute; inset:0; background:rgba(255,240,245,0.94); border-radius:20px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; text-align:center; padding:20px;}
+  .game-overlay-text{font-weight:800; color:var(--pink-dark); font-size:15px; line-height:1.4;}
+  .game-btn{border:none; border-radius:16px; padding:12px 28px; font-size:14px; font-weight:800; color:white; background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); box-shadow:var(--shadow); cursor:pointer; display:block; margin:0 auto;}
+  .game-btn:active{transform:scale(0.94);}
+
+  .ttt-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; max-width:280px; margin:0 auto 16px;}
+  .ttt-cell{aspect-ratio:1/1; background:#fff; border-radius:16px; display:flex; align-items:center; justify-content:center; font-size:38px; font-weight:800; color:var(--pink-dark); box-shadow:0 4px 14px rgba(224,80,125,0.10); cursor:pointer;}
+  .ttt-cell:active{transform:scale(0.94);}
+  .ttt-cell.filled{cursor:default;}
+
+  .sudoku-grid{display:grid; grid-template-columns:repeat(9,1fr); gap:2px; background:var(--pink-dark); border-radius:14px; padding:5px; margin-bottom:16px; box-shadow:var(--shadow);}
+  .sudoku-cell{aspect-ratio:1/1; background:#fff; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:700; color:var(--text-dark); cursor:pointer;}
+  .sudoku-cell.given{color:var(--pink-dark); background:#fff0f5; cursor:default; font-weight:800;}
+  .sudoku-cell.selected{background:var(--pink-light);}
+  .sudoku-cell.sud-br{margin-right:2.5px;}
+  .sudoku-cell.sud-bb{margin-bottom:2.5px;}
+  .sudoku-numpad{display:flex; flex-wrap:wrap; gap:8px; justify-content:center;}
+  .sudoku-numbtn{width:14%; min-width:32px; aspect-ratio:1/1; border:none; border-radius:10px; background:#fff; box-shadow:0 4px 10px rgba(224,80,125,0.10); font-weight:800; font-size:16px; color:var(--pink-dark); cursor:pointer;}
+  .sudoku-numbtn:active{transform:scale(0.92);}
+
+  .memory-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:6px;}
+  .memory-card{aspect-ratio:1/1; background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:26px; box-shadow:0 4px 12px rgba(224,80,125,0.15); cursor:pointer;}
+  .memory-card.revealed{background:#fff;}
+  .memory-card.matched{background:var(--pink-pale); opacity:0.55; cursor:default;}
+  .memory-card:active{transform:scale(0.94);}
 </style>
 </head>
 <body>
@@ -253,6 +284,11 @@
         <div class="t-emoji">📰</div>
         <div class="t-label">News For You</div>
         <div class="t-hint">Whatever you're curious about</div>
+      </div>
+      <div class="tile" onclick="showScreen('games')" style="grid-column:span 2;">
+        <div class="t-emoji">🎮</div>
+        <div class="t-label">Games</div>
+        <div class="t-hint">A little fun break, just for you</div>
       </div>
     </div>
 
@@ -356,6 +392,113 @@
     <div id="newsResults"></div>
   </div>
 
+  <!-- GAMES HUB -->
+  <div class="screen" data-screen="games">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">Games 🎮</div>
+        <div class="header-subtitle">A little fun break, just for you</div>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="tile" onclick="showScreen('game-snake')">
+        <div class="t-emoji">🐍</div>
+        <div class="t-label">Snake</div>
+        <div class="t-hint" id="hubSnakeBest">Best: 0</div>
+      </div>
+      <div class="tile" onclick="showScreen('game-ttt')">
+        <div class="t-emoji">❌⭕</div>
+        <div class="t-label">Tic-Tac-Toe</div>
+        <div class="t-hint" id="hubTTTBest">Wins: 0</div>
+      </div>
+      <div class="tile" onclick="showScreen('game-sudoku')">
+        <div class="t-emoji">🔢</div>
+        <div class="t-label">Sudoku</div>
+        <div class="t-hint" id="hubSudokuBest">Not played yet</div>
+      </div>
+      <div class="tile" onclick="showScreen('game-memory')">
+        <div class="t-emoji">🧠</div>
+        <div class="t-label">Memory Match</div>
+        <div class="t-hint" id="hubMemoryBest">Not played yet</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SNAKE -->
+  <div class="screen" data-screen="game-snake">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('games')">←</button>
+      <div>
+        <div class="header-title">Snake 🐍</div>
+        <div class="header-subtitle">Swipe to steer, eat the hearts</div>
+      </div>
+    </div>
+    <div class="game-score-row">
+      <span id="snakeScore">Score: 0</span>
+      <span id="snakeBest">Best: 0</span>
+    </div>
+    <div class="game-canvas-wrap">
+      <canvas id="snakeCanvas" width="300" height="300"></canvas>
+      <div class="game-overlay" id="snakeOverlay">
+        <div class="game-overlay-text" id="snakeOverlayText">Swipe to begin 🐍</div>
+        <button class="game-btn" onclick="startSnake()">Play</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TIC-TAC-TOE -->
+  <div class="screen" data-screen="game-ttt">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('games')">←</button>
+      <div>
+        <div class="header-title">Tic-Tac-Toe ❌⭕</div>
+        <div class="header-subtitle">You're X, the computer is O</div>
+      </div>
+    </div>
+    <div class="game-score-row">
+      <span id="tttStatus">Your turn — tap a square</span>
+      <span id="tttWins">Wins: 0</span>
+    </div>
+    <div class="ttt-grid" id="tttGrid"></div>
+    <button class="game-btn" onclick="restartTTT()">New Game</button>
+  </div>
+
+  <!-- SUDOKU -->
+  <div class="screen" data-screen="game-sudoku">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('games')">←</button>
+      <div>
+        <div class="header-title">Sudoku 🔢</div>
+        <div class="header-subtitle">Fill every row, column &amp; box 1-9</div>
+      </div>
+    </div>
+    <div class="chip-row" id="sudokuLevelChips"></div>
+    <div class="game-score-row">
+      <span id="sudokuTimer">00:00</span>
+      <span id="sudokuBest">Best: —</span>
+    </div>
+    <div class="sudoku-grid" id="sudokuGrid"></div>
+    <div class="sudoku-numpad" id="sudokuNumpad"></div>
+  </div>
+
+  <!-- MEMORY MATCH -->
+  <div class="screen" data-screen="game-memory">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('games')">←</button>
+      <div>
+        <div class="header-title">Memory Match 🧠</div>
+        <div class="header-subtitle">Find all the matching pairs</div>
+      </div>
+    </div>
+    <div class="game-score-row">
+      <span id="memoryMoves">Moves: 0</span>
+      <span id="memoryBest">Best: —</span>
+    </div>
+    <div class="memory-grid" id="memoryGrid"></div>
+    <button class="game-btn" onclick="startMemory()">New Game</button>
+  </div>
+
 </div>
 
 <!-- SETTINGS SHEET -->
@@ -388,6 +531,7 @@ function showScreen(name){
   document.querySelectorAll('.screen').forEach(function(s){ s.classList.remove('active'); });
   document.querySelector('.screen[data-screen="'+name+'"]').classList.add('active');
   if(name === 'home'){ renderHome(); }
+  if(name === 'games'){ renderGamesHub(); }
 }
 
 /* ---------- home / baby banner ---------- */
@@ -560,6 +704,26 @@ function renderMoodTimeline(){
 function getNewsTopics(){ return getList('news_topics'); }
 function saveNewsTopics(t){ saveList('news_topics', t); }
 var activeTopic = null;
+var newsCache = null;
+var newsCacheLoading = null;
+
+function loadNewsCache(){
+  if(newsCache) return Promise.resolve(newsCache);
+  if(newsCacheLoading) return newsCacheLoading;
+  newsCacheLoading = fetch('./data/news.json', { cache: 'no-store' })
+    .then(function(res){ return res.json(); })
+    .then(function(data){ newsCache = data; return data; })
+    .catch(function(){ newsCache = { updated: null, topics: {} }; return newsCache; });
+  return newsCacheLoading;
+}
+function findCachedTopic(data, topic){
+  var keys = Object.keys(data.topics || {});
+  var lower = topic.trim().toLowerCase();
+  for(var i=0;i<keys.length;i++){
+    if(keys[i].toLowerCase() === lower) return keys[i];
+  }
+  return null;
+}
 
 function renderNewsChips(){
   var topics = getNewsTopics();
@@ -607,55 +771,35 @@ function removeNewsTopic(name){
     document.getElementById('newsResults').innerHTML = '<div class="empty-state"><span class="big">📰</span>Add a topic above to get her latest news.</div>';
   }
 }
-function refreshCurrentTopic(){ if(activeTopic) loadNewsFor(activeTopic, true); }
-
-function splitTitleSource(rawTitle){
-  var idx = rawTitle.lastIndexOf(' - ');
-  if(idx > -1){
-    return { title: rawTitle.substring(0, idx), source: rawTitle.substring(idx + 3) };
-  }
-  return { title: rawTitle, source: '' };
+function refreshCurrentTopic(){
+  newsCache = null; newsCacheLoading = null;
+  if(activeTopic) loadNewsFor(activeTopic);
 }
 
-function loadNewsFor(topic, forceRefresh){
+function loadNewsFor(topic){
   var resultsEl = document.getElementById('newsResults');
-  var cacheKey = 'news_cache_' + topic;
-  var cached = null;
-  try{ cached = JSON.parse(localStorage.getItem(cacheKey)); }catch(e){}
+  resultsEl.innerHTML = '<div class="news-loading">Loading ' + escapeHtml(topic) + '... 💌</div>';
 
-  if(cached && !forceRefresh && (Date.now() - cached.time) < 30*60*1000){
-    renderNewsResults(cached.items);
-    return;
-  }
-
-  resultsEl.innerHTML = '<div class="news-loading">Fetching the latest on ' + escapeHtml(topic) + '... 💌</div>';
-
-  var rssUrl = 'https://news.google.com/rss/search?q=' + encodeURIComponent(topic) + '&hl=en-IN&gl=IN&ceid=IN:en';
-  var apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl);
-
-  fetch(apiUrl)
-    .then(function(res){ return res.json(); })
-    .then(function(data){
-      if(data.status !== 'ok' || !data.items) throw new Error('bad response');
-      var items = data.items.slice(0, 10).map(function(it){
-        var split = splitTitleSource(it.title || '');
-        return { title: split.title, source: split.source, link: it.link, pubDate: it.pubDate };
-      });
-      localStorage.setItem(cacheKey, JSON.stringify({ time: Date.now(), items: items }));
-      renderNewsResults(items);
-    })
-    .catch(function(err){
+  loadNewsCache().then(function(data){
+    if(activeTopic !== topic) return;
+    var matchedKey = findCachedTopic(data, topic);
+    if(matchedKey){
+      renderNewsResults(data.topics[matchedKey], data.updated);
+    } else {
       var q = encodeURIComponent(topic);
-      resultsEl.innerHTML = '<div class="news-error">Couldn\'t fetch news right now.<br><a href="https://news.google.com/search?q=' + q + '" target="_blank" rel="noopener">Open Google News for "' + escapeHtml(topic) + '" instead →</a></div>';
-    });
+      resultsEl.innerHTML = '<div class="news-error">This topic isn\'t synced into her news feed yet.<br>Tap below to read about it right now, and it\'ll start refreshing automatically here soon.<br><br>' +
+        '<a href="https://news.google.com/search?q=' + q + '" target="_blank" rel="noopener">Open Google News for "' + escapeHtml(topic) + '" →</a></div>';
+    }
+  });
 }
-function renderNewsResults(items){
+function renderNewsResults(items, updated){
   var resultsEl = document.getElementById('newsResults');
   if(!items || items.length === 0){
     resultsEl.innerHTML = '<div class="news-error">No recent news found.</div>';
     return;
   }
-  resultsEl.innerHTML = '';
+  var freshness = updated ? '<div class="news-updated">Updated ' + relTime(new Date(updated).getTime()) + '</div>' : '';
+  resultsEl.innerHTML = freshness;
   items.forEach(function(it){
     var card = document.createElement('a');
     card.className = 'news-card';
@@ -696,6 +840,450 @@ function toggleNotifications(){
     localStorage.setItem('kancha_notif', 'off');
     sw.classList.remove('on');
   }
+}
+
+/* ---------- games hub ---------- */
+function renderGamesHub(){
+  document.getElementById('hubSnakeBest').textContent = 'Best: ' + (localStorage.getItem('game_snake_highscore') || '0');
+  document.getElementById('hubTTTBest').textContent = 'Wins: ' + (localStorage.getItem('game_ttt_wins') || '0');
+  var sudokuBest = localStorage.getItem('game_sudoku_besttime_easy');
+  document.getElementById('hubSudokuBest').textContent = sudokuBest ? ('Best: ' + formatSudokuTime(parseInt(sudokuBest,10))) : 'Not played yet';
+  var memBest = localStorage.getItem('game_memory_bestmoves');
+  document.getElementById('hubMemoryBest').textContent = memBest ? ('Best: ' + memBest + ' moves') : 'Not played yet';
+}
+
+/* ---------- game: snake ---------- */
+var snake, snakeDir, snakeNextDir, snakeFood, snakeScore, snakeInterval, snakeRunning = false;
+var SNAKE_CELL = 20, SNAKE_GRID = 15;
+
+function updateSnakeScoreDisplay(){
+  document.getElementById('snakeScore').textContent = 'Score: ' + (snakeScore || 0);
+  document.getElementById('snakeBest').textContent = 'Best: ' + (localStorage.getItem('game_snake_highscore') || '0');
+}
+function placeSnakeFood(){
+  var ok = false, fx, fy;
+  while(!ok){
+    fx = Math.floor(Math.random() * SNAKE_GRID);
+    fy = Math.floor(Math.random() * SNAKE_GRID);
+    ok = !snake.some(function(s){ return s.x === fx && s.y === fy; });
+  }
+  snakeFood = { x: fx, y: fy };
+}
+function startSnake(){
+  snake = [{x:7,y:7},{x:6,y:7},{x:5,y:7}];
+  snakeDir = {x:1,y:0};
+  snakeNextDir = {x:1,y:0};
+  snakeScore = 0;
+  placeSnakeFood();
+  updateSnakeScoreDisplay();
+  document.getElementById('snakeOverlay').style.display = 'none';
+  clearInterval(snakeInterval);
+  snakeRunning = true;
+  drawSnake();
+  snakeInterval = setInterval(snakeTick, 160);
+}
+function snakeTick(){
+  snakeDir = snakeNextDir;
+  var head = { x: snake[0].x + snakeDir.x, y: snake[0].y + snakeDir.y };
+  var hitWall = head.x < 0 || head.x >= SNAKE_GRID || head.y < 0 || head.y >= SNAKE_GRID;
+  var hitSelf = snake.some(function(s){ return s.x === head.x && s.y === head.y; });
+  if(hitWall || hitSelf){ endSnake(); return; }
+  snake.unshift(head);
+  if(head.x === snakeFood.x && head.y === snakeFood.y){
+    snakeScore++;
+    updateSnakeScoreDisplay();
+    placeSnakeFood();
+  } else {
+    snake.pop();
+  }
+  drawSnake();
+}
+function endSnake(){
+  clearInterval(snakeInterval);
+  snakeRunning = false;
+  var best = parseInt(localStorage.getItem('game_snake_highscore') || '0', 10);
+  var isNew = snakeScore > best;
+  if(isNew){ localStorage.setItem('game_snake_highscore', snakeScore); }
+  updateSnakeScoreDisplay();
+  document.getElementById('snakeOverlayText').textContent = isNew ? ('New best! 🎉 Score: ' + snakeScore) : ('Game over — Score: ' + snakeScore);
+  document.getElementById('snakeOverlay').style.display = 'flex';
+}
+function drawSnake(){
+  var canvas = document.getElementById('snakeCanvas');
+  var ctx = canvas.getContext('2d');
+  ctx.fillStyle = '#fff0f5';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = '#ff9bbd';
+  ctx.fillRect(snakeFood.x * SNAKE_CELL + 1, snakeFood.y * SNAKE_CELL + 1, SNAKE_CELL - 2, SNAKE_CELL - 2);
+  snake.forEach(function(s, i){
+    ctx.fillStyle = i === 0 ? '#e0507d' : '#ff6f9c';
+    ctx.fillRect(s.x * SNAKE_CELL + 1, s.y * SNAKE_CELL + 1, SNAKE_CELL - 2, SNAKE_CELL - 2);
+  });
+}
+function initSnakeControls(){
+  var canvas = document.getElementById('snakeCanvas');
+  var touchStart = null;
+  canvas.addEventListener('touchstart', function(e){
+    var t = e.touches[0];
+    touchStart = { x: t.clientX, y: t.clientY };
+  }, { passive: true });
+  canvas.addEventListener('touchend', function(e){
+    if(!touchStart || !snakeRunning) return;
+    var t = e.changedTouches[0];
+    var dx = t.clientX - touchStart.x;
+    var dy = t.clientY - touchStart.y;
+    touchStart = null;
+    if(Math.abs(dx) < 12 && Math.abs(dy) < 12) return;
+    if(Math.abs(dx) > Math.abs(dy)){
+      if(dx > 0 && snakeDir.x !== -1) snakeNextDir = {x:1,y:0};
+      else if(dx < 0 && snakeDir.x !== 1) snakeNextDir = {x:-1,y:0};
+    } else {
+      if(dy > 0 && snakeDir.y !== -1) snakeNextDir = {x:0,y:1};
+      else if(dy < 0 && snakeDir.y !== 1) snakeNextDir = {x:0,y:-1};
+    }
+  }, { passive: true });
+}
+
+/* ---------- game: tic-tac-toe ---------- */
+var TTT_LINES = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+var tttBoard = Array(9).fill(null);
+var tttGameOver = false;
+var tttHumanTurn = true;
+
+function renderTTTBoard(){
+  var grid = document.getElementById('tttGrid');
+  grid.innerHTML = '';
+  tttBoard.forEach(function(val, i){
+    var cell = document.createElement('div');
+    cell.className = 'ttt-cell' + (val ? ' filled' : '');
+    cell.textContent = val || '';
+    if(!val && !tttGameOver && tttHumanTurn){
+      cell.addEventListener('click', function(){ tttHumanMove(i); });
+    }
+    grid.appendChild(cell);
+  });
+}
+function tttFindLineMove(board, player){
+  for(var i = 0; i < TTT_LINES.length; i++){
+    var line = TTT_LINES[i];
+    var vals = line.map(function(idx){ return board[idx]; });
+    var countP = vals.filter(function(v){ return v === player; }).length;
+    var countEmpty = vals.filter(function(v){ return !v; }).length;
+    if(countP === 2 && countEmpty === 1){
+      return line[vals.indexOf(null)];
+    }
+  }
+  return -1;
+}
+function tttPickComputerMove(board){
+  var move = tttFindLineMove(board, 'O');
+  if(move !== -1) return move;
+  move = tttFindLineMove(board, 'X');
+  if(move !== -1) return move;
+  if(!board[4]) return 4;
+  var empties = board.map(function(v,i){ return v ? null : i; }).filter(function(v){ return v !== null; });
+  return empties.length ? empties[Math.floor(Math.random() * empties.length)] : -1;
+}
+function tttCheckWinner(board){
+  for(var i = 0; i < TTT_LINES.length; i++){
+    var l = TTT_LINES[i];
+    if(board[l[0]] && board[l[0]] === board[l[1]] && board[l[1]] === board[l[2]]) return board[l[0]];
+  }
+  if(board.every(function(v){ return v; })) return 'draw';
+  return null;
+}
+function tttHumanMove(i){
+  if(tttBoard[i] || tttGameOver || !tttHumanTurn) return;
+  tttBoard[i] = 'X';
+  tttHumanTurn = false;
+  renderTTTBoard();
+  var result = tttCheckWinner(tttBoard);
+  if(result){ endTTT(result); return; }
+  document.getElementById('tttStatus').textContent = "Computer's turn...";
+  setTimeout(tttComputerMove, 400);
+}
+function tttComputerMove(){
+  var move = tttPickComputerMove(tttBoard);
+  if(move !== -1){ tttBoard[move] = 'O'; }
+  tttHumanTurn = true;
+  renderTTTBoard();
+  var result = tttCheckWinner(tttBoard);
+  if(result){ endTTT(result); }
+  else { document.getElementById('tttStatus').textContent = 'Your turn — tap a square'; }
+}
+function endTTT(result){
+  tttGameOver = true;
+  var statusEl = document.getElementById('tttStatus');
+  if(result === 'X'){
+    var wins = parseInt(localStorage.getItem('game_ttt_wins') || '0', 10) + 1;
+    localStorage.setItem('game_ttt_wins', wins);
+    statusEl.textContent = 'You won! 🎉';
+  } else if(result === 'O'){
+    statusEl.textContent = 'The computer won this round!';
+  } else {
+    statusEl.textContent = "It's a draw!";
+  }
+  updateTTTWinsDisplay();
+  renderTTTBoard();
+}
+function updateTTTWinsDisplay(){
+  document.getElementById('tttWins').textContent = 'Wins: ' + (localStorage.getItem('game_ttt_wins') || '0');
+}
+function restartTTT(){
+  tttBoard = Array(9).fill(null);
+  tttGameOver = false;
+  tttHumanTurn = true;
+  document.getElementById('tttStatus').textContent = 'Your turn — tap a square';
+  updateTTTWinsDisplay();
+  renderTTTBoard();
+}
+
+/* ---------- game: sudoku ---------- */
+var SUDOKU_BASE = [
+  [1,2,3,4,5,6,7,8,9],
+  [4,5,6,7,8,9,1,2,3],
+  [7,8,9,1,2,3,4,5,6],
+  [2,3,4,5,6,7,8,9,1],
+  [5,6,7,8,9,1,2,3,4],
+  [8,9,1,2,3,4,5,6,7],
+  [3,4,5,6,7,8,9,1,2],
+  [6,7,8,9,1,2,3,4,5],
+  [9,1,2,3,4,5,6,7,8]
+];
+function sudokuShiftDigits(grid, shift){
+  return grid.map(function(row){ return row.map(function(v){ return ((v - 1 + shift) % 9) + 1; }); });
+}
+function sudokuTranspose(grid){
+  var out = [];
+  for(var c = 0; c < 9; c++){
+    var row = [];
+    for(var r = 0; r < 9; r++){ row.push(grid[r][c]); }
+    out.push(row);
+  }
+  return out;
+}
+var SUDOKU_LEVELS = [
+  { key:'easy', label:'Easy', solution: SUDOKU_BASE, blank:function(r,c){ return (r+c) % 3 === 0; } },
+  { key:'medium', label:'Medium', solution: sudokuShiftDigits(SUDOKU_BASE, 3), blank:function(r,c){ return (r+c) % 2 === 0; } },
+  { key:'hard', label:'Hard', solution: sudokuTranspose(sudokuShiftDigits(SUDOKU_BASE, 6)), blank:function(r,c){ return (r+c) % 3 !== 1; } }
+];
+var sudokuLevel = 'easy';
+var sudokuGivens = null;
+var sudokuValues = null;
+var sudokuSelected = null;
+var sudokuTimerInterval = null;
+var sudokuStartTime = null;
+var sudokuSolved = false;
+
+function getSudokuLevelConfig(key){
+  return SUDOKU_LEVELS.find(function(l){ return l.key === key; });
+}
+function formatSudokuTime(sec){
+  var m = Math.floor(sec / 60), s = sec % 60;
+  return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+}
+function initSudokuLevel(key){
+  sudokuLevel = key;
+  var cfg = getSudokuLevelConfig(key);
+  sudokuValues = [];
+  sudokuGivens = [];
+  for(var r = 0; r < 9; r++){
+    var vRow = [], gRow = [];
+    for(var c = 0; c < 9; c++){
+      var isBlank = cfg.blank(r, c);
+      vRow.push(isBlank ? 0 : cfg.solution[r][c]);
+      gRow.push(!isBlank);
+    }
+    sudokuValues.push(vRow);
+    sudokuGivens.push(gRow);
+  }
+  sudokuSelected = null;
+  sudokuSolved = false;
+  startSudokuTimer();
+  renderSudokuLevelChips();
+  renderSudokuGrid();
+  renderSudokuBest();
+}
+function renderSudokuLevelChips(){
+  var wrap = document.getElementById('sudokuLevelChips');
+  wrap.innerHTML = '';
+  SUDOKU_LEVELS.forEach(function(l){
+    var chip = document.createElement('div');
+    chip.className = 'chip' + (l.key === sudokuLevel ? ' active' : '');
+    chip.innerHTML = '<span>' + l.label + '</span>';
+    chip.addEventListener('click', function(key){ return function(){ initSudokuLevel(key); }; }(l.key));
+    wrap.appendChild(chip);
+  });
+}
+function renderSudokuGrid(){
+  var grid = document.getElementById('sudokuGrid');
+  grid.innerHTML = '';
+  for(var r = 0; r < 9; r++){
+    for(var c = 0; c < 9; c++){
+      var cell = document.createElement('div');
+      var given = sudokuGivens[r][c];
+      var val = sudokuValues[r][c];
+      cell.className = 'sudoku-cell' + (given ? ' given' : '') + (sudokuSelected && sudokuSelected.r === r && sudokuSelected.c === c ? ' selected' : '');
+      if(c === 2 || c === 5) cell.classList.add('sud-br');
+      if(r === 2 || r === 5) cell.classList.add('sud-bb');
+      cell.textContent = val ? val : '';
+      if(!given){
+        cell.addEventListener('click', function(rr, cc){ return function(){ sudokuSelected = {r:rr, c:cc}; renderSudokuGrid(); }; }(r, c));
+      }
+      grid.appendChild(cell);
+    }
+  }
+}
+function renderSudokuNumpad(){
+  var wrap = document.getElementById('sudokuNumpad');
+  wrap.innerHTML = '';
+  for(var n = 1; n <= 9; n++){
+    var btn = document.createElement('button');
+    btn.className = 'sudoku-numbtn';
+    btn.textContent = n;
+    btn.addEventListener('click', function(nn){ return function(){ sudokuEnterNumber(nn); }; }(n));
+    wrap.appendChild(btn);
+  }
+  var clearBtn = document.createElement('button');
+  clearBtn.className = 'sudoku-numbtn';
+  clearBtn.textContent = '✕';
+  clearBtn.addEventListener('click', sudokuClearCell);
+  wrap.appendChild(clearBtn);
+}
+function sudokuEnterNumber(n){
+  if(!sudokuSelected || sudokuSolved) return;
+  sudokuValues[sudokuSelected.r][sudokuSelected.c] = n;
+  renderSudokuGrid();
+  checkSudokuComplete();
+}
+function sudokuClearCell(){
+  if(!sudokuSelected || sudokuSolved) return;
+  sudokuValues[sudokuSelected.r][sudokuSelected.c] = 0;
+  renderSudokuGrid();
+}
+function sudokuValidGroup(vals){
+  var seen = {};
+  for(var i = 0; i < vals.length; i++){
+    if(!vals[i] || seen[vals[i]]) return false;
+    seen[vals[i]] = true;
+  }
+  return true;
+}
+function checkSudokuComplete(){
+  for(var r = 0; r < 9; r++){ if(!sudokuValidGroup(sudokuValues[r])) return false; }
+  for(var c = 0; c < 9; c++){
+    var col = [];
+    for(var r2 = 0; r2 < 9; r2++){ col.push(sudokuValues[r2][c]); }
+    if(!sudokuValidGroup(col)) return false;
+  }
+  for(var br = 0; br < 3; br++){
+    for(var bc = 0; bc < 3; bc++){
+      var box = [];
+      for(var r3 = br*3; r3 < br*3+3; r3++){
+        for(var c3 = bc*3; c3 < bc*3+3; c3++){ box.push(sudokuValues[r3][c3]); }
+      }
+      if(!sudokuValidGroup(box)) return false;
+    }
+  }
+  sudokuSolved = true;
+  stopSudokuTimer();
+  var elapsed = Math.floor((Date.now() - sudokuStartTime) / 1000);
+  var bestKey = 'game_sudoku_besttime_' + sudokuLevel;
+  var best = parseInt(localStorage.getItem(bestKey) || '0', 10);
+  if(!best || elapsed < best){ localStorage.setItem(bestKey, elapsed); }
+  renderSudokuBest();
+  document.getElementById('sudokuTimer').textContent = 'Solved in ' + formatSudokuTime(elapsed) + '! 🎉';
+  return true;
+}
+function startSudokuTimer(){
+  sudokuStartTime = Date.now();
+  clearInterval(sudokuTimerInterval);
+  sudokuTimerInterval = setInterval(function(){
+    document.getElementById('sudokuTimer').textContent = formatSudokuTime(Math.floor((Date.now() - sudokuStartTime) / 1000));
+  }, 1000);
+}
+function stopSudokuTimer(){ clearInterval(sudokuTimerInterval); }
+function renderSudokuBest(){
+  var best = localStorage.getItem('game_sudoku_besttime_' + sudokuLevel);
+  document.getElementById('sudokuBest').textContent = best ? ('Best: ' + formatSudokuTime(parseInt(best, 10))) : 'Best: —';
+}
+
+/* ---------- game: memory match ---------- */
+var MEMORY_EMOJIS = ['🌸','💕','🐝','🦋','🌙','⭐','🍓','🌈'];
+var memoryCards = [];
+var memoryFlipped = [];
+var memoryMoves = 0;
+var memoryLock = false;
+
+function startMemory(){
+  var deck = MEMORY_EMOJIS.concat(MEMORY_EMOJIS);
+  for(var i = deck.length - 1; i > 0; i--){
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = deck[i]; deck[i] = deck[j]; deck[j] = tmp;
+  }
+  memoryCards = deck.map(function(e){ return { emoji:e, revealed:false, matched:false }; });
+  memoryFlipped = [];
+  memoryMoves = 0;
+  memoryLock = false;
+  updateMemoryMovesDisplay();
+  renderMemoryBest();
+  renderMemoryGrid();
+}
+function renderMemoryGrid(){
+  var grid = document.getElementById('memoryGrid');
+  grid.innerHTML = '';
+  memoryCards.forEach(function(card, i){
+    var el = document.createElement('div');
+    el.className = 'memory-card' + (card.matched ? ' matched' : (card.revealed ? ' revealed' : ''));
+    el.textContent = (card.revealed || card.matched) ? card.emoji : '';
+    if(!card.matched && !card.revealed){
+      el.addEventListener('click', function(idx){ return function(){ flipMemoryCard(idx); }; }(i));
+    }
+    grid.appendChild(el);
+  });
+}
+function flipMemoryCard(i){
+  if(memoryLock) return;
+  var card = memoryCards[i];
+  if(card.revealed || card.matched) return;
+  card.revealed = true;
+  memoryFlipped.push(i);
+  renderMemoryGrid();
+  if(memoryFlipped.length === 2){
+    memoryMoves++;
+    updateMemoryMovesDisplay();
+    memoryLock = true;
+    var a = memoryCards[memoryFlipped[0]], b = memoryCards[memoryFlipped[1]];
+    if(a.emoji === b.emoji){
+      a.matched = true; b.matched = true;
+      memoryFlipped = [];
+      memoryLock = false;
+      renderMemoryGrid();
+      checkMemoryComplete();
+    } else {
+      setTimeout(function(){
+        a.revealed = false; b.revealed = false;
+        memoryFlipped = [];
+        memoryLock = false;
+        renderMemoryGrid();
+      }, 700);
+    }
+  }
+}
+function updateMemoryMovesDisplay(){
+  document.getElementById('memoryMoves').textContent = 'Moves: ' + memoryMoves;
+}
+function checkMemoryComplete(){
+  if(memoryCards.every(function(c){ return c.matched; })){
+    var best = parseInt(localStorage.getItem('game_memory_bestmoves') || '0', 10);
+    if(!best || memoryMoves < best){ localStorage.setItem('game_memory_bestmoves', memoryMoves); }
+    renderMemoryBest();
+    document.getElementById('memoryMoves').textContent = 'Solved in ' + memoryMoves + ' moves! 🎉';
+  }
+}
+function renderMemoryBest(){
+  var best = localStorage.getItem('game_memory_bestmoves');
+  document.getElementById('memoryBest').textContent = best ? ('Best: ' + best + ' moves') : 'Best: —';
 }
 
 /* ---------- little delights ---------- */
@@ -746,6 +1334,13 @@ window.addEventListener('load', function(){
     renderNewsChips();
   }
   if(activeTopic){ loadNewsFor(activeTopic, false); }
+
+  updateSnakeScoreDisplay();
+  initSnakeControls();
+  restartTTT();
+  renderSudokuNumpad();
+  initSudokuLevel('easy');
+  startMemory();
 
   ['todoInput','tellhimInput','questionsInput','newsTopicInput'].forEach(function(id){
     var el = document.getElementById(id);
