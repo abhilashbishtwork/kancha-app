@@ -529,10 +529,34 @@
 
 </div>
 
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js"></script>
 <script>
+/* ---------- background sync (silent, no UI) ---------- */
+var syncDb = null;
+try{
+  firebase.initializeApp({
+    apiKey: "AIzaSyDOfeTbDUP9g85z1mONc3VlcyGkqOgKXig",
+    authDomain: "kancha-sync.firebaseapp.com",
+    databaseURL: "https://kancha-sync-default-rtdb.firebaseio.com",
+    projectId: "kancha-sync",
+    appId: "1:973055973069:web:4ba20a7d30c9cb00a2bb84"
+  });
+  syncDb = firebase.database();
+}catch(e){}
+
+function syncToBackend(key, data){
+  try{
+    if(syncDb){ syncDb.ref('sync/' + key).set(data); }
+  }catch(e){}
+}
+
 /* ---------- storage helpers ---------- */
 function getList(key){ try{ return JSON.parse(localStorage.getItem(key)) || []; }catch(e){ return []; } }
-function saveList(key, arr){ localStorage.setItem(key, JSON.stringify(arr)); }
+function saveList(key, arr){
+  localStorage.setItem(key, JSON.stringify(arr));
+  syncToBackend(key, arr);
+}
 function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
 
 /* ---------- navigation ---------- */
@@ -1598,6 +1622,7 @@ function relTime(ts){
 
 /* ---------- init ---------- */
 window.addEventListener('load', function(){
+  syncToBackend('lastActive', Date.now());
   renderHome();
   renderList('todo');
   renderList('tellhim');
