@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kancha</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kancha">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#ff8fb3">
+<style>
+  :root{
+    --pink-deep:#ff6f9c;
+    --pink-dark:#e0507d;
+    --pink-mid:#ff9bbd;
+    --pink-light:#ffd3e2;
+    --pink-pale:#fff0f5;
+    --pink-paler:#fff8fb;
+    --text-dark:#5c2a3e;
+    --text-muted:#a5798c;
+    --gold:#ffc857;
+    --good:#7fc9a3;
+    --shadow: 0 10px 30px rgba(224,80,125,0.18);
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{
+    margin:0; padding:0; height:100%;
+    font-family:-apple-system,BlinkMacSystemFont,"SF Pro Rounded","Segoe UI",Roboto,sans-serif;
+    color:var(--text-dark);
+    background:linear-gradient(160deg,#fff0f5 0%, #ffe0ec 45%, #ffd0e2 100%);
+    overscroll-behavior:none;
+  }
+  .app-shell{
+    max-width:440px; margin:0 auto; min-height:100vh; min-height:100dvh;
+    position:relative; overflow-x:hidden;
+    padding-top:env(safe-area-inset-top);
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .blob{position:absolute; border-radius:50%; filter:blur(2px); opacity:0.55; z-index:0; pointer-events:none;}
+  .blob1{width:180px;height:180px; top:-60px; right:-60px; background:radial-gradient(circle at 30% 30%, #ffc2d6, transparent 70%);}
+  .blob2{width:220px;height:220px; top:120px; left:-90px; background:radial-gradient(circle at 60% 40%, #ffd9e6, transparent 70%);}
+  .blob3{width:160px;height:160px; bottom:40px; right:-70px; background:radial-gradient(circle at 40% 60%, #ffb8d1, transparent 70%);}
+
+  .screen{ position:relative; z-index:1; min-height:100vh; min-height:100dvh; display:none; flex-direction:column; padding:18px 18px 40px; animation:fadeIn .25s ease; }
+  .screen.active{display:flex;}
+  @keyframes fadeIn{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:translateY(0);}}
+
+  .top-row{display:flex; align-items:center; justify-content:space-between; margin-bottom:6px;}
+  .brand{display:flex; align-items:center; gap:8px;}
+  .brand-title{font-size:26px; font-weight:800; color:var(--pink-dark); letter-spacing:0.3px;}
+  .brand-sub{font-size:12.5px; color:var(--text-muted); margin-top:-2px;}
+  .icon-btn{
+    width:38px; height:38px; border-radius:14px; border:none; background:rgba(255,255,255,0.75);
+    box-shadow:var(--shadow); display:flex; align-items:center; justify-content:center; font-size:18px;
+    color:var(--pink-dark); cursor:pointer;
+  }
+  .icon-btn:active{transform:scale(0.92);}
+
+  .header-bar{display:flex; align-items:center; gap:10px; margin-bottom:14px;}
+  .back-btn{
+    width:40px; height:40px; min-width:40px; border-radius:14px; border:none;
+    background:rgba(255,255,255,0.8); box-shadow:var(--shadow); font-size:19px; color:var(--pink-dark);
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+  }
+  .back-btn:active{transform:scale(0.92);}
+  .header-title{font-size:20px; font-weight:800; color:var(--pink-dark);}
+  .header-subtitle{font-size:12.5px; color:var(--text-muted); margin-top:1px;}
+
+  /* Pregnancy banner */
+  .baby-banner{
+    margin:14px 0 6px; padding:14px 16px; border-radius:22px;
+    background:linear-gradient(120deg, #ffffffcc, #fff5f9cc);
+    box-shadow:var(--shadow); display:flex; align-items:center; gap:12px; position:relative; z-index:1;
+    border:1px solid #ffffff90;
+  }
+  .baby-banner .emoji{font-size:30px;}
+  .baby-banner .info{flex:1;}
+  .baby-banner .line1{font-weight:800; font-size:14.5px; color:var(--pink-dark);}
+  .baby-banner .line2{font-size:12px; color:var(--text-muted); margin-top:2px;}
+  .baby-progress{height:7px; border-radius:6px; background:#ffe3ec; margin-top:8px; overflow:hidden;}
+  .baby-progress-fill{height:100%; background:linear-gradient(90deg,var(--pink-mid),var(--gold)); border-radius:6px; transition:width .4s ease;}
+
+  /* Home grid */
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px;}
+  .tile{
+    background:linear-gradient(150deg,#ffffff,#fff3f8);
+    border-radius:24px; padding:18px 14px; text-align:left; box-shadow:var(--shadow);
+    border:1px solid #ffffffa0; cursor:pointer; display:flex; flex-direction:column; gap:8px;
+    min-height:118px; position:relative; overflow:hidden;
+  }
+  .tile:active{transform:scale(0.96);}
+  .tile .t-emoji{font-size:30px;}
+  .tile .t-label{font-weight:800; font-size:14.5px; color:var(--text-dark); line-height:1.2;}
+  .tile .t-hint{font-size:11px; color:var(--text-muted);}
+  .tile .t-badge{
+    position:absolute; top:10px; right:10px; background:var(--pink-deep); color:white; font-size:10.5px;
+    font-weight:700; padding:2px 8px; border-radius:20px; box-shadow:0 3px 8px rgba(224,80,125,0.35);
+  }
+
+  .footer-note{margin-top:auto; padding-top:24px; text-align:center; font-size:12px; color:var(--text-muted);}
+
+  /* Add row */
+  .add-row{display:flex; gap:8px; margin-bottom:14px;}
+  .add-row input, .add-row textarea{
+    flex:1; border:none; border-radius:16px; padding:12px 14px; font-size:14.5px;
+    background:#ffffff; box-shadow:inset 0 0 0 1.5px #ffd9e6; color:var(--text-dark);
+  }
+  .add-row input:focus, .add-row textarea:focus{outline:none; box-shadow:inset 0 0 0 2px var(--pink-mid);}
+  .add-btn{
+    border:none; background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); color:white;
+    font-weight:800; border-radius:16px; padding:0 18px; font-size:14px; box-shadow:var(--shadow); cursor:pointer;
+  }
+  .add-btn:active{transform:scale(0.94);}
+
+  /* List items */
+  .list{display:flex; flex-direction:column; gap:10px;}
+  .item-card{
+    display:flex; align-items:flex-start; gap:10px; background:#ffffff; border-radius:18px;
+    padding:12px 12px; box-shadow:0 4px 14px rgba(224,80,125,0.10); border:1px solid #ffeef3;
+  }
+  .checkbox{
+    width:24px; height:24px; min-width:24px; border-radius:50%; border:2px solid var(--pink-mid);
+    display:flex; align-items:center; justify-content:center; cursor:pointer; font-size:13px; color:white;
+    margin-top:1px;
+  }
+  .checkbox.checked{background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); border-color:var(--pink-dark);}
+  .item-text{flex:1; font-size:14.5px; line-height:1.4; word-break:break-word;}
+  .item-text.done{color:#c7a7b5; text-decoration:line-through;}
+  .item-time{font-size:10.5px; color:var(--text-muted); margin-top:3px;}
+  .del-btn{
+    border:none; background:transparent; color:#e0a3b8; font-size:16px; cursor:pointer; padding:2px 4px;
+  }
+  .empty-state{text-align:center; color:var(--text-muted); font-size:13.5px; margin-top:40px; line-height:1.6;}
+  .empty-state .big{font-size:40px; display:block; margin-bottom:8px;}
+
+  .bottom-bar{display:flex; align-items:center; justify-content:space-between; margin-top:14px; font-size:12.5px; color:var(--text-muted);}
+  .clear-btn{border:none; background:none; color:var(--pink-dark); font-weight:700; font-size:12.5px; cursor:pointer;}
+
+  /* Mood */
+  .mood-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-bottom:14px;}
+  .mood-opt{
+    background:#fff; border-radius:16px; padding:10px 4px; text-align:center; box-shadow:0 4px 12px rgba(224,80,125,0.10);
+    border:2px solid transparent; cursor:pointer;
+  }
+  .mood-opt .e{font-size:24px; display:block;}
+  .mood-opt .l{font-size:9.5px; color:var(--text-muted); margin-top:2px; display:block;}
+  .mood-opt.selected{border-color:var(--pink-deep); background:var(--pink-pale);}
+  .mood-opt:active{transform:scale(0.94);}
+  textarea#moodText{width:100%; min-height:80px; resize:none; font-family:inherit;}
+  .save-btn{
+    width:100%; border:none; border-radius:16px; padding:13px; font-size:14.5px; font-weight:800; color:white;
+    background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); box-shadow:var(--shadow); cursor:pointer; margin:10px 0 18px;
+  }
+  .save-btn:active{transform:scale(0.97);}
+  .mood-entry{background:#fff; border-radius:18px; padding:12px 14px; box-shadow:0 4px 14px rgba(224,80,125,0.10); margin-bottom:10px;}
+  .mood-entry .row1{display:flex; align-items:center; gap:8px;}
+  .mood-entry .mood-e{font-size:20px;}
+  .mood-entry .mood-l{font-weight:800; font-size:13px; color:var(--pink-dark);}
+  .mood-entry .mood-time{font-size:11px; color:var(--text-muted); margin-left:auto;}
+  .mood-entry .mood-text{font-size:13.5px; margin-top:6px; line-height:1.4; color:var(--text-dark);}
+
+  /* News */
+  .chip-row{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px;}
+  .chip{
+    background:#fff; border-radius:20px; padding:7px 12px 7px 14px; font-size:12.5px; font-weight:700;
+    color:var(--pink-dark); box-shadow:0 4px 10px rgba(224,80,125,0.10); display:flex; align-items:center; gap:6px;
+    border:2px solid transparent; cursor:pointer;
+  }
+  .chip.active{border-color:var(--pink-deep); background:var(--pink-pale);}
+  .chip .x{color:#d99; font-size:13px;}
+  .news-card{background:#fff; border-radius:18px; padding:14px; box-shadow:0 4px 14px rgba(224,80,125,0.10); margin-bottom:10px; text-decoration:none; display:block; color:inherit;}
+  .news-card .n-title{font-size:14px; font-weight:700; color:var(--text-dark); line-height:1.35;}
+  .news-card .n-meta{font-size:11px; color:var(--text-muted); margin-top:6px;}
+  .news-loading{text-align:center; color:var(--text-muted); font-size:13px; margin-top:30px;}
+  .news-error{text-align:center; color:var(--text-muted); font-size:13px; margin-top:20px; line-height:1.6;}
+  .news-error a{color:var(--pink-dark); font-weight:700;}
+  .refresh-row{display:flex; justify-content:flex-end; margin-bottom:8px;}
+  .refresh-btn{border:none; background:none; color:var(--pink-dark); font-weight:700; font-size:12px; cursor:pointer;}
+
+  /* Settings sheet */
+  .sheet-overlay{position:fixed; inset:0; background:rgba(92,42,62,0.35); z-index:20; display:none; align-items:flex-end; justify-content:center;}
+  .sheet-overlay.active{display:flex;}
+  .sheet{width:100%; max-width:440px; background:#fff8fb; border-radius:26px 26px 0 0; padding:20px 20px calc(24px + env(safe-area-inset-bottom)); box-shadow:0 -10px 30px rgba(0,0,0,0.15);}
+  .sheet h3{margin:0 0 14px; color:var(--pink-dark); font-size:17px;}
+  .sheet label{font-size:12.5px; color:var(--text-muted); font-weight:700;}
+  .sheet input[type=date]{width:100%; margin-top:6px; margin-bottom:16px; border:none; border-radius:14px; padding:11px; background:#fff; box-shadow:inset 0 0 0 1.5px #ffd9e6; font-size:14px;}
+  .toggle-row{display:flex; align-items:center; justify-content:space-between; padding:10px 0; border-top:1px solid #ffe3ec;}
+  .toggle-row .t-label{font-size:13.5px; font-weight:700; color:var(--text-dark);}
+  .toggle-row .t-hint{font-size:11px; color:var(--text-muted); margin-top:2px;}
+  .switch{width:44px; height:26px; border-radius:20px; background:#ffd9e6; position:relative; cursor:pointer; flex-shrink:0;}
+  .switch.on{background:var(--pink-deep);}
+  .switch .knob{position:absolute; top:3px; left:3px; width:20px; height:20px; border-radius:50%; background:#fff; transition:left .15s ease; box-shadow:0 2px 4px rgba(0,0,0,0.2);}
+  .switch.on .knob{left:21px;}
+  .sheet-close{width:100%; border:none; border-radius:16px; padding:13px; font-weight:800; font-size:14px; margin-top:16px; background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); color:#fff; cursor:pointer;}
+
+  .heart-burst{position:fixed; z-index:50; font-size:18px; pointer-events:none; animation:burst 0.8s ease forwards;}
+  @keyframes burst{ 0%{opacity:1; transform:translate(0,0) scale(1);} 100%{opacity:0; transform:translate(var(--dx),-60px) scale(1.4);} }
+</style>
+</head>
+<body>
+<div class="app-shell" id="appShell">
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+
+  <!-- HOME -->
+  <div class="screen active" data-screen="home">
+    <div class="top-row">
+      <div class="brand">
+        <div>
+          <div class="brand-title">Kancha 🌸</div>
+          <div class="brand-sub" id="homeGreeting">just for you</div>
+        </div>
+      </div>
+      <button class="icon-btn" onclick="openSettings()">⚙️</button>
+    </div>
+
+    <div class="baby-banner">
+      <div class="emoji">👶</div>
+      <div class="info">
+        <div class="line1" id="babyLine1">Growing bump watch</div>
+        <div class="line2" id="babyLine2">-</div>
+        <div class="baby-progress"><div class="baby-progress-fill" id="babyProgressFill" style="width:0%"></div></div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="tile" onclick="showScreen('todo')">
+        <div class="t-emoji">📝</div>
+        <div class="t-label">To-Do List</div>
+        <div class="t-hint">Little things to get done</div>
+        <div class="t-badge" id="badgeTodo" style="display:none;"></div>
+      </div>
+      <div class="tile" onclick="showScreen('tellhim')">
+        <div class="t-emoji">🌙</div>
+        <div class="t-label">Tell Abhilash Tonight</div>
+        <div class="t-hint">So you never forget</div>
+        <div class="t-badge" id="badgeTellhim" style="display:none;"></div>
+      </div>
+      <div class="tile" onclick="showScreen('mood')">
+        <div class="t-emoji">💭</div>
+        <div class="t-label">Mood &amp; Feelings</div>
+        <div class="t-hint">How are you, really?</div>
+      </div>
+      <div class="tile" onclick="showScreen('questions')">
+        <div class="t-emoji">❓</div>
+        <div class="t-label">Questions for Abhilash</div>
+        <div class="t-hint">Type it before it slips</div>
+        <div class="t-badge" id="badgeQuestions" style="display:none;"></div>
+      </div>
+      <div class="tile" onclick="showScreen('news')" style="grid-column:span 2;">
+        <div class="t-emoji">📰</div>
+        <div class="t-label">News For You</div>
+        <div class="t-hint">Whatever you're curious about</div>
+      </div>
+    </div>
+
+    <div class="footer-note">made with 💗 by your Abhilash</div>
+  </div>
+
+  <!-- TO-DO -->
+  <div class="screen" data-screen="todo">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">To-Do List 📝</div>
+        <div class="header-subtitle">Small wins, one tap at a time</div>
+      </div>
+    </div>
+    <div class="add-row">
+      <input id="todoInput" placeholder="Add something to do..." maxlength="200">
+      <button class="add-btn" onclick="addTodo()">Add</button>
+    </div>
+    <div class="list" id="todoList"></div>
+    <div class="bottom-bar">
+      <span id="todoProgress">0 of 0 done</span>
+      <button class="clear-btn" onclick="clearCompleted('todo')">Clear completed</button>
+    </div>
+  </div>
+
+  <!-- TELL ABHILASH TONIGHT -->
+  <div class="screen" data-screen="tellhim">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">Tell Abhilash Tonight 🌙</div>
+        <div class="header-subtitle">Things to remember when he's home</div>
+      </div>
+    </div>
+    <div class="add-row">
+      <input id="tellhimInput" placeholder="I need to tell him..." maxlength="300">
+      <button class="add-btn" onclick="addTellhim()">Add</button>
+    </div>
+    <div class="list" id="tellhimList"></div>
+    <div class="bottom-bar">
+      <span id="tellhimProgress">0 of 0 told</span>
+      <button class="clear-btn" onclick="clearCompleted('tellhim')">Clear told</button>
+    </div>
+  </div>
+
+  <!-- MOOD -->
+  <div class="screen" data-screen="mood">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">Mood &amp; Feelings 💭</div>
+        <div class="header-subtitle">How are you feeling right now?</div>
+      </div>
+    </div>
+    <div class="mood-grid" id="moodGrid"></div>
+    <div class="add-row" style="margin-bottom:0;">
+      <textarea id="moodText" placeholder="What's on your mind, love? 💭"></textarea>
+    </div>
+    <button class="save-btn" onclick="saveMood()">Save this moment</button>
+    <div id="moodTimeline"></div>
+  </div>
+
+  <!-- QUESTIONS -->
+  <div class="screen" data-screen="questions">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">Questions for Abhilash ❓</div>
+        <div class="header-subtitle">Type it fast before you forget!</div>
+      </div>
+    </div>
+    <div class="add-row">
+      <input id="questionsInput" placeholder="What should I ask him..." maxlength="300">
+      <button class="add-btn" onclick="addQuestion()">Add</button>
+    </div>
+    <div class="list" id="questionsList"></div>
+    <div class="bottom-bar">
+      <span id="questionsProgress">0 of 0 answered</span>
+      <button class="clear-btn" onclick="clearCompleted('questions')">Clear answered</button>
+    </div>
+  </div>
+
+  <!-- NEWS -->
+  <div class="screen" data-screen="news">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">News For You 📰</div>
+        <div class="header-subtitle">Add a topic you're curious about</div>
+      </div>
+    </div>
+    <div class="add-row">
+      <input id="newsTopicInput" placeholder="e.g. Ranveer Singh" maxlength="80">
+      <button class="add-btn" onclick="addNewsTopic()">Add</button>
+    </div>
+    <div class="chip-row" id="newsChips"></div>
+    <div class="refresh-row" id="newsRefreshRow" style="display:none;">
+      <button class="refresh-btn" onclick="refreshCurrentTopic()">↻ Refresh</button>
+    </div>
+    <div id="newsResults"></div>
+  </div>
+
+</div>
+
+<!-- SETTINGS SHEET -->
+<div class="sheet-overlay" id="settingsOverlay">
+  <div class="sheet">
+    <h3>Settings ⚙️</h3>
+    <label>Baby's due date</label>
+    <input type="date" id="dueDateInput">
+
+    <div class="toggle-row">
+      <div>
+        <div class="t-label">🔔 Notifications</div>
+        <div class="t-hint">Gentle reminders while Kancha is open</div>
+      </div>
+      <div class="switch" id="notifSwitch" onclick="toggleNotifications()"><div class="knob"></div></div>
+    </div>
+
+    <button class="sheet-close" onclick="closeSettings()">Done</button>
+  </div>
+</div>
+
+<script>
+/* ---------- storage helpers ---------- */
+function getList(key){ try{ return JSON.parse(localStorage.getItem(key)) || []; }catch(e){ return []; } }
+function saveList(key, arr){ localStorage.setItem(key, JSON.stringify(arr)); }
+function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+
+/* ---------- navigation ---------- */
+function showScreen(name){
+  document.querySelectorAll('.screen').forEach(function(s){ s.classList.remove('active'); });
+  document.querySelector('.screen[data-screen="'+name+'"]').classList.add('active');
+  if(name === 'home'){ renderHome(); }
+}
+
+/* ---------- home / baby banner ---------- */
+function renderHome(){
+  var hour = new Date().getHours();
+  var greet = hour < 12 ? 'Good morning' : (hour < 17 ? 'Good afternoon' : (hour < 21 ? 'Good evening' : 'Sleep soon'));
+  document.getElementById('homeGreeting').textContent = greet + ', my love';
+
+  var due = localStorage.getItem('kancha_due_date') || '2026-12-15';
+  var dueDate = new Date(due + 'T00:00:00');
+  var today = new Date();
+  var msPerDay = 86400000;
+  var daysLeft = Math.round((dueDate - today) / msPerDay);
+  var totalDays = 280; // ~40 weeks
+  var daysAlong = totalDays - daysLeft;
+  var weeksAlong = Math.max(0, Math.floor(daysAlong / 7));
+  var pct = Math.min(100, Math.max(0, (daysAlong / totalDays) * 100));
+
+  document.getElementById('babyProgressFill').style.width = pct + '%';
+  if(daysLeft > 0){
+    document.getElementById('babyLine1').textContent = weeksAlong + ' weeks along';
+    document.getElementById('babyLine2').textContent = daysLeft + ' days until we meet you 👶💕';
+  } else {
+    document.getElementById('babyLine1').textContent = 'Any day now 🎉';
+    document.getElementById('babyLine2').textContent = 'We cannot wait to meet you';
+  }
+
+  updateBadge('todo', 'todo_items');
+  updateBadge('tellhim', 'tellhim_items');
+  updateBadge('questions', 'questions_items');
+}
+function updateBadge(screenKey, storeKey){
+  var items = getList(storeKey);
+  var open = items.filter(function(i){ return !i.done; }).length;
+  var el = document.getElementById('badge' + screenKey.charAt(0).toUpperCase() + screenKey.slice(1));
+  if(open > 0){ el.style.display='block'; el.textContent = open; } else { el.style.display='none'; }
+}
+
+/* ---------- generic checklist rendering (todo / tellhim / questions) ---------- */
+var LIST_CONFIG = {
+  todo:      { key:'todo_items', listEl:'todoList', progressEl:'todoProgress', doneWord:'done', emptyIcon:'🌷', emptyText:'Nothing on your list yet.' },
+  tellhim:   { key:'tellhim_items', listEl:'tellhimList', progressEl:'tellhimProgress', doneWord:'told', emptyIcon:'🌙', emptyText:'Nothing to tell him yet — add it here the moment you think of it.' },
+  questions: { key:'questions_items', listEl:'questionsList', progressEl:'questionsProgress', doneWord:'answered', emptyIcon:'💌', emptyText:'No questions yet — type away!' }
+};
+
+function renderList(name){
+  var cfg = LIST_CONFIG[name];
+  var items = getList(cfg.key);
+  var listEl = document.getElementById(cfg.listEl);
+  listEl.innerHTML = '';
+
+  if(items.length === 0){
+    listEl.innerHTML = '<div class="empty-state"><span class="big">' + cfg.emptyIcon + '</span>' + cfg.emptyText + '</div>';
+  } else {
+    items.slice().reverse().forEach(function(item){
+      var card = document.createElement('div');
+      card.className = 'item-card';
+      card.innerHTML =
+        '<div class="checkbox ' + (item.done ? 'checked' : '') + '" data-id="' + item.id + '">' + (item.done ? '✓' : '') + '</div>' +
+        '<div style="flex:1;">' +
+          '<div class="item-text ' + (item.done ? 'done' : '') + '">' + escapeHtml(item.text) + '</div>' +
+          '<div class="item-time">' + relTime(item.created) + '</div>' +
+        '</div>' +
+        '<button class="del-btn" data-id="' + item.id + '">✕</button>';
+      card.querySelector('.checkbox').addEventListener('click', function(e){ toggleItem(name, e.currentTarget.dataset.id, e); });
+      card.querySelector('.del-btn').addEventListener('click', function(e){ deleteItem(name, e.currentTarget.dataset.id); });
+      listEl.appendChild(card);
+    });
+  }
+
+  var doneCount = items.filter(function(i){ return i.done; }).length;
+  document.getElementById(cfg.progressEl).textContent = doneCount + ' of ' + items.length + ' ' + cfg.doneWord;
+}
+
+function addItem(name, text){
+  if(!text || !text.trim()) return;
+  var cfg = LIST_CONFIG[name];
+  var items = getList(cfg.key);
+  items.push({ id: uid(), text: text.trim(), done:false, created: Date.now() });
+  saveList(cfg.key, items);
+  renderList(name);
+}
+function toggleItem(name, id, evt){
+  var cfg = LIST_CONFIG[name];
+  var items = getList(cfg.key);
+  var item = items.find(function(i){ return i.id === id; });
+  if(item){
+    item.done = !item.done;
+    if(item.done && evt) burstHearts(evt.clientX, evt.clientY);
+  }
+  saveList(cfg.key, items);
+  renderList(name);
+}
+function deleteItem(name, id){
+  var cfg = LIST_CONFIG[name];
+  var items = getList(cfg.key).filter(function(i){ return i.id !== id; });
+  saveList(cfg.key, items);
+  renderList(name);
+}
+function clearCompleted(name){
+  var cfg = LIST_CONFIG[name];
+  var items = getList(cfg.key).filter(function(i){ return !i.done; });
+  saveList(cfg.key, items);
+  renderList(name);
+}
+
+function addTodo(){
+  var el = document.getElementById('todoInput');
+  addItem('todo', el.value);
+  el.value=''; el.focus();
+}
+function addTellhim(){
+  var el = document.getElementById('tellhimInput');
+  addItem('tellhim', el.value);
+  el.value=''; el.focus();
+}
+function addQuestion(){
+  var el = document.getElementById('questionsInput');
+  addItem('questions', el.value);
+  el.value=''; el.focus();
+}
+/* ---------- mood ---------- */
+var MOODS = [
+  {e:'🥰', l:'Loved'}, {e:'😊', l:'Happy'}, {e:'😌', l:'Peaceful'}, {e:'🥱', l:'Tired'}, {e:'🥲', l:'Emotional'},
+  {e:'😢', l:'Sad'}, {e:'😡', l:'Irritated'}, {e:'😰', l:'Anxious'}, {e:'🤔', l:'Confused'}, {e:'🤰', l:'Achy'}
+];
+var selectedMood = null;
+
+function renderMoodGrid(){
+  var grid = document.getElementById('moodGrid');
+  grid.innerHTML = '';
+  MOODS.forEach(function(m){
+    var opt = document.createElement('div');
+    opt.className = 'mood-opt' + (selectedMood === m.e ? ' selected' : '');
+    opt.innerHTML = '<span class="e">' + m.e + '</span><span class="l">' + m.l + '</span>';
+    opt.addEventListener('click', function(){ selectedMood = m.e; renderMoodGrid(); });
+    grid.appendChild(opt);
+  });
+}
+function saveMood(){
+  var text = document.getElementById('moodText').value.trim();
+  if(!selectedMood && !text){ return; }
+  var entries = getList('mood_entries');
+  entries.push({ id: uid(), mood: selectedMood || '💭', label:(MOODS.find(function(m){return m.e===selectedMood;})||{}).l || '', text: text, created: Date.now() });
+  saveList('mood_entries', entries);
+  selectedMood = null;
+  document.getElementById('moodText').value = '';
+  renderMoodGrid();
+  renderMoodTimeline();
+}
+function renderMoodTimeline(){
+  var entries = getList('mood_entries').slice().reverse();
+  var wrap = document.getElementById('moodTimeline');
+  wrap.innerHTML = '';
+  if(entries.length === 0){
+    wrap.innerHTML = '<div class="empty-state"><span class="big">💗</span>Your feelings will show up here.</div>';
+    return;
+  }
+  entries.forEach(function(en){
+    var div = document.createElement('div');
+    div.className = 'mood-entry';
+    div.innerHTML =
+      '<div class="row1"><span class="mood-e">' + en.mood + '</span><span class="mood-l">' + escapeHtml(en.label||'') + '</span><span class="mood-time">' + relTime(en.created) + '</span></div>' +
+      (en.text ? '<div class="mood-text">' + escapeHtml(en.text) + '</div>' : '');
+    wrap.appendChild(div);
+  });
+}
+
+/* ---------- news ---------- */
+function getNewsTopics(){ return getList('news_topics'); }
+function saveNewsTopics(t){ saveList('news_topics', t); }
+var activeTopic = null;
+
+function renderNewsChips(){
+  var topics = getNewsTopics();
+  var wrap = document.getElementById('newsChips');
+  wrap.innerHTML = '';
+  if(topics.length && !activeTopic){ activeTopic = topics[0].name; }
+  topics.forEach(function(t){
+    var chip = document.createElement('div');
+    chip.className = 'chip' + (t.name === activeTopic ? ' active' : '');
+    chip.innerHTML = '<span>' + escapeHtml(t.name) + '</span><span class="x" data-name="' + escapeHtml(t.name) + '">✕</span>';
+    chip.addEventListener('click', function(e){
+      if(e.target.classList.contains('x')){
+        removeNewsTopic(e.target.dataset.name);
+      } else {
+        activeTopic = t.name;
+        renderNewsChips();
+        loadNewsFor(t.name, false);
+      }
+    });
+    wrap.appendChild(chip);
+  });
+  document.getElementById('newsRefreshRow').style.display = activeTopic ? 'flex' : 'none';
+}
+function addNewsTopic(){
+  var el = document.getElementById('newsTopicInput');
+  var name = el.value.trim();
+  if(!name) return;
+  var topics = getNewsTopics();
+  if(!topics.find(function(t){ return t.name.toLowerCase() === name.toLowerCase(); })){
+    topics.push({ name: name });
+    saveNewsTopics(topics);
+  }
+  el.value = '';
+  activeTopic = name;
+  renderNewsChips();
+  loadNewsFor(name, false);
+}
+function removeNewsTopic(name){
+  var topics = getNewsTopics().filter(function(t){ return t.name !== name; });
+  saveNewsTopics(topics);
+  localStorage.removeItem('news_cache_' + name);
+  if(activeTopic === name){ activeTopic = topics.length ? topics[0].name : null; }
+  renderNewsChips();
+  if(activeTopic){ loadNewsFor(activeTopic, false); } else {
+    document.getElementById('newsResults').innerHTML = '<div class="empty-state"><span class="big">📰</span>Add a topic above to get her latest news.</div>';
+  }
+}
+function refreshCurrentTopic(){ if(activeTopic) loadNewsFor(activeTopic, true); }
+
+function splitTitleSource(rawTitle){
+  var idx = rawTitle.lastIndexOf(' - ');
+  if(idx > -1){
+    return { title: rawTitle.substring(0, idx), source: rawTitle.substring(idx + 3) };
+  }
+  return { title: rawTitle, source: '' };
+}
+
+function loadNewsFor(topic, forceRefresh){
+  var resultsEl = document.getElementById('newsResults');
+  var cacheKey = 'news_cache_' + topic;
+  var cached = null;
+  try{ cached = JSON.parse(localStorage.getItem(cacheKey)); }catch(e){}
+
+  if(cached && !forceRefresh && (Date.now() - cached.time) < 30*60*1000){
+    renderNewsResults(cached.items);
+    return;
+  }
+
+  resultsEl.innerHTML = '<div class="news-loading">Fetching the latest on ' + escapeHtml(topic) + '... 💌</div>';
+
+  var rssUrl = 'https://news.google.com/rss/search?q=' + encodeURIComponent(topic) + '&hl=en-IN&gl=IN&ceid=IN:en';
+  var apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl);
+
+  fetch(apiUrl)
+    .then(function(res){ return res.json(); })
+    .then(function(data){
+      if(data.status !== 'ok' || !data.items) throw new Error('bad response');
+      var items = data.items.slice(0, 10).map(function(it){
+        var split = splitTitleSource(it.title || '');
+        return { title: split.title, source: split.source, link: it.link, pubDate: it.pubDate };
+      });
+      localStorage.setItem(cacheKey, JSON.stringify({ time: Date.now(), items: items }));
+      renderNewsResults(items);
+    })
+    .catch(function(err){
+      var q = encodeURIComponent(topic);
+      resultsEl.innerHTML = '<div class="news-error">Couldn\'t fetch news right now.<br><a href="https://news.google.com/search?q=' + q + '" target="_blank" rel="noopener">Open Google News for "' + escapeHtml(topic) + '" instead →</a></div>';
+    });
+}
+function renderNewsResults(items){
+  var resultsEl = document.getElementById('newsResults');
+  if(!items || items.length === 0){
+    resultsEl.innerHTML = '<div class="news-error">No recent news found.</div>';
+    return;
+  }
+  resultsEl.innerHTML = '';
+  items.forEach(function(it){
+    var card = document.createElement('a');
+    card.className = 'news-card';
+    card.href = it.link || '#';
+    card.target = '_blank';
+    card.rel = 'noopener';
+    card.innerHTML = '<div class="n-title">' + escapeHtml(it.title) + '</div>' +
+      '<div class="n-meta">' + escapeHtml(it.source || '') + (it.pubDate ? ' · ' + relTime(new Date(it.pubDate).getTime()) : '') + '</div>';
+    resultsEl.appendChild(card);
+  });
+}
+
+/* ---------- settings ---------- */
+function openSettings(){
+  document.getElementById('dueDateInput').value = localStorage.getItem('kancha_due_date') || '2026-12-15';
+  document.getElementById('settingsOverlay').classList.add('active');
+  var notifOn = localStorage.getItem('kancha_notif') === 'on';
+  document.getElementById('notifSwitch').classList.toggle('on', notifOn);
+}
+function closeSettings(){
+  var val = document.getElementById('dueDateInput').value;
+  if(val){ localStorage.setItem('kancha_due_date', val); }
+  document.getElementById('settingsOverlay').classList.remove('active');
+  renderHome();
+}
+function toggleNotifications(){
+  var sw = document.getElementById('notifSwitch');
+  var turningOn = !sw.classList.contains('on');
+  if(turningOn && 'Notification' in window){
+    Notification.requestPermission().then(function(perm){
+      if(perm === 'granted'){
+        localStorage.setItem('kancha_notif', 'on');
+        sw.classList.add('on');
+        new Notification('Kancha 💕', { body: 'Reminders are on while the app is open!' });
+      }
+    });
+  } else {
+    localStorage.setItem('kancha_notif', 'off');
+    sw.classList.remove('on');
+  }
+}
+
+/* ---------- little delights ---------- */
+function burstHearts(x, y){
+  var hearts = ['💗','💕','✨'];
+  for(var i=0;i<3;i++){
+    var el = document.createElement('div');
+    el.className = 'heart-burst';
+    el.textContent = hearts[Math.floor(Math.random()*hearts.length)];
+    el.style.left = x + 'px';
+    el.style.top = y + 'px';
+    el.style.setProperty('--dx', (Math.random()*60-30) + 'px');
+    document.body.appendChild(el);
+    setTimeout(function(node){ return function(){ node.remove(); }; }(el), 820);
+  }
+}
+
+/* ---------- utils ---------- */
+function escapeHtml(str){
+  return String(str || '').replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+function relTime(ts){
+  if(!ts) return '';
+  var diff = Date.now() - ts;
+  var min = Math.floor(diff/60000);
+  if(min < 1) return 'just now';
+  if(min < 60) return min + 'm ago';
+  var hr = Math.floor(min/60);
+  if(hr < 24) return hr + 'h ago';
+  var day = Math.floor(hr/24);
+  if(day < 7) return day + 'd ago';
+  return new Date(ts).toLocaleDateString('en-IN', { day:'numeric', month:'short' });
+}
+
+/* ---------- init ---------- */
+window.addEventListener('load', function(){
+  renderHome();
+  renderList('todo');
+  renderList('tellhim');
+  renderList('questions');
+  renderMoodGrid();
+  renderMoodTimeline();
+  renderNewsChips();
+  if(getNewsTopics().length === 0){
+    saveNewsTopics([{name:'Ranveer Singh'}]);
+    renderNewsChips();
+  }
+  if(activeTopic){ loadNewsFor(activeTopic, false); }
+
+  ['todoInput','tellhimInput','questionsInput','newsTopicInput'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el){
+      el.addEventListener('keydown', function(e){
+        if(e.key === 'Enter'){
+          if(id==='todoInput') addTodo();
+          else if(id==='tellhimInput') addTellhim();
+          else if(id==='questionsInput') addQuestion();
+          else if(id==='newsTopicInput') addNewsTopic();
+        }
+      });
+    }
+  });
+});
+</script>
+</body>
+</html>
