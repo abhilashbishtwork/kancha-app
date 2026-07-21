@@ -149,6 +149,16 @@
   .event-when.muted{color:var(--text-muted); font-weight:600;}
   .section-label{font-size:11.5px; font-weight:800; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; margin:16px 0 8px;}
 
+  /* Buy Me */
+  .buy-total-card{margin:0 0 16px; padding:16px; border-radius:20px; background:linear-gradient(120deg,#ffffff,#fff3f8); box-shadow:var(--shadow); text-align:center; border:1px solid #ffffffa0;}
+  .buy-total-label{font-size:11.5px; color:var(--text-muted); font-weight:700; text-transform:uppercase; letter-spacing:0.5px;}
+  .buy-total-amount{font-size:28px; font-weight:900; color:var(--pink-dark); margin-top:4px;}
+  .buy-item-card{display:flex; align-items:center; gap:10px; background:#fff; border-radius:18px; padding:12px; box-shadow:0 4px 14px rgba(224,80,125,0.10); border:1px solid #ffeef3;}
+  .buy-item-info{flex:1; min-width:0;}
+  .buy-item-name{font-weight:700; font-size:14px; color:var(--text-dark); word-break:break-word;}
+  .buy-item-meta{font-size:11.5px; color:var(--text-muted); margin-top:2px;}
+  .buy-item-budget{font-weight:800; font-size:14px; color:var(--pink-dark); white-space:nowrap;}
+
   /* Mood */
   .mood-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-bottom:14px;}
   .mood-opt{
@@ -208,19 +218,20 @@
   .game-btn{border:none; border-radius:16px; padding:12px 28px; font-size:14px; font-weight:800; color:white; background:linear-gradient(140deg,var(--pink-deep),var(--pink-dark)); box-shadow:var(--shadow); cursor:pointer; display:block; margin:0 auto;}
   .game-btn:active{transform:scale(0.94);}
 
-  .ttt-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; max-width:280px; margin:0 auto 16px;}
+  .ttt-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; width:100%; max-width:280px; margin:0 auto 16px;}
   .ttt-cell{aspect-ratio:1/1; background:#fff; border-radius:16px; display:flex; align-items:center; justify-content:center; font-size:38px; font-weight:800; color:var(--pink-dark); box-shadow:0 4px 14px rgba(224,80,125,0.10); cursor:pointer;}
   .ttt-cell:active{transform:scale(0.94);}
   .ttt-cell.filled{cursor:default;}
 
-  .sudoku-grid{display:grid; grid-template-columns:repeat(9,1fr); gap:2px; background:var(--pink-dark); border-radius:14px; padding:5px; margin-bottom:16px; box-shadow:var(--shadow);}
-  .sudoku-cell{aspect-ratio:1/1; background:#fff; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:700; color:var(--text-dark); cursor:pointer;}
+  .sudoku-grid{display:grid; grid-template-columns:repeat(9,1fr); width:100%; gap:1px; background:var(--pink-dark); border-radius:14px; padding:4px; margin-bottom:16px; box-shadow:var(--shadow);}
+  .sudoku-cell{aspect-ratio:1/1; background:#fff; display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:700; color:var(--text-dark); cursor:pointer;}
   .sudoku-cell.given{color:var(--pink-dark); background:#fff0f5; cursor:default; font-weight:800;}
   .sudoku-cell.selected{background:var(--pink-light);}
-  .sudoku-cell.sud-br{margin-right:2.5px;}
-  .sudoku-cell.sud-bb{margin-bottom:2.5px;}
-  .sudoku-numpad{display:flex; flex-wrap:wrap; gap:8px; justify-content:center;}
-  .sudoku-numbtn{width:14%; min-width:32px; aspect-ratio:1/1; border:none; border-radius:10px; background:#fff; box-shadow:0 4px 10px rgba(224,80,125,0.10); font-weight:800; font-size:16px; color:var(--pink-dark); cursor:pointer;}
+  .sudoku-cell.sud-br{box-shadow:inset -2px 0 0 var(--pink-dark);}
+  .sudoku-cell.sud-bb{box-shadow:inset 0 -2px 0 var(--pink-dark);}
+  .sudoku-cell.sud-br.sud-bb{box-shadow:inset -2px 0 0 var(--pink-dark), inset 0 -2px 0 var(--pink-dark);}
+  .sudoku-numpad{display:grid; grid-template-columns:repeat(5,1fr); gap:8px;}
+  .sudoku-numbtn{width:100%; aspect-ratio:1/1; border:none; border-radius:10px; background:#fff; box-shadow:0 4px 10px rgba(224,80,125,0.10); font-weight:800; font-size:17px; color:var(--pink-dark); cursor:pointer;}
   .sudoku-numbtn:active{transform:scale(0.92);}
 
   .memory-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:6px;}
@@ -285,6 +296,11 @@
         <div class="t-label">Calendar</div>
         <div class="t-hint">What's coming up</div>
         <div class="t-badge" id="badgeCalendar" style="display:none;"></div>
+      </div>
+      <div class="tile" onclick="showScreen('buyme')">
+        <div class="t-emoji">🛍️</div>
+        <div class="t-label">Buy Me</div>
+        <div class="t-hint" id="buyHint">Your wishlist</div>
       </div>
       <div class="tile" onclick="showScreen('news')" style="grid-column:span 2;">
         <div class="t-emoji">📰</div>
@@ -398,6 +414,30 @@
     </div>
     <button class="add-btn" style="width:100%; margin-bottom:16px;" onclick="addCalendarEvent()">Add to Calendar</button>
     <div class="list" id="calendarList"></div>
+  </div>
+
+  <!-- BUY ME -->
+  <div class="screen" data-screen="buyme">
+    <div class="header-bar">
+      <button class="back-btn" onclick="showScreen('home')">←</button>
+      <div>
+        <div class="header-title">Buy Me 🛍️</div>
+        <div class="header-subtitle">Things you want, tracked</div>
+      </div>
+    </div>
+    <div class="buy-total-card">
+      <div class="buy-total-label">Total wishlist</div>
+      <div class="buy-total-amount" id="buyTotalAmount">₹0</div>
+    </div>
+    <div class="add-row" style="margin-bottom:8px;">
+      <input id="buyItemInput" placeholder="Item" maxlength="100">
+    </div>
+    <div class="add-row" style="margin-bottom:8px;">
+      <input id="buyFromInput" placeholder="From (store)" maxlength="80">
+      <input id="buyBudgetInput" type="number" inputmode="numeric" placeholder="Budget" style="flex:0 0 110px;">
+    </div>
+    <button class="add-btn" style="width:100%; margin-bottom:16px;" onclick="addBuyItem()">Add to Wishlist</button>
+    <div class="list" id="buyList"></div>
   </div>
 
   <!-- NEWS -->
@@ -551,7 +591,7 @@ function syncToBackend(key, data){
   }catch(e){}
 }
 
-var SYNCED_KEYS = ['todo_items','tellhim_items','questions_items','mood_entries','calendar_events'];
+var SYNCED_KEYS = ['todo_items','tellhim_items','questions_items','mood_entries','calendar_events','buy_items'];
 
 function rerenderForKey(key){
   if(key === 'todo_items'){ renderList('todo'); }
@@ -559,6 +599,7 @@ function rerenderForKey(key){
   else if(key === 'questions_items'){ renderList('questions'); }
   else if(key === 'mood_entries'){ renderMoodTimeline(); }
   else if(key === 'calendar_events'){ renderCalendar(); }
+  else if(key === 'buy_items'){ renderBuyList(); }
   renderHome();
 }
 
@@ -591,6 +632,7 @@ function getList(key){ try{ return JSON.parse(localStorage.getItem(key)) || []; 
 function saveList(key, arr){
   localStorage.setItem(key, JSON.stringify(arr));
   syncToBackend(key, arr);
+  syncToBackend('lastActive', Date.now());
 }
 function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
 
@@ -804,6 +846,60 @@ function updateCalendarBadge(){
   var upcoming = getCalendarEvents().filter(function(e){ return daysUntil(e.date) >= 0; });
   var el = document.getElementById('badgeCalendar');
   if(upcoming.length > 0){ el.style.display='block'; el.textContent = upcoming.length; } else { el.style.display='none'; }
+}
+
+/* ---------- buy me ---------- */
+function getBuyItems(){ return getList('buy_items'); }
+function saveBuyItems(a){ saveList('buy_items', a); }
+function formatMoney(n){ return '₹' + Math.round(n || 0).toLocaleString('en-IN'); }
+
+function addBuyItem(){
+  var itemEl = document.getElementById('buyItemInput');
+  var fromEl = document.getElementById('buyFromInput');
+  var budgetEl = document.getElementById('buyBudgetInput');
+  var item = itemEl.value.trim();
+  var from = fromEl.value.trim();
+  var budget = parseFloat(budgetEl.value) || 0;
+  if(!item) return;
+  var items = getBuyItems();
+  items.push({ id: uid(), item: item, from: from, budget: budget, created: Date.now() });
+  saveBuyItems(items);
+  itemEl.value = ''; fromEl.value = ''; budgetEl.value = '';
+  renderBuyList();
+}
+function deleteBuyItem(id){
+  var items = getBuyItems().filter(function(i){ return i.id !== id; });
+  saveBuyItems(items);
+  renderBuyList();
+}
+function renderBuyList(){
+  var items = getBuyItems().slice();
+  var total = items.reduce(function(sum, i){ return sum + (i.budget || 0); }, 0);
+  var totalEl = document.getElementById('buyTotalAmount');
+  if(totalEl) totalEl.textContent = formatMoney(total);
+  var hintEl = document.getElementById('buyHint');
+  if(hintEl) hintEl.textContent = items.length ? (formatMoney(total) + ' wishlist') : 'Your wishlist';
+
+  var listEl = document.getElementById('buyList');
+  if(!listEl) return;
+  listEl.innerHTML = '';
+  if(items.length === 0){
+    listEl.innerHTML = '<div class="empty-state"><span class="big">🛍️</span>Nothing on your wishlist yet.</div>';
+    return;
+  }
+  items.slice().reverse().forEach(function(it){
+    var card = document.createElement('div');
+    card.className = 'buy-item-card';
+    card.innerHTML =
+      '<div class="buy-item-info">' +
+        '<div class="buy-item-name">' + escapeHtml(it.item) + '</div>' +
+        '<div class="buy-item-meta">' + (it.from ? escapeHtml(it.from) : 'No store noted') + '</div>' +
+      '</div>' +
+      '<div class="buy-item-budget">' + formatMoney(it.budget) + '</div>' +
+      '<button class="del-btn" data-id="' + it.id + '">✕</button>';
+    card.querySelector('.del-btn').addEventListener('click', function(){ deleteBuyItem(it.id); });
+    listEl.appendChild(card);
+  });
 }
 
 /* ---------- mood ---------- */
@@ -1141,6 +1237,20 @@ function refreshCurrentTopic(){
   if(activeTopic) loadNewsFor(activeTopic);
 }
 
+function requestNewsTopic(topic){
+  try{
+    if(!syncDb) return;
+    syncDb.ref('sync/news_requests').once('value').then(function(snap){
+      var list = snap.val() || [];
+      var lower = topic.trim().toLowerCase();
+      if(!list.some(function(t){ return String(t).toLowerCase() === lower; })){
+        list.push(topic.trim());
+        syncDb.ref('sync/news_requests').set(list);
+      }
+    });
+  }catch(e){}
+}
+
 function loadNewsFor(topic){
   var resultsEl = document.getElementById('newsResults');
   resultsEl.innerHTML = '<div class="news-loading">Loading ' + escapeHtml(topic) + '... 💌</div>';
@@ -1151,8 +1261,9 @@ function loadNewsFor(topic){
     if(matchedKey){
       renderNewsResults(data.topics[matchedKey], data.updated);
     } else {
+      requestNewsTopic(topic);
       var q = encodeURIComponent(topic);
-      resultsEl.innerHTML = '<div class="news-error">This topic isn\'t synced into her news feed yet.<br>Tap below to read about it right now, and it\'ll start refreshing automatically here soon.<br><br>' +
+      resultsEl.innerHTML = '<div class="news-error">Getting this one ready — it\'ll start showing headlines here within about 15 minutes.<br>Meanwhile, tap below to read about it right now.<br><br>' +
         '<a href="https://news.google.com/search?q=' + q + '" target="_blank" rel="noopener">Open Google News for "' + escapeHtml(topic) + '" →</a></div>';
     }
   });
@@ -1658,6 +1769,10 @@ function relTime(ts){
 /* ---------- init ---------- */
 window.addEventListener('load', function(){
   syncToBackend('lastActive', Date.now());
+  setInterval(function(){ syncToBackend('lastActive', Date.now()); }, 60000);
+  document.addEventListener('visibilitychange', function(){
+    if(document.visibilityState === 'visible'){ syncToBackend('lastActive', Date.now()); }
+  });
   seedBackendIfEmpty();
   startRemoteListener();
   renderHome();
@@ -1667,6 +1782,7 @@ window.addEventListener('load', function(){
   renderMoodGrid();
   renderMoodTimeline();
   renderCalendar();
+  renderBuyList();
   renderNewsChips();
   if(getNewsTopics().length === 0){
     saveNewsTopics([{name:'Ranveer Singh'}]);
@@ -1681,7 +1797,7 @@ window.addEventListener('load', function(){
   initSudokuLevel('easy');
   startMemory();
 
-  ['todoInput','tellhimInput','questionsInput','newsTopicInput','calendarEventInput'].forEach(function(id){
+  ['todoInput','tellhimInput','questionsInput','newsTopicInput','calendarEventInput','buyItemInput','buyFromInput','buyBudgetInput'].forEach(function(id){
     var el = document.getElementById(id);
     if(el){
       el.addEventListener('keydown', function(e){
@@ -1691,6 +1807,7 @@ window.addEventListener('load', function(){
           else if(id==='questionsInput') addQuestion();
           else if(id==='newsTopicInput') addNewsTopic();
           else if(id==='calendarEventInput') addCalendarEvent();
+          else if(id==='buyItemInput' || id==='buyFromInput' || id==='buyBudgetInput') addBuyItem();
         }
       });
     }
