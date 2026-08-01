@@ -1,19 +1,7 @@
 {
-  "updated": "2026-07-31T22:40:24.449018+00:00",
+  "updated": "2026-08-01T07:38:52.394870+00:00",
   "topics": {
     "Ranveer Singh": [
-      {
-        "title": "Inside Mumbai's Celebrity Property Game: Shah Rukh, Akshay, Ranveer Are Betting On Just 3 Neighbourhoods",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeVItRzdkYm5nbGVUOEY0dzhnR3FrbUVUa3VnWlYwN0xJX2xuOUVqbFpOUHpLSV9zOTJCWTZQQmlHVGpIaE9jUDBsNVYtb2FrMmt1T3VMNGhKU1BVMjFKbGMtalJteTU5QnBEX3ZYM05kRUIyUlJFMFZqemxDRk1jV0ozM1NMLVhMQnR3MWNMTU0xOTNPV0NjbUFWTDh4dC1xNnBnZVozSERnNW5hTnFYWFFlc21rN1BNeUktMDZCY1BERDNiNUwxY1BWUEpRVzVVS0cwNjFSONIB3wFBVV95cUxNa3l6YTdIX0xCMU50QkFFc2oyVWowTkRmZkZYU18yQWdnYk1hM2tZVC0zMmtSNl9SSzc0M3FnTnhRM3dSaHgtZW9nbWhBOHNIUUdmUTlfWlBtak14YktsWGtmSFNyNzJ6X1g2UWl5QThxN1RsSlphc0ZDVUhxaU5Ub29LVDZXcC1PZ0t6dC15ZnVYdEJzUGhPNHNkWUx1NWE4M2kzN3ZfanZxOGo0VUdnMnVUa2RHTW1VeHJ0X1Y2YXlYdkI1M05QMWdFbU8zZ2x6Z2RSekxWUkdfMU5HZFNF?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 05:37:36 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "IMPACT MINTS signs Ranveer Singh as first India brand ambassador, launches new campaign",
-        "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQZWZmOGg2TWViSmhvbTJHNDVYUnR4RFNzc2RzLXQyUS1fUmlyWld1dVA4QXVkRWdxMWxMNWJOaWpIOXluY3h0MGtQdVdabm5nT1JuWldrMkJsbUxtLWhrUlJuYW5KTGZvdElSOW1LNGtLLXp0Q21LdzM1QUNOWlR3OV8xNkp4dEtUeDJ5Ty1WOWRqbzJEdlZSLXc5X1I3SHR5c25rV1ktNFlNLW9HOTlRVkVpaERsakZ6bWR5TWhLQWtTWXZOMjlwWEY4dDhvUHhqSmxXX1NST1VycjE3WWhFbi1ySTdzalZCd1VpSk04eDQwUlBfWE5DTmdIeW5KMXZDQjAxQms1aXRJeGRCZnV2dDlldmpCaEdTMGVyVWxrV3RQcmU4?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 08:43:24 GMT",
-        "source": "ET Retail"
-      },
       {
         "title": "Why Dhurandhar producer chose Ranveer Singh over stars: ‘We wanted performers’",
         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRWJCMkNUdE53aEQwejRUelpWMlN6QXU1R0NvdHB2UHM5ZkpGQ2ZsZEZWNWVSdjhkRnMybDNUYUkzN3AxaE9MdU93TTdNb3VVMDlnMWR6RnlBbFdTTHptcEFwNHJEN2VOTVNiWkhneThDOENkaTlPblZwZUtGRFd2MmdlbC1PR3h2OVhMVmpxZkpQZHBTSk5uZENzQXpTcEdxZnhDMy10M294NmxPY3JNeGFxenZtSUp0a2txZWJOQ2k0Z2NqWTIwNVFod29vYmJDNDhqak8xalpnY3pzcXd30gHmAUFVX3lxTE1fS3hWNl9sNXZqTDlxeU1NbFpJMVBpZmRqUldTdFZxYmQwN0p3LUgxZmdoYW4zQV9wSGs2YklUbU11Q2JOODM2b3FyYU9jZVlNZ0w4VVVvb0MtVXFuMmp6eFVjTmg3TGJPMGdfWEFBanhMVUNBdDhIRm9JM2F5cWo2b044U2Fvd2tmemQyZ09nT29UWXJTdWhadEF1QnZ4dUc1NXB5bV8zTDZ0dUNUSTZlTUdqVUJDbExHTEpwOXg5bXVjS1lCc2tYRUtWdHhieC1qZ2Z1S3c3TnJJNVJ3czdCb2ZRTmNB?oc=5",
@@ -21,48 +9,60 @@
         "source": "The Indian Express"
       },
       {
-        "title": "‘Hyderabadi Trump’ meets Ranveer Singh, internet can’t keep calm",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ0ZESnZzQ3RYTUtScUZCUjRHSnJSMWEtT2wwNzlZVXVXdFdxT3FmejgzMFZjY3FUS1IyMGRtT0twSTZMcFRfRDBZYXFXRXZmR1A3SEpKV3M5b21KaGFRajVwcmJnYVBzYVFUQm0yU2lNRFBqX2lVemtBUjJhU1BrRnVlU0ZQLWQ2REV0ZmdFb0JqVTJ3dmU40gGcAUFVX3lxTE5tMVlVN2o3Qy1xS1JRLWJ4T21nRzJadkdjUGdVc3J3Y1RjY1c4OGIwdWRfRGlpSkQ4a0xva2tta1FXTWJ5TVdreEtONzViMVUwTDhFRXZHaUVILXB6MVhGUWE3U1FfSzJPSWM3XzR4ODJfT3pmeTAtaGwtamplRzJkSGRkaEtmd1NodHViMGFxcUFkYlpFbjByMFB4NQ?oc=5",
-        "pubDate": "Wed, 29 Jul 2026 11:22:18 GMT",
-        "source": "The Siasat Daily"
+        "title": "'We wanted performers, not so-called stars': 'Dhurandhar' maker reveals why Ranveer Singh was cast in Adi",
+        "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQR0FmQllpOFk5alYzemdKT1dSNHJlQV9XakQzcG94OXdBQ3FjUXNRSDVaT3h4NDJFTkpuRWFfUGtYY1I1RGl4WUs3S1gtX2dvWE1OZUlMSFBkZ0NuRG5MZnI3MlBwekJQWHpQdnpGREZDVXFOOFg2VXVaTDRsal83Z1gxV1Vja3pJb0JlTWMwaTR2cVU1TmZiRHo0eXRLeWc1eDNOcWZHd3BReEpHcGs4N005b2JYZmFJc25PMUJjblcxeTVMMU04U1VDWE5lcHNROTdmLXlEQjhLWkhtdFBHSHlYSF9yZWdtSDJrWllQVTRyZTVSZjZkSjJlTzBNM1NYNGdFd2s1UUVKOFBqNTVGc0xBbGpJM2U3azAyd0pFRmdjdTdVdWNlN3FlSGQ3Qm9BYmRWamdsVEhPSUVFUHfSAcMCQVVfeXFMUGtheFdMUHBXT0pYbGpmT2otZGdaRTNfbWgxeUs5S19lcVNXbHBPUGNja0hLWGpLQjR4SnZkX3ZIc3l5X1RMNnVLY0RUdnhZamJzQnp3UGV4bEZBRlZVVjhhc3V1VDdoNTAtdHpnWldiaTdwdzdmU0lhSDVZbm1IZnozMXNwd3d1emdXVVVsMUFGTEZsRzNYNnJNM3pxVGJrNGxJTEtIdnczYjhtenR2OWNFQW15emhQckRiZks3dVZnT05EVEdkMmN3d2hVZHZ3VGxLVTl6aFVORXI3S0pCc29WWDk2WFVCVGtyOTBjQTVweUtoZENMdEt5OTJWejRtQjFXSnVRMUZjRVI1U2JLWVRHYlZWNjM1a1JucnZNQ3VuQTFUQkYtNVFiUFkzdnQ5X24wc3o3M1FBZkQwbTczQUtWRUU?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 06:12:00 GMT",
+        "source": "The Times of India"
+      },
+      {
+        "title": "'We Wanted Performers Over So-Called Stars' Dhurandhar Producer on Why Ranveer Singh Was Cast",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcHg5b3F1a3dhTER6ZVNCYWpqTnJESXJvZFZzY0xxMlRaUEwyUnNFa3BnSGN5REdORzJQMmFwSmRabkRUUmNuaW1ubjNpSWxuYlZJb1dvVXR6Z3JMQjg4VEpYN0tRSnFqN2ZvTm9pNk8wZF9TM1c3Y2FoOHVteTc2dzFpS3YtZjkyMlFfMkR0eVRXNHpJWjhoV1VZUE1sNlpoVW5PbmV1SmNZVzFQaXl0a01lMVFHMExjclJURUJMQlExZ9IBxwFBVV95cUxOUURpMFNqZmpWLUo4bmNzWnUwQmNpSVN3U1hSamJYUmpvQ2xlY0pQRTAyWWtENW1SUlJfM095b3dMX0ZGRi1lVHZvczV3LWZPczBRRjZ4bkMwdlZaNVkwd2ZMWkQyWnpKR3VKcDE2ZnpJcm1VTERPY1BCdUVJcnhGWVEtS1pHUlVBeDRYNUJkNVYxcFNpMHhqLUpLNTdfS1lJS3JTQkg3Qm5maXl6QTVHcGt5Z0pwRUVmNVd3b3duWi03clplZEhN?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 05:34:55 GMT",
+        "source": "MensXP"
+      },
+      {
+        "title": "‘Wanted performers over so-called stars’: Dhurandhar producer reveals why Ranveer Singh was cast in the film | Bollywood",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPSWkxWnJScjNtZFluQ2xFNWp2M3BZZXQ4LW5GR1ZDWEFqcWpiRFo4UjNVOFJIMFhmQWVwMUN4MW9EZDEwR0R3M3Q1U09JV2U4RTVLekE2WjQ1S0pkUjlTbElYR0xJcWwxWDJKUThKRFppY0czM0lzZ090clVlWlE4bnMtNGdQMmFXQ1oxWDRnOUFCYVRZenZZNFJidXNjSWg5TnFnMHpVSnNkWHRzRU9sQjR1UFdROTlGVXJNNnRDWlNoc2VRYngxTlZ2anM0NF9EclhRcF9MeHcxSFBoa2xLdEZwMGZ3UkYwWG9ocVJ6Mnk4R1dZV1BkUU9EdGxkM003bExwaEgtZHdwYWhKWGNoZGQ5MzTSAZoCQVVfeXFMTmRsWGlOeXptNzk1SmNjcnV4N3NzejhWMW9Xd2pYSEQxdzNfM3JGc25ablh0eWxXWkN6em5CeUlLNThXWnNkNTY5UTZxWXYzaFJBZW8xT3d6cGtwNG1Ib1ptNEJvYTl4YjNLWG9nXy1vNmhGTkpqcVh6V2xEYVRPSjFGM0pxVldockItdWttQ3Q5NjVFRlVOdG9tNVhuWVZQU1Y4R1VBUmpubWZwd3p6eGxvcTlRdUFjbmFqZEw3eTNwMXFpVEhUZ2F1aFNKWmNrSGdjVEtXMFd1TVlsYjFWbUJqS0JIQ2I4RjdDN3d6LVdCYTZiUzNvbTFoM2Y1TGdvczV3SXQxb3AtNGZib0RFTTU4c2NBM1dHM053?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 07:22:19 GMT",
+        "source": "Hindustan Times"
+      },
+      {
+        "title": "Ranveer Singh Was Cast In Dhurandhar As Hiring 'So-Called Stars' Was Too Expensive, Says Producer",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZUtmNzlpOUpEc0dSdll0RmVybldoQ2hTSGZlRzNic3lyU0J6NzloV2hZMGJDa0QwS2xfbXFlX2N5WjZEQTNyci11WVBzRUlpYmhGbUhHd3VHX3FaRWE0dVBSM1o3YTc3VHFlUThXLWdWZ25IU3RvWVhuY3ZJUUYxZ1B2dTRSUVJmbUpXYXo2RTQxcUNXdTFWdGlINXdqb01hWlczZ0VMUlFWalFQV2F5Z2NKa1FyMy1CcWxHczF0NHRsZ080eVZFWFhpNURZSW9kbzR5dzllYkhBT1FqMnFEbDE5QVhWS2FndkHSAe8BQVVfeXFMTk8td2o5SXZaVWpsSWM0WUMtZC1aNlByTkNUUzRLbWpnbC1wQW1TVGpsTkk3bUtvc2xLQW5yTDZMUTFSQmlUZzNmTTlNbTJaVGNxN1Jnam5paTd4ZUlXazhtRk5iNURrN2R2U1I2VklxS0FJRlpQY3Q3Q1U2RFE2SEFtd2VTby1CTHVFMlhINXhFQ0tOMTRGZlJ4WlRGRjRxZ09rS0t4cE1ELW9fanBaeVNfVWZ2N3F6REtVZHBtcEE3YVhEVlRwMDlHM0huZGtFZlRnck05V1NWa3lYWVJqWi03cUxWSk05VkYxQU9KcWM?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 03:28:03 GMT",
+        "source": "news18.com"
+      },
+      {
+        "title": "'Wanted performers, not stars': 'Dhurandhar' producer on casting Ranveer",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaUtoZE1wM0dVZmdqa0dST2tHdlltY3BGZE5pRWV5bVJlZDV4aEhVeXBaVlJBOGpYWUpGWTlJdC1xY3o3cm42bHlzSmQtbVlkMUZFeE1UazBqT0k4aTU2WHNFYzFTczhlTGY0amNMMzRHSE12akxCQUZUSG9aNVE0U2ZyUWdDMWs4ODdwR3ZoTzliaHdvdXc?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 07:09:17 GMT",
+        "source": "NewsBytes"
+      },
+      {
+        "title": "Inside Mumbai's Celebrity Property Game: Shah Rukh, Akshay, Ranveer Are Betting On Just 3 Neighbourhoods",
+        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeVItRzdkYm5nbGVUOEY0dzhnR3FrbUVUa3VnWlYwN0xJX2xuOUVqbFpOUHpLSV9zOTJCWTZQQmlHVGpIaE9jUDBsNVYtb2FrMmt1T3VMNGhKU1BVMjFKbGMtalJteTU5QnBEX3ZYM05kRUIyUlJFMFZqemxDRk1jV0ozM1NMLVhMQnR3MWNMTU0xOTNPV0NjbUFWTDh4dC1xNnBnZVozSERnNW5hTnFYWFFlc21rN1BNeUktMDZCY1BERDNiNUwxY1BWUEpRVzVVS0cwNjFSONIB3wFBVV95cUxNa3l6YTdIX0xCMU50QkFFc2oyVWowTkRmZkZYU18yQWdnYk1hM2tZVC0zMmtSNl9SSzc0M3FnTnhRM3dSaHgtZW9nbWhBOHNIUUdmUTlfWlBtak14YktsWGtmSFNyNzJ6X1g2UWl5QThxN1RsSlphc0ZDVUhxaU5Ub29LVDZXcC1PZ0t6dC15ZnVYdEJzUGhPNHNkWUx1NWE4M2kzN3ZfanZxOGo0VUdnMnVUa2RHTW1VeHJ0X1Y2YXlYdkI1M05QMWdFbU8zZ2x6Z2RSekxWUkdfMU5HZFNF?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 05:37:36 GMT",
+        "source": "NDTV"
       },
       {
         "title": "IMPACT MINTS® Signs Ranveer Singh as its First-ever Brand Ambassador in India",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPamI5SkVKclpDazlQUTM2NVdiQzVtdGtEMDllZWM1OVF4dDNWTmFpdm9lNjNFWG9lMjllRUpQU2NHNHNsSkxzUkRCN1NrSi1kR1lGYUVic3RaekhuaDhTSDAzb2hSblZHZWZ6WXAzM09uNkJaSGVPNEdOa05JTGRuOGNCSWdlUU5qMGJtbmJsYXYxVndDdlpjTVNybTJ1cjN0a25mdGRUSm9qQ2JxeWVEcEJMcUR1ZjdMTzlqQkw3TVJXd9IBxwFBVV95cUxPdHF6MkhCY1lRb280c2RDQmF4eF9XZUVCaU9CUmt6dHBFSEdfckxtcVFKU1R4MERFeFVzcVhNUUpJcEtBTjZ2OWtnZnFqQ0tlUU5PN1hhdU84eHlmNl9KRExQb0w3S1NHWnFsNE5YSTFEcjlJaTRZNGlZWUlBb25tVW5YVV9ObjdyUno5YS1vNC0teVpPYVF2TW5MR2dyUGxqbUVUUGdrNGV5LVMtZ0xQNGlPLVk4TVQ2V0MxSTVBTGJfOWd6ejJj?oc=5",
         "pubDate": "Wed, 29 Jul 2026 13:30:12 GMT",
         "source": "ThePrint"
-      },
-      {
-        "title": "Impact Mints names Ranveer Singh its first brand ambassador in India",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYVZrY0x0cTVKYjRNVERLUmVxTHdGWDFUbE5TaUFSV1hzSnhHcnhQWkNqbTlLMWJCODJHcFRQcm9BNWg1RDl3MHZLVnhvVGFfMGEzNy1XZkNTb2lNUXl1dnFOX1o5eWFPZE43bS1ZMmNUZGNHWjhiR3NyeXJGNGxxQ0d0RVBOUk5EZk9XMnlBOE95V1ZYcFRIMDlWU1BxSnNqUFVzcEQyOHB1NEdEeEE?oc=5",
-        "pubDate": "Wed, 29 Jul 2026 09:16:15 GMT",
-        "source": "afaqs!"
-      },
-      {
-        "title": "Mahabharat's Lord Krishna, Nitish Bhardwaj says 'Ramayana' will get Oscar 100 percent, warns Ranbir Kapoo",
-        "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxPcGxVQzhSUEFhbWJvazhjMDFMLWlZUWVzaFdFT0NMUThTVnhwRTlUNFgtT084LU95dUpYLVNtd3Q5UEJOQy1DSnl3LXk4RXY2LWlKcG5YdGRsT1k2bzJTWG5MQVdCUFZveWIzUzFUWk5TQ2I3cVBzVWxVajhJN2J4VVkyTkYyOGhiQkNmcUJWWm1rZE9keXVIam14TWltVDNxRGRFTHhXbmVYTWJiZlZYRXFvUGx3d3o0TjlKTC1PbGY3bndESG5vNEgzTllyUU1NdnpmbkhiU1ZLS21ud0IyeVFEMzE1RzlraEJ0aFNGdXZ6RmVHRWpLY3lZLXAwRzlERnktUTlMMTh5Q3QycWdreUxzTXJTaHZ6aHJUa25EdC15M3hJZUtjd182UUdqYzZZTDFpSGJNeE05b0xRUmhGR1ZGa0t0TEk3WlM0QklfRXNZQU8tblJDa3REYUd6ZmlLQVdGSkNvREY1MXN6TDdsOFo0VEhQRko4a2pQbVBLNUXSAYYDQVVfeXFMTzZKbGlUZGhObEpHWENQYVBrZ29IbzcxZjBMQy1XNURrTmZoMEgxZWo1S3Y2QS0wR1JUQVZfQTBORExmYUlrRW9BdDR2ZzFja3FCLUkyVGEycmJPdzZrVWEtOEpvYmJVRVEtSkktYk00VGVxNzNkXzVXcXV5ZWFhYXZjTExlUzRwUFZ0X1lqOUQ1blhNcVNxdkJxQ2JCY29iZEhQSTh2MUZ4c3RDSHg0R092UVM0N3ppNEQzYkFPSks3bjhhVjBQajBmZ1QySVhoYzJSbmhTZm4yLXhCZ0VzWUpLNnFPQVRfeUpLd3NBOVpGaGJsYmplT1cwYXBiRFpwOXZqd0l5YTlpY3JfSWlMek1YcWIzME1mWmZKZDkweG5CSDB2Y3o1bTlhT19OczY5eUoxRXk1X0Y2X09aVDNaWUplS1JXNE9OWWk1Ymt3RFpIRXY4cXItRV9CYlRqUmRZOTYxaHd1cVlLd0tlcW5pMWtEYzlUam5SN1ZpSm10UE92SFZQVmln?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 16:41:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Ranveer Singh poses with 'Indian Trump' Avinash Agarwal from 'India's Got Latent 2'; comedian roasts acto",
-        "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQQ21DVUtPQjE4RE9SQVMyUzByTnptWDNva2tSWVNDYk10b2dYcGJIR1hjblJvVEVMUWtLTUZndUhTaFpWRVhJODl1OU9XN3VQUDVhR0E5QUZVaWhIQ1JoWEZFWS1fRE5YcEY5ZXItSEV3d0hVbmdNTi1MSHlQa2Q0UmxBWFVadnd6MVFuc1RzN1BPR1pFYW5UVnkyV1dRdXZZRHJwN3hmM2hLRnhXTUJPSlNqdU1ZQ1dJclB0cGlRLXdGcVV0VzBKWi1vU0s2YkxYNDg1elRNemlKNl9BeWFKZ1NJU3pWUlVlanJfSmtEckxKT01oOHZIbVdwa09mMWtaUEZsVzgxenJ0OWRpekkyX25KZEN1TDduWHdobDJrRnhaMXZncEhaZGVkUk5sb1JMYzhlNkdiS3hIcUFPdjVKQzJNVXZ4QXpxUDVKY1hYQXh3X2lWbktvNHFtRDXSAeICQVVfeXFMTS1oOXRIcnVGVkFnUXFSa1ZPUHNTRUV6R0hCY1Z3RHJNb0VINWpyeUtmTXFUYVhOdEkzNUp4NW1XYWRnTHBNcE8yWnFXanQwRnE3VnJDeVJ4U3pKSElhQlA2VkVrSTF3Mk55eUFNaE5wY21Odkw5VXJGMmsweGxfMzhSY3dCQXYwb3V2V1JNWkNIRHR4Z2w2WGFISHVTWG9WbnFHMlJUczJ1S1gyWFNkWng3YURKdTJENEIxZzlmQmpnR25lQUcyV3pLYWNnTUh4YzdDWFJHeWY2ZllVSHNzRzFDNFR6amZjbExvczkzNWtxUm0zelZRQm5aWlpJeTc0OUQtQXRadDdGaWxMemJWTXZxaHVwTF9aTUdiVkd0b01ITEtGRjlYSlBicE14WXVxQjY3RXlxNExLWDY5R1JqM0lnS1hsLUd3VWFvd1V1NnJvbFNjamhBU0hZaThaTENKc09R?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 05:31:00 GMT",
-        "source": "The Times of India"
       }
     ],
     "FIFA 2026": [
       {
-        "title": "Argentina Government Issues Decree After Controversial World Cup 2026: \"Foreigners Spreading Hatred\"",
-        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMGkzUzlxa1VpaWh4Y0ZObFhQWU1XQ0h6VjlQbzZCRjBTLTZYQ2tmeGlwY2FPV1J2QU9DblBaT0tNbUxVWVJaSnVQbTQyRkdYeHN5R1h3RW5GYkZ6dFp6SHEzZG9UUGlQZmRLR25aUE1jMkhPX2tYM2xkUHEydkRaSGVyRVBsZlBKYVBYaDBxV3JhVWVPQTJ3T25ER3BqclRibFlHM1Z1dW9WNFdacVZSUzFLbDhhWEJvSmVDeXVoc1kyWW5WaEhDd0R6RjBjX0VhdF8yOXBucVd5MDdfdW4wUUJGTjN5ZzVPZXUydm5ySEFLSDQ0S1VLT2ViTjdBSHRlTVA2Wg?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 10:22:25 GMT",
-        "source": "NDTV Sports"
+        "title": "World Cup: FIFA studying impact of expanding to 64 teams for 2030 edition",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaTFlS3J5LTg4Q3JXN2pEX1RCZlVBT1BMdXI3WlJxLTFycGhrTUZNTnFYZWlrN0JXR1JYelZZR19kbmhaOEdMbTNKOS1wUnRyZU9UY3RYN0ppMExMemFaU1d6QjBZOFdZQWtTWXZEb2ZuVTAxdm52SDJzbERUdlFKUkZDV2hJQ2tsb2RlcWotTjhyMklSNmpkWFBMdGkxSEY0bXJsQW1JeFhpVVI4bjhpT0JXSXhNQdIBuwFBVV95cUxQZi0wcVJvX1VSYXVHdm9KeVJWZ0MzWnpyZHJKZmhaZzg3eUxFZ3djcld6U0h6b0JJWlJpRXVreTZxQVhDUGV4Uy05U2g0NWpETGN1RXB6YVZFWmhPWmhxUXVERjI4ZVlzVUtuSVVvZXluQmR5UGtmTG1XWW53OGh6V2h1MUZ3dy14bmpJVzg0Ukd4WUFsamJRbTlwWklPTThfbmRtWklOTkZRSTF1Z1YycHpGeTJ3cWJfeTlv?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 15:24:13 GMT",
+        "source": "Al Jazeera"
       },
       {
-        "title": "Emerse Fae leaves role as Ivory Coast coach after FIFA World Cup 2026",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaEJzTnVIX0x6V3pLdDBnQndsd0YwdW5uWW5LWklKZlRTOFFKbUNRV2gxWVc2REk1SkpPU2tOYjV4OEdsdE4zbHVpalpoQ1ZWVC1IVEVMYnZIUWI4RHY1T29fYVdDb0dYcEZ0TDEzaE5mcm8yMHA5a1piSHZ2a1ZvWUtKenoyR0c1d3MwNkhNeDVqcTg4a3RfcDc5LXpCYXg4YkFkMjJqaV83VU1TN1FmYm5nY3ozNmZlbmZfRDdieW9PbmY3RTFVVzc0OE5md9IB1AFBVV95cUxOR3lmMzZmbkVGNTF1STlmOEtHQzcwQnFFQ0RiMDVFRTRSbFpoaFNSQ0h6OUtLckoxbU1Pa05DaUp3ZTlvcWhCLTFESGhOb3hUTTB5dExORXRLd2Y0ZjVseDVSZUpHU0trOWdFdVg1T2JEU1EyV01rMHBmajhjbzVKMHFlVFhoVmJadVd0V3NCSGlkYzBQN0ZJTnh2S0xXcWVjMGFyS0dSckFsSUVxN2xZXzlyT3EwQ3RBYU94TDdQOHRnZVVUSV9Zam16QlgtUXY2TDh4NQ?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 18:02:15 GMT",
-        "source": "sportstar.thehindu.com"
+        "title": "Fifa scraps controversial plan to sell stakes in World Cup",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcDZtRkV1dElLTzBQR1MtWUFISlNCanI0enk1cXNEbEx2TWRYaTR1c2hweE45OFFfXzZ0VzZUWFdqeUJNY3ppMU5tNlRsWjdINV9PazV3VDNSWEZDTnM5dFJNY1JMbkVCQVdaUlFqbHVsdzJMSjk0SFI0TDFRMXBfQkRSVW0xeWxDbEsxM1NiM1BvX2FhQkxZT0h2eTRVRlE0cVh2OWpGbmJvalNYWFlfOUtaT1pWNmVm?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 03:30:53 GMT",
+        "source": "thenationalnews.com"
       },
       {
         "title": "Brazil to play Australia, India in first international break after FIFA World Cup 2026",
@@ -71,43 +71,37 @@
         "source": "espn.in"
       },
       {
-        "title": "Why is UEFA threatening FIFA boycott? Infantino’s World Cup plan explained",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMWw2TERkZ1d2cW1jY1JPN2puWEZYNGJZV1M0ZTROdEs3SlFRdkV6NFZDRmNPT3Jkc0NQMHBSRm9VUVFNeFV1LVlLdURKWm5WUVFhTTlOaDVsVXlZeVhJRFBDNVhWa2NSVE51ZnR0eXhpSjhPVG5kWjNDOW5fRkhibHBEYTVaYVZza0lFTEQ3YXlvZXNOQUtQcloxRmNQbHRaTF9rX25vVGRhcWJ6SzJtOER5YWHSAboBQVVfeXFMTWdtQUhOcFFOSWwza1lOZEtPQUZtMUVSUzdjaEJoeXo4MUdZeWMxaGZpTTRjVHA1UC1lMUhPY1pDRUxUbW1tX0ZGWGdEREF0ZnRfdTdGMjk0ZVBzTnJ4cmxvZ3B1UnU2OC1MeTFSRVNqSExreXlnSzJqd3FDSmNjbVNhVXc1Z2dzaUR0VzZka3JCMlJvNEJXMG83MEhFTE5tYnFEVFdVRmFEbWJhMU1CcXFoQk5jSUVHX0d3?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 13:10:07 GMT",
-        "source": "Al Jazeera"
+        "title": "Emerse Fae leaves role as Ivory Coast coach after FIFA World Cup 2026",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaEJzTnVIX0x6V3pLdDBnQndsd0YwdW5uWW5LWklKZlRTOFFKbUNRV2gxWVc2REk1SkpPU2tOYjV4OEdsdE4zbHVpalpoQ1ZWVC1IVEVMYnZIUWI4RHY1T29fYVdDb0dYcEZ0TDEzaE5mcm8yMHA5a1piSHZ2a1ZvWUtKenoyR0c1d3MwNkhNeDVqcTg4a3RfcDc5LXpCYXg4YkFkMjJqaV83VU1TN1FmYm5nY3ozNmZlbmZfRDdieW9PbmY3RTFVVzc0OE5md9IB1AFBVV95cUxOR3lmMzZmbkVGNTF1STlmOEtHQzcwQnFFQ0RiMDVFRTRSbFpoaFNSQ0h6OUtLckoxbU1Pa05DaUp3ZTlvcWhCLTFESGhOb3hUTTB5dExORXRLd2Y0ZjVseDVSZUpHU0trOWdFdVg1T2JEU1EyV01rMHBmajhjbzVKMHFlVFhoVmJadVd0V3NCSGlkYzBQN0ZJTnh2S0xXcWVjMGFyS0dSckFsSUVxN2xZXzlyT3EwQ3RBYU94TDdQOHRnZVVUSV9Zam16QlgtUXY2TDh4NQ?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 18:02:15 GMT",
+        "source": "Sportstar"
       },
       {
-        "title": "FIFA studying impact of expanding World Cup to 64 teams for 2030 tournament",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR0NGaWE2NklUTjE3Z3g2YlREanI3Rl9PSm1oVjQwcGRnSUZnX1hsS0lScDgzVUxYQVJOQ0lhekdDdjBDYUt1MHY0MHg1MkN3WE9fNGJBZTlNcWthamdrYm0yNmtrclZPcFBMNTJXc2o3a3RYbnduTjA1NTVtOUt0NjI0RzNmR1cwc1JrMXd2TkdOZ0trZTd4dDVZbVlyRGE1WXoteVpRaVM3OW4xWm8zNUNxWnBYSlJh?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 15:15:59 GMT",
-        "source": "Flashscore.com"
+        "title": "World Cup 2026: The Premier League clubs fighting a World Cup hangover",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBENXpXZnI5OGZpSlRmc2hBdUprRWY5UjdtOVFQc0R4Q0RCZGxEcTBhellQRUgtUUUyUGxZN2JBNVBQR3hDbGdiclRDa3ZTSjF4WUNJaUZpQ1BxcTJJV2JCRGRpQzFKWkE?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 08:08:23 GMT",
+        "source": "BBC"
       },
       {
-        "title": "Czechia replaces men’s team coach with Denia after poor show at FIFA World Cup 2026",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYjJ6NEtyOWJCQjJmVzZXZXB4UmVXQjctcDhvcFNKdHRpM21hczlpaXFjRTB3UllXbDRRdHV4cDNLYmotZTg1cFR3OXZ3NFM5VTFGMmZFbjgxeFU5X2RzMFB0ZXphQWY0VlRycXZ2Ql8yZzJRdGthRkY3cVpaNUFiLWZZYkZrbU1pekFZallDUWN1UGhjdHpHQXc0VTctbUE2OUdHcGpDX19UQTYxX3l5YkVfeUdJYmxna2s0MGpNMHlnXzRpaUtzWUg1VllKYjdpbDdNb3ItcEtYOGtQSjBFSWRuZ9IB6gFBVV95cUxOUnlOTWdiaFVMSUtYWkI5OTk0X0ZoYmt1N2dVU3RwOHFOWjdaLTBfenlhTVF6dkxzZUtZdEhPVzF5ZDlkczFvYms3Q2pNckVLUU9uVEp6NmhBRmplRURNdmNEUmYyb3E1eXJGUlFQRXFPX2x6bFVPWHkwUjc0QS1DVzduNEJsUVcwYThoUjJrdEZUS2tYUFVuWndXNDFMdFkwTlhyc3YwN2pDeE5DbUkwZlkxTDlBME5mNXVjeU5EYjd1UFZrS0ZnYTNtcURVcmRBMlliMDgxSmRKM3hKQ2hTV29hcDBDcmZZeEE?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 12:17:34 GMT",
-        "source": "sportstar.thehindu.com"
+        "title": "A World Cup with no participants – it could be Gianni Infantino’s boldest move yet | Marina Hyde",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkJoQWdENmF5MVVQRnN1RllJUDFTdzFubHptaUNtVUpFSE5tRXNDMC13SDdoMmpDbHF6RjIzYzBUSUNUTEpIcmhXR0xvWXc0NWJ1Zk1sZDd6d3VZU1JNbmdwZTNsNDNNZm5fNmNaR29yeFU0cElRTHpBQVRBZC10Wkl5TXQ2N1VNLWxBc0s3b1JmQm8wQVFpeFVHOUxGdw?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 12:44:00 GMT",
+        "source": "The Guardian"
       },
       {
-        "title": "AFC backs UEFA and CONCACAF who plan boycott over FIFA World Cup proposals",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNlVQcDlVS0dYeFh1MFNhcGVIZHBGZWE1b1g1WkFjQ09JTXFkb1QzbHpLVkF4UnU3MmdBVlJaRVFSZVBKT2QxRXVnalgwTjh0SmVZSFhvdDRoSjdlOVJyZDRPRkw2TWpPN0ZNLUZnUGVxZ0F1ZWxaLU51NDE0UDN0SzVfM0E4dXYyYjdIX04wQ3VyVmdUazRLczNFNUVJRHhnRzhtek5WT2N4dVBOWFcxYmRIV3hTcjlF0gG-AUFVX3lxTE55dk0zeTU4dEZFbkFrSFRvekFlT1FYWEFybS1QaHFaeUNhc0s2QVRnbFU2dXVpNEJRMlVuUURuV0xLRE9mVjVQVzFYTTdGSnBXdVVRendGZXA4cFExZkxpb2ZWNEE3bHdlczJiczFhZjBTX0xmczlFbEJBaUg5T0ZxMTRCeEkzQzN6LWF3ZHJrZzBfRHAxb01KSkZYTzJBNV9WMlFMd3A5WWNQZW50UVBLeE4xb1NPMDhrTjFiU2c?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 09:55:20 GMT",
-        "source": "Al Jazeera"
+        "title": "Exclusive | FIFA has scrapped $20B World Cup sell-off plan following European boycott, global outrage: sources",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWjlLRjVZSzd0bXFKam9HancyNW5EVExlM0VETTFUazRRaU9wNjMycmctM1BSblBFS01XcWlWb21XbmNhMnhWb1VlMFlZRTMxZXJDWTdYS0xpNkJVX3g2TlQ1VUllQWhadW9KZHBDWlZWS012aGlKT29ZN29HMXBlSy0yX0ktSUF2eXlnZExhWWR0VjFsZUQ1ZDJjaUh1RVpwUjFMdmNGWWszTWY5VXVuQ3M4eEpQeUNQcm11M0QxZGFLT2htTWlsb0ZORGJyally?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 00:38:06 GMT",
+        "source": "New York Post"
       },
       {
-        "title": "World Cup: FIFA studying impact of expanding to 64 teams for 2030 edition",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaTFlS3J5LTg4Q3JXN2pEX1RCZlVBT1BMdXI3WlJxLTFycGhrTUZNTnFYZWlrN0JXR1JYelZZR19kbmhaOEdMbTNKOS1wUnRyZU9UY3RYN0ppMExMemFaU1d6QjBZOFdZQWtTWXZEb2ZuVTAxdm52SDJzbERUdlFKUkZDV2hJQ2tsb2RlcWotTjhyMklSNmpkWFBMdGkxSEY0bXJsQW1JeFhpVVI4bjhpT0JXSXhNQdIBuwFBVV95cUxQZi0wcVJvX1VSYXVHdm9KeVJWZ0MzWnpyZHJKZmhaZzg3eUxFZ3djcld6U0h6b0JJWlJpRXVreTZxQVhDUGV4Uy05U2g0NWpETGN1RXB6YVZFWmhPWmhxUXVERjI4ZVlzVUtuSVVvZXluQmR5UGtmTG1XWW53OGh6V2h1MUZ3dy14bmpJVzg0Ukd4WUFsamJRbTlwWklPTThfbmRtWklOTkZRSTF1Z1YycHpGeTJ3cWJfeTlv?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 15:24:13 GMT",
-        "source": "Al Jazeera"
+        "title": "FIFA bins controversial private investment plan after backlash",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRkE1NmVicDlVSFgtYzRsTjlTVWdBRWxraTF3QXhVcEdsMGlFT0JtcFE5Q0IwNWZZMmlYZkNsekpiSjFCUnltdWVuQVhwZ0lHTFBfMW5ZNHMwWElmanFic1Mxb05IbGtTRU9kSFh3VlZPMFFfWlJlRXZOQzBhYWhWa3ZrdnU5UmlvSXJweWMyb2xuOTFnZTZGMktZRENZUTA?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 06:14:44 GMT",
+        "source": "Euronews"
       }
     ],
     "Bollywood": [
-      {
-        "title": "Ahmed Khan confirms next film with Akshay Kumar after Welcome to the Jungle success",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUzRMMEh6TkxOXy1zY281ZzJoeWE4dFRENV9yNlhWaEJIamtqaUV5UmdMU0ZzQ2kyUU9CeFhMSlk4TVhWby1xT2xKVW04djJjWng2aUxXQkNaYUlBLS1qcGgxczZyNDd1b3ZvQVktY0lZNUtaaHFSLXY5Wm9DVGJScnA2UC1fVW92V0ZKUnV6dF9QVHpiNzAwZUZBck40UExkWW56b1VBMFBtbjJJWnFEcnJxUTN2RVl1Snd5M05RT1hONnFwUWlkNzlwVUjSAdIBQVVfeXFMT3VVenR2cXltYU1RaXNxUUpiZEd1WWQ2c3hka1ppX2tGYWwwTmNNZ2FCNGI3THZDcmhlRFBuT1FkN3RJa2lwVXNXdGhYY0hHbDdhSm9OYXRJNk1kSktmUHc1SFlIVTN1SzdTSWNjeXpZVjJpc3JYMTRmTUZHQUtiaU9UZXUzVU5TaEZpMnREU2E4QkhkdDRUbkVULVNwSF80Ti1QWkJ1V0E1RUp4UUFIT2JMa3ZQZEZJSTRzV0x5dE0ydzM0S2pTaTRJREd3aWt2YXhn?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 11:03:10 GMT",
-        "source": "Bollywood Hungama"
-      },
       {
         "title": "Salman Khan shares photos of his emotional reunion with Sanjay Dutt: 'I love you Baba'",
         "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQUzJwTzN2aTFLbEpubGJIMkVfbUN5eGhWTEFtY0x3RzdZaENzQWJXTExDU3ROWDk0Ym9TVWJnZ0lXVDdHYnpLNHowT0tvSUNQMm1aaUluMXg2dFh6TTljYW9qSHJCeWZ6S0NrekZnRDVWZ1FDc0pFbDN4Tk9mY1VUcm5RQXF6Slc1RjJRVW10NEttVk9rQVZUc3NLQnhITy13b3BQUE83cXZILVA3UmwzOUVfSW05cGQ2WndUWWlEMWFGU1dZalpKaHBPOTI5c2w2c1VfS1g4a1I5bEwxb25XRmwzV29teFE3dlBuWXp5OV9EN1pkN1E0UVIxUF9PMUptLXFEbGVmQllreU010gGSAkFVX3lxTE1pZGVocDlQaFlwaHk5aGtrdjF2T3lOSDg3VjRCZWZVNEg3RzVIcHRmMUtlbVkteWJDd0U5WmYyX19MY1FzRFZUMWFoMmtYMFhYbmpzbDExbV9Ecm8yOWMwcmM4MkZnM1FTZTdNUWhmdGdrNndzdlJvWW9OandOQ1lYNHJ1LUN4Tm9vektrWUtqRlp5Q2V1S0dYZFF0NWRGaVBkWFEyLUkzOEFWbUlXSVIwR3lOWlpPTlNNNHVmSXdBYXQ5b2UyOFpJRzNtSm4wX1FkNlJKN29pQnl2c2EtNlppTHBVMDJScUVVU3pYQVZEd2JxY3V2dXZ5eDdSdVdsaGE1R0xYT0ZlNGtpZ2NrSk9WVkE?oc=5",
@@ -115,43 +109,55 @@
         "source": "The Times of India"
       },
       {
-        "title": "Dhamaal 4 Worldwide Box Office Day 20: Ajay Devgn Beats Dabangg 3 & 3 More Bollywood Biggies!",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1sby10bk5VZXRyZUFnX1A5eS0wRHdoNk80Z3E0T3FKNXhFYjB3ZzZuUEpjZnJ4ZkN6RnVYcHphSVJ0REdCR3ZQNlNyQW1SRVZoTGN3cmhwN2FxZEZZNVdFZFJn?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 14:10:02 GMT",
-        "source": "IMDb"
+        "title": "Sanjay Dutt recalls the biggest lesson he learnt in jail, calls film industry ‘cut-throat’",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQXJJUjUxQlhYVnEzX012a3ktQVdiYUlfRFN0WTlJbUcweEFxZk1MaktXcTltUWxTMUxpa21POUZJazdZSFBHZEJKQTllVXR1SnF5NzVJQ3BuOXljMnEwM2l4MnY1SnoxWWMwVndTSGNxVFZRSmxjWTBldlNObTNrOFRSaXJscXVtU190Q2xXa0ZIdEJJN2pyX292ZHBCMXl1eUVKZUNUZ1pmNEw3ZVdWZ0laN25acWNheEFaWVM2LUU5QdIByAFBVV95cUxPUzd6M0lqQ0Z2TkN3VFhHVUhiMkppNTFvOW9OUXM0bjlZSHZCT0Q3eXZTWjJOdFlETG1RNzA4ZVNvb1BtVVo5YXVzNmVybkdpcGd3bE1MYlB5UTdCR2hZVHFLTlRZb0pvdVBRMm9WcGNjS0YwNzY2dXNlcG1fT3RhY3k0VHRDX0duMmJ5QlBLN1NETHBNbjc5M2JhQWlwci1CZHBTT2dmY3RneFdOY0NjTlV3cEhkZzJaa1BZRFVZOC1abWZFbFNqeQ?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 06:38:34 GMT",
+        "source": "The Indian Express"
       },
       {
-        "title": "'No More Animal': Mahabharat's Nitish Bharadwaj Has A Request For Ranbir Kapoor After Ramayana",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNHNZaGZvNWlrcmRkSGFlVEZ5MmtuVndUQlVtTHRmeGtONndKT1hWc0VzdmVzYWdGRlVFc1pBaGlwcTVEQ2ptdHc0bkUzaWt0MXlmRTdDS0JWWl9rQUxvLXpWMmZ0d0JRYUlYZHNKX1JySW83T1dHNWFFbnhTQ25YcEZ5cEZFeG16Ti15TTBsUzdDUzlNcElZVWtlR0tBVHFOb00yUGIzNVBESFQyODlHRUpxQ2hYR1Y4RzVGZm91UXVmNEJuT0pZTmZpZ2JTajDSAdcBQVVfeXFMUDFCYy05LW9xNnlqNFd4WWVxMzhlSWNJUVNPOW5wdTlXdkcybnhnZVo5WnBiT1FlVGVFVDVmemlNZXp3dlRqT2wxODRURXVLejFkc1k1OUcwZ3F1cUk0OEtHSndfYTVfUl9zWldVOVlKM3JGSkJRNGJpdVZGeG92aWV0Q3pIRlBBSS1Yd3pDSnRMTGJ6MnE5ZEJfbjNkeVNzd3A0RlA1OVFoT050aVFiMnh4eGtRYWNiT2doX2xHMzlSSUNoTllFenpjSGUwYzlBNHM1bVlxanc?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 14:27:04 GMT",
+        "title": "Sanjay Dutt Recalls Being Sent Back Home To Finish His Debut Film While Nargis Was In A Coma",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZDhSSEpLWGFhLXYyR3ZDc1NNZGRRSzZBMFNyQTBHd1lYdHRPaW5mMlpZbFBDcGxuQVBmWi1JWXYxOEZyeTFIeXNJMEY4eFNadkFTRHdNQmdpcmJUeGhsanN4bUVrdnRJN1VwNU1xZ0k3SkF6dEJiWjBIRWpiUXY0UnVfNHp4bS1rT21OSXNJNEZsdVpqQWZ3WHNidXBMMWNqak1KNTRTNTgyZE9sTnVmNlgza2FoeHZ1N3BFRjdQOXIzVGxkS2t30gHPAUFVX3lxTFBkU2hxUXVrZjl2b1BhRlBBTDB3UDhJR0FfVkZmay1jdDc4T0JMQ2EzNXR6SEJpOTNOQ01GOXhnaEI4elMyNzROVUtYZmFRTzZyUWloVHQ1cWJTNEp5SmQzcU5vQjJOWnR0TEVIeUFJRnZub3VmN1RQSExYSnZJZmFEUEpla3NNQXRmOFNjbmtmVklTWXN0ZjV1ZnN2dUhmMWRwRTNGU2tMMDRERHFFV0hRT1pTUDc3bmd1ZDRQdTFKaS01SXBoSTl1TnpoeDJGcw?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 15:31:05 GMT",
         "source": "NDTV"
       },
       {
-        "title": "From IIT Bombay to 'Ramayana': Inside Nitesh Tiwari's journey as one of Bollywood's most acclaimed direct",
-        "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQY3VWZ21DY0pBLTBsTGhNekRTalN3dW9rVjdlR0N3ZDUyaHRGSGk1NzJvYm9kM0x4azdBSjZZS3RPTF9ieTk1eHgtVEdzZ1RCRl9hTUpaeW02blRpdkJuaTB5RDRhTm5fVTVLeFpHQzI0MEZUZllxazJPMjVnRTF4blRzT0xEcDdxRzlnRzlVamM5a3FxZTVDLS1DTlUyRWItRF9sNk1uRlJ5R0R4SmVma0RFYUVvdWdMcFNFWVpqek5pQUhEZlFhNjd6cEZrU0kzZUdiTzI0QXZPMjQ0bC05c2VOQUNjSFlJLVRYZkk3N0ZGNXFaWVdVS2drUmxHRUV1dEd6MXE3UllfMFoySG1ELTdDUk1zbC1GUzFJZ2ZmN2xlZXNQUDFR0gGsAkFVX3lxTE9pdnMzcEFZVUI0Z1dzWTRETl9LMkttQVZ5WTlyRUpYXzlMOU5ucDRlemNKeFRTV0trSEI5cGxlOWl1RU53OEpUcmR1MVpXb2lJN2xuMl9rSHlySlJsc0NGa1FpdGZGZHhfNjg5dmJwajZhWGNmV2ZpZVBQSndSNDVEREZvaEt1VHF5M19GeHlZaXJTQW5NZWhLOTBWa1hJWGFGdDAwWmFBRnJtSVZHazR3VGlUTHpoLUo1al9XTDQzWUFQRHRxUzZrN3ZkX3pPd3VqMzdfbVB2OXZPZUFVZW4xTFpESjJnOWx5bDJrX2swTC1Tem5uVUxubWVnOGFMTGFlWFUyajZUTW5NUnJ5TXZjdmNUWXNhOVNoTE15T0l6RVFsMUJiSU12dGRMcw?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 12:33:00 GMT",
-        "source": "The Times of India"
+        "title": "SCOOP: Shah Rukh Khan fetches Rs 50 crore for King music; One of the biggest deals of recent time",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPODJXVWVHX245QXU1bmNYRDYwSVVOT2ZydGpoVmJzODR5NUswR2FjLWQzU0c4U1J0TEVja3ZMVXVPZFRkUmtON0hlcWR3b2tGVFhVMjlwX0NxTnh4S196R2pDOWJzT0pma1U1elhCeHN3RW5kUmFBV3lCZG95MER3WkkwMUdydlR2UjMwem5XUzloNGEwRUYwUGJoYjNKQjZjUm41b1hBTGpwLVprMTdHOVZzQzkxcjBxclNTQW5iWU5JbEQ3LTVab0tpczdaai1Wekl1cXJhRk03Q01p0gHiAUFVX3lxTE1Od1RHWjMyclRPZHd1am5vTjA2OWFiRkZNUTZ4UHhoNnhJRE02c1hDZDdBbnFQR3JXbFJMRzB4Nm5JRlRxdUxzSERxaFRDYV9iRWtXQ2ZDLVh5Rm9HWlo5cHJRM01wbUFpdGhYWGxDSzEtN095WUowZFNfZ1NFSVVDM081VUFRa1V1aC0yTWxkb3RQQjc1X2V0T2FRSGFRVUJXbVdRN0V4S3ZtOTBnMlZ6MWloZXlvQTI1V25EYzdrQTZkeGMzWnI2U3lHMEpnZ210U2dkWGVwWE1PTzhxU0NQYVE?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 17:31:08 GMT",
+        "source": "Bollywood Hungama"
       },
       {
-        "title": "Alia Bhatt can’t keep calm after Ranbir Kapoor’s Ramayana trailer release; this is what she had to say | Bollywood",
-        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPbzYwZ0s5X0FvQ1g3OVNKUEtCc0NaOXJhVE9aT2hha08wcGtkZnFaSzg3TGFJS2kxR3FleU1SSkJWVFlhdG4xczZEbTRONTNLZWk2S0FBTnQtSWZLTDVydUg2R1luSU5nWTdmanVFOGxyVHlWYlhzMmx4NGtZR2d1TnlhTk5WNnpLVjAyRENzS1NQMWFXeVo5S1A2M0U0UmtjdmY4NW8ybTVVRTdhMTVOdm9DdkoyX3dZbUZJSjd0eHZ2Z1doQU1rU084UWVuQU1QSld1RUZWYTFFcWVjYXQ4SkVpdkoyelp4UG5jTnlnNVg1UHNiaHFzVnpJUmxpS2toMWlwNXZ30gGLAkFVX3lxTE5aczZvdXlSNXRxamE4WEpPNXJyRWxXVHBhYnlPbmZzaEY4VnNYUVFSS3h5dHRpb2VoNjlUb2RFVzQ0ZEJBd1dHNzctMkMxSm5xLThKeGdzMVdjSklhRWxYVEc3NGk1SnNMWW9aZWlGZmlTbUhQSXRRSDQ0Qk40a2xVbHNYaTdrLTVhQ1lKSVJPcE41dGJqRlI2eDNXcnhMdVJtYlQxZmNnT0wyUURfSU9LTkQ3aE1KRVpVYnlCYUROMmtHb3VnNWJOR2VXbGRyTXVkVmdMeWhNUEJhUE9ZRWhmODAzMFlZZTNPLTBSM05kMkxtLVFOQlk5NUZ3VkxNZTUtYlNuakdSVWZSOA?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 01:25:14 GMT",
-        "source": "Hindustan Times"
+        "title": "The Lokhandwala Bathroom Murder: Bollywood, Borrowed Names And A Suicide Note Waiting In A Bank Locker",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQUxveDRLMFJLZ2U0NlBScFJDSWJqUHhOa2JfMU1DSlp3blBqZUd4QTZ2ZGcxalBSZVMyZWxMSE14NkpYa1J2ZkZ0MXA4VmFmSEdmQzNfNm1ISUVZRk9YLXdSRWxENnkyTmZaQ25xd2dKanpiSVgwaE52SEJTeUJfRDZ6NUtOVU9Pc1RlbW1oN3UwZXItYjBWUkFwUUhSRDhCY2Q1c1J0aHBCSGYwQk9fVmE3aHZKc0Y2ckZQVllHUWhsQng5TnB1U0t3SXI5Y05zV2MxNnZRaFJFNDhn0gHkAUFVX3lxTFBlYkVsTnBzMWxBWjZFcGUyOTFSeHR0ZkpyVzN2OUNjdG9TbHN0emhDSV9POElZZVlmNzhXQkRUU1NpSnZCUFdGNlFfcEo5R0FRTEpIYmxlYnZaVGs5RWVJNEh5TEFsRzNnLU1Ub3ZLT0xwakEtRVdQb0xiWHJJOGprRzZVOEhjcXFqTE1fY2tGRC1XQWdWMVRyUi16UjU4VTRnNVg5SXVIQW5uYXdzdXgtb3ZodldVMUtNMUNPN0Z2bVY1OHROaUFhNTBEUlY5aEZOT1g2SWZiZDhKWnFBdGUtXzhIMQ?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 04:38:08 GMT",
+        "source": "NDTV"
+      },
+      {
+        "title": "He Mortgaged His Only Mumbai Home. 25 Years Later He's Betting Rs 4,000 Crore On Ramayana",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUlA0NFl1VTJJamlHWm1tUDZNTGFKRHc2S1cxZ2ZJMTZnWlZNSlo3Qm5KNmMxXzFuYi1wc3RXQ0w5ZWNnRVZlV1N0TENpMUpfVzh6ekt0SEcyMlllZ3VaekJnS0MxVDVQbGs3U2Y0bl9LTE4wSm9hQno3QWVIVnUtdzB0aHhwQlNlSWNyMnFaZmFsWTJlaVprZUpmdUNVb05Xd25IblhGY1NvWWNLaTQwNk1oVlFzdzFNSGdlc1VPMkdtdzlHcjRaU25hb9IB0wFBVV95cUxQTmRMTnphaXBqUHFBeVRMU1lTQmxpSm12dW9CcVNXcXhZZkQzMzBJUlZxaDR1cGVMRk5IM0Y2V2FTaGdINFFYNFpNYkd6alREcUhhMVNVMk9KWEg5bkJZeVA0ZHdkWmxpQ2dnRGxEQlBiaTNvM05SVTNDY0xPSXpfci1uOVdWRUJiY0lTLW9LYUJBTWtfbnkwbGtpSU11S1FEZTdzRUo4TW5obnNmTWw1M1U0Um5WRDA0SmFXaTBpOEhwZzBVS2JuUjlvMml5NmI5ejl3?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 04:58:10 GMT",
+        "source": "NDTV"
+      },
+      {
+        "title": "Why Dhurandhar producer chose Ranveer Singh over stars: ‘We wanted performers’",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRWJCMkNUdE53aEQwejRUelpWMlN6QXU1R0NvdHB2UHM5ZkpGQ2ZsZEZWNWVSdjhkRnMybDNUYUkzN3AxaE9MdU93TTdNb3VVMDlnMWR6RnlBbFdTTHptcEFwNHJEN2VOTVNiWkhneThDOENkaTlPblZwZUtGRFd2MmdlbC1PR3h2OVhMVmpxZkpQZHBTSk5uZENzQXpTcEdxZnhDMy10M294NmxPY3JNeGFxenZtSUp0a2txZWJOQ2k0Z2NqWTIwNVFod29vYmJDNDhqak8xalpnY3pzcXd30gHmAUFVX3lxTE1fS3hWNl9sNXZqTDlxeU1NbFpJMVBpZmRqUldTdFZxYmQwN0p3LUgxZmdoYW4zQV9wSGs2YklUbU11Q2JOODM2b3FyYU9jZVlNZ0w4VVVvb0MtVXFuMmp6eFVjTmg3TGJPMGdfWEFBanhMVUNBdDhIRm9JM2F5cWo2b044U2Fvd2tmemQyZ09nT29UWXJTdWhadEF1QnZ4dUc1NXB5bV8zTDZ0dUNUSTZlTUdqVUJDbExHTEpwOXg5bXVjS1lCc2tYRUtWdHhieC1qZ2Z1S3c3TnJJNVJ3czdCb2ZRTmNB?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 17:03:35 GMT",
+        "source": "The Indian Express"
       },
       {
         "title": "Why Wimbledon is serving Indian ice cream and Bollywood beats",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RTUVHeE42dUJLUXBFX3NkaVJwOGlqOE9oREdtbjVKLVoxN1pRQ1B5OFBMX0JBVWtBT2w5N1d2TWZHUUZHYjJwU1ZETXNkWDFnTWY0bkpyQTc5UQ?oc=5",
         "pubDate": "Tue, 28 Jul 2026 22:05:26 GMT",
         "source": "BBC"
-      },
-      {
-        "title": "Vidya Balan on why she stopped trying to fit Bollywood’s beauty standards: ‘I was 26’",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQamxzU2hUVDQtOVJ6VloxWXdrTFZuS2U1SHprTm91RkhNYzk4a1pvV1k5bkhnY3BZU1JTUDA2blBKUllPeXV3S1plS3BBR0g0cFVnc3IxR3BrMzNiYWY4dnJjejNfSFNSSjltbk1RSThsak1HSlo2VUEwRWpFTkdEWFlqSElDd01tVzdBd2FsV3VaOTlSbGNYUXlJTWdaSXkxNWV0WmJfMWR1NkFRN3ppQnhGYVI2TjJfeHZicmZIajZTWmFG0gHLAUFVX3lxTE5BdzQyb05UNVcweWZHZ2lqWENkWFdaZXd4QVhYaEFmZ3RHVm9xU3ZCQ3Z4enFqdGhsckxoZlVZWFM0SlpiS2g2M2V2bWtJdTZ0ZGdfNU1hZWUwTXBWZ25oYU1HNFpzMGRRZXpESGNMNlgyOGNYLWRhaERKTnktTjBOQjVkZERlZkFCdlJWRzA1SkxFWFpreVhiWUpkUWNKSUNySFd3cVdjM0EzMVdyQjFUdjNZTVAzMHF1X1FVc3k2bzhiVjh1UDRCaXFJ?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 17:30:38 GMT",
-        "source": "The Indian Express"
       }
     ],
     "Cricket India": [
+      {
+        "title": "Jasprit Bumrah Fit To Lead India's Pace Attack In Sri Lanka",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYzRQaEd4d3Y5V3psbF9yU3AxZGRNMFJOTFFQTzd1QnFYQmxTdHNER1A3TTMxcU15Z1lwVTNpZUlMUGd4Z2lpS09jYjUydWVpbWhmeG8wREZTWjFGemNyRWt3Z2FfbHhNQlI4TkxOem9nZEJDRDhGSldlUno4R1dHQ1RweHBCd1BwR091bU1YUGpkM3A2QlBRM01rR0hGLVNoNzhGYXdvWnFkYlVobklkOThrTjlTT05fdFJlOV93LTZtN3NYZVdLetIBywFBVV95cUxPeFNZZWhuX2psMzhNaGtHVE1TamlNQmh0cnQzM0kzSzVrOHZWUm1XRzRZT1RST01PU0VsSFlXTFhIRE1ZT2ZzUTh1aVJYdm41Q013Tkd3d3FFMjBKMGV0UW55ejEySVlxV2hfbXVGVFFYdmNnZnZqMU5mTFljWXZxZ01DU0luRlNGeDhfNzBWVmNTelpJZXFXakZoUXEwcGMxQ0hLZ0dBMWV5Sks3OXZLd3M3WTR6NFNNYzlCODBYc1RhOXpmWVpSbEoxaw?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 09:30:29 GMT",
+        "source": "Rediff"
+      },
       {
         "title": "India likely to play waiting game with Jasprit Bumrah for Sri Lanka Tests | Exclusive",
         "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPRnNyVEVIakdMX3pITDZRWHdONUF6ZGxDbUhEbjV6VzVWRDdvTFhrUk5keVNjS1dwcGp2aENFay1LZXFnLVVUV0FrOThFd2UzZVM4TFFvUkg1OFBUQ2Z1MklWdTctMkl5T3NUREp6R2hzNDNKWEhSemVOVFZqbTd4YnJabWxvWXZDQ2c4ZGZzV2JwNlJna1g5YWd3eC12aGRJRDNpLUNGWWJQbXV5UXBhUlUyLVMyTjNwNHdmQW5YSmlqWG04RV9nYkYtbXprT0NlNUxpZWJEMTRib0xVclFWRkxIMDc5VWRuYURpdENsQmtYeEgydlJBamRueWItU2RHZXlZWmpvX3lyTjDSAZACQVVfeXFMTzdRcEl2bUpfWDA3N0RHZDdOSFYtQ1g4SEExekg4VnlNV2Zic1dXQktSdWRVQWY1UnRfZDhMRVAyc1g2UW1sOUxTQko4N2tNNkpTWUQwUHVFQTRtQmtNU1ZHQTFleG5WcW5kSlNpMmZNU1Q1SFgwY21SMWpNTld6SXY0aE9jTTZaRjRPdGt2TkhtZzV2cWoxUEZiVnhUNFFqSEpoY0pnQmNuaDEwQUc2S19fZ1RjOEdtYjR0ZzN0UnRZTVZxRndOV01hWkpXUmFhc3QxUEUtSm8wbnZBQ292S29SYVBYeXRydzhsdnRWNUh1QU5ZYXpldWVEOWROM3Z4b2t3NERQdDhwS3NXWFJxYjc?oc=5",
@@ -159,14 +165,8 @@
         "source": "The Times of India"
       },
       {
-        "title": "Team India Gets Big Jasprit Bumrah Boost Ahead Of Sri Lanka Tests, Reveals Report",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU1hqek9LNEJvb05heDRzRXJDNEU0dzZWSS1lOG4xSzhyYTZYeXJGX2hXY1lOcGk3Ym5DTGVXeHNIZkhiM2cwZnVfTS1EZ0loTTZOTEtuamd1ZkdwNTNHNUVWemJZd2xuWk14aGdFcWNyaUVWSUNiMEFJNHRKZUdZRlBkVXdaZTBVYnRnRS1KckZ1ZFRJdExzTDZIMnZmUUdrVXJWVnFrTlJPSzBoeFRyMUhlb3FEeHFUT3dRSGZ3?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 09:28:41 GMT",
-        "source": "NDTV Sports"
-      },
-      {
-        "title": "Jasprit Bumrah's return confirmed: India pacer clears fitness test before Sri Lanka Test series | Cricket",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMF9KaVZpMXptbUxpa1V5OFBoY041UWVYRXNWdkNLcXBHQnVlRDQ1SFZ1cTc5TF9MV1JTME1nZldJNDY1V09NVl9EOEZlWE5jWXdVTnFpWEc5OVVxQ1ZQRzc2MkhSb1NYN0pDV3RyTGluX2QwQnVDeWxxUTJLOVBQeUpsVTU3ZGVaVlhaN1dJbTRSUHdDZWRFTmhKVE1JRmswZ1dmZzlyUEJTZVlpQ0xmSjZEc1lHS0o0UHhvekhJT0ZNd3V1Q3luYlF5ODNGOU52MW9QWFdMXzZFRl9iQ243TUZMMWJBN0li0gHuAUFVX3lxTE9Nc0xZQndDTHgtcU90d3RQMHI3b3FPNnpNci1MalJjMmpXY3F0VDZsX3BzVVpRZ05pMHFRYjdQNk1BTW85Rzl3akQyT0x3Qm0xMjRzWEU5NUJ4dWlUWUx1Mml5MEx1NUd5T1loNU5COFkyOHd2QXpvbUdZS3k0MGJDNnNxd3ltU3VEUFVJMUtGaWpPS0tPTGxrN0xJNkw3YWZ6WVZjczU3c0ZXQlM0Mm9WX2huN1pvNlFvVWVia3p5R19DcWpQbnVhaVJuOU9udEZhLVNCR3RLUlNuc3VpWUVCbFFoNjhMVWJlaHZBNGc?oc=5",
+        "title": "Jasprit Bumrah's return confirmed: India pacer clears fitness test before Sri Lanka Test series",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMF9KaVZpMXptbUxpa1V5OFBoY041UWVYRXNWdkNLcXBHQnVlRDQ1SFZ1cTc5TF9MV1JTME1nZldJNDY1V09NVl9EOEZlWE5jWXdVTnFpWEc5OVVxQ1ZQRzc2MkhSb1NYN0pDV3RyTGluX2QwQnVDeWxxUTJLOVBQeUpsVTU3ZGVaVlhaN1dJbTRSUHdDZWRFTmhKVE1JRmswZ1dmZzlyUEJTZVlpQ0xmSjZEc1lHS0o0UHhvekhJT0ZNd3V1Q3luYlF5ODNGOU52MW9QWFdMXzZFRl9iQ243TUZMMWJBN0li?oc=5",
         "pubDate": "Fri, 31 Jul 2026 13:03:34 GMT",
         "source": "Hindustan Times"
       },
@@ -177,48 +177,48 @@
         "source": "Cricinfo"
       },
       {
-        "title": "INDA vs AFGA, 2nd Match, Tri Nation A Series in Sri Lanka 2026 - Commentary",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ0xGWldZWlNxLXJ4UUlVVldJQUxETEFmTEVKeDJrYlVVV0oxV3BVdDZ2cEh4ZDFJaUpPMHlIWUtoaW05U3BNQXNfaDZCLUZPUTN0YmxQZGVUVUpsUzA1YktPZUxTTkw1SkQwRXhWUnBsLWN5M2w2X2hUSUsyeEluMDh6YkIxdF9tMXVuVDBDb1J3X0dtUU95Z3lpZnlLWlRaNTVwTUZNUUlMaE5VWVRaSk5R?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 17:57:30 GMT",
-        "source": "cricbuzz.com"
+        "title": "Rahane announces retirement from international cricket and all formats",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVEUzN1NlOHRCY1o5c01jd3p6bkFveG1YaHNOcjhzemN3WnpSSUs1aDFzUlNWRVAxZ3FySWVkb1U0VU45YzAwLWFuT3phNU5zNG1EZHZaWXJXR01Dc1gxOXIyZ0JvNVVRMlVjNV9xdm16cXd1cmtaOWVaaTJFRGtBdk9iaFV6d3lNYUMwN2ppa0p1UzdYRTU2NGs1dThSVXhxODRF0gG0AUFVX3lxTE0yVGI3QkFPV21nMmdwTV9pWDVqaW9lMmpRMFY0dWduMkZaSjNpX2RPVnQyT1FjNnRialJKMjJWYjVmMEx4cU1vekxjOEwyOVhmVF94MlhGN2tzNGpscV9oVk1PNjZ2bjVVSnQ4VXNQRGJtRVRRdlBza3dpNkh1bnZ4eEJwZWR6SjZFdTlicTV3cWZXYUt3b293TVJTZmZhRGdoeGZRVGQ1OFZKQ0JKRHRmR09iSw?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 05:08:45 GMT",
+        "source": "Cricinfo"
+      },
+      {
+        "title": "SLA vs INDA, 1st Match, Tri Nation A Series in Sri Lanka 2026 - Scorecard",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZTJEdHgwcnRxSUVrSVdGRTQtT0pNSzdrUnJUbTVWbFlCSGhEZzhmcFpiT2NxcHN5ZFozYlg0d1NBRGZ2UkZFcXNOYVA0Zm1iSVc0QXZrUmFwRERlaHJsTW13VzZSU2RvbmVMRkMyMkhpdzFWYVl0WEFSRW5zWFU4OGJtN3d2TmRMQWtINXBrWGpma2I4TGlkYURyQ3NoVTFSQjNqSDJMVmFtMGtPOUtoTmJLNzY?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 00:58:21 GMT",
+        "source": "Cricbuzz"
+      },
+      {
+        "title": "Rishabh Pant trains with MS Dhoni ahead of Sri Lanka Test series; photo goes viral",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUy05cjc0YkNJTExsTjZaaXNPMUN6aVk1ZDIxczZBUkFPMnNHVlp6RXV0cnJfWERpU2NsTkZnWjh4RUFkZGE0LVNhTmVZTDNkdVFsVzdFOHhaUndBOHdGUXZ1UXV1dUdPMk4zUnFYM3NleXJEZF9jTW1yNV9aTDVmZ1BhQmNFZjVJSTJLT2lhTHE1WjBQS3VsMnNWYUJLcGI0RHViQUtQQUJZeTc3QjNyYUktdVpkZ3g1VUY1SHJabXVXczVPWVczVkRPUXFEYzh4cnI2VHBTRkZpSEYxWW9TbUUtZVlLVUpXRG9MNUh4dmxGVVc0WlHSAfsBQVVfeXFMTkdNZ2ZNS1ltWDF6bGxLREVueEV5TmM0cGVtaXpEVUlJOHAzem9vNjFXMHd5b2ZfNjFwOVVTSEJRak9iLWtacWs3Tk91QXVya1NtRWlLMW9YSkpQNm9OV0F2aHRlZ2Z0M2ltZl8tTDM0YnJ3LUswUkxEU1NRMkY0RGNBQU44SzNGNGNBSkVNMjl6OGpiWEJtdnVFSXBMWnVpYXdLOC1ndEktNzd2UTNsWFlFWm13Mms1YmQwTENSSjNwYWUxS1JrcWlieHQwcUVBLUtZOU1iTGJWREt4bjJVT3l3bkRVYjZCUzJCSS1pc2hIZFh5QTUzUlktRUE?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 04:05:00 GMT",
+        "source": "The Times of India"
       },
       {
         "title": "Sanju Samson, Vaibhav Sooryavanshi, Rishabh Pant Out: Ravichandran Ashwin Names 15-Man India Squad For 2027 World Cup",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ1BLaDJEa3dhMzRmQVVxSm1GSm14QTJDUlJib2MtZzVKRDd1SGs0WXpqS21UUVNMbXZHaGpXWGlpVzkxSGxVWExrZGdDNlp3SUlQa3Bsc2JjWmw0U21OaWFPSnJqejBYVWFDYkpmaHNDZFRHcXZWWFlDaW56enQxVm9ZejJzcmNMZ1hoWHBqT3JrRmNZNnBQMW5xSzNYN1hYekpHcEppMWVQV0tvcU5mN0pNdVlCbXB2WDdLbVRIQ0VyTEpKaWN1T1pR?oc=5",
         "pubDate": "Fri, 31 Jul 2026 15:22:42 GMT",
         "source": "NDTV Sports"
-      },
-      {
-        "title": "R Ashwin Wants Bhuvneshwar Kumar in India's 2027 ODI World Cup Squad",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOendYNkhDXzM2alZSTmZBQV9FVHM0anZkaXU5YXN2MkR1b2pKbnFXMlhQRTRGX2V3Yy1iNVB4RWJNR2ctNElib1RMSW5wUTJMZW4xS1JPX1hYYjUzM3FBWEhZa1VnZ3Z0b0w3V3kyai1BU291RGc0T3N4V2UzOWY2VVZSWC1LVEtWYUk5SzhQZ0pycnE0b0Yxak5HNmo5QnVORXNfd2locUI3ZmpVWEJiOWstcEdKakpPNnfSAbwBQVVfeXFMUENMRUhtMW9LdE5rR2NvUHZxcWRLbzV6WDk5djFWWjNqZGNoMXgzcXdxSm43MG1tQ01XWmU4dWNKZllrRUxfaUdGeXlOSVlTa0RjamZnNkxKelJJY2dGWWtKb1F6Qzh6QXZTZzRQbF83bVN4WkktQjRGMm41aWFOSVlxdHgwQlNzY2NlZGhmdGhDTTN3RG1IbkhuRnIycHZUUm95VDVSbkhkdTB2ckNMMnI4dmk3UUpUR0NXenY?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 07:32:57 GMT",
-        "source": "Rediff"
-      },
-      {
-        "title": "ICC unveils 12 venues for ODI World Cup 2027 as Africa hosts showpiece after 24 years",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORlVTTW03eHBweVZaOXdaY0VRWlBPZncxLUFnUjctdzJ4QzIxSmptaXpUWnduMHRla1JMZDJuaGFTc2hnUWZ3NFJxaHhQZDhYNkI1QWUtdDFEeml5cUtjaDh1NlNZQkR1Wno5MGFULTdPOXRGT2IzWDRIN2VDU3JCa1hNcWRyRkR4Tm4xNExfanlqYTY5YUlqaUFobEhmd2MyLUZMQ2lGQkVQQjVCWU5WSEE0NGppQjg4UnM3YlBVd3Ywb3hIank1TDAxMHlxQzVTUTJqMHRDaWVjVUtqZkh3UjlVNk1JVTg3NHlRNnVfZUt5N0lmN05OV1hDY9IBgAJBVV95cUxOS0lYQldtQlpTTlBVYmhNQ1FQTDdNSThYRE9qUFdTelhhdUwxZlpudVdob2g2VzFfajkxdEZJYkRyYlVyNHh5cEtKTWFEdjVTa2RJV3Y0ZXJabk05a3R6eFpVbWhoZmZJOTl6SGJ5Nnd3RXlDRU1hdWFsNmw4TmRMTXZNdGVldy1ubHVLS2hwZGNMajBrUzgxU3piLWlJMHJDdGNCZm5hZUJGMl9YZHQwMk81R0hscWI0NWtOaFlEZkpmbkQtRjRSTnp1R2JTR1pCel9MSm81ZHdGNS1ELXVqdnZ1eWdkcE05LWJkbG0xMmYtb3NBZzNadmc2QlRZNFQ0?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 17:40:00 GMT",
-        "source": "The Times of India"
       }
     ],
     "World News": [
       {
-        "title": "Nirmal Purja: Two bodies located and search ongoing after avalanche hits climbing team",
+        "title": "‘No food in Ceuta’, ‘kicked badly’: Why thousands of migrants returned day after entering Spain | World News",
+        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOY19qbUhqbEJvTGtmdmpTOGxjYVFYRlQzOTJSbi1CQzc1by1Da214VVZqVW9mNkN1SkpBUlBZSTM5enFYZjFlZnpYei1Hdmh5M3JkR2lIVVlrbnpXNDJrX2hzSTZyd21xMnQ2Wnc4cUswQ0l0YnAwaTVvZV9RZlNETUxROTF3NWZBbmhoUzNzOTcyTWtUNWNlWVVmdnRXLU1wNnlfU0lsQWMteHh4YUlCMzYyWVp2Y0xFYWVxM1paUjdVcDQ5cF9HRFVNMkpNT2M5WnJUS1VvWHJ5bFF6cnJPc0NMWi1Wam8xSTRDd1pEQk1NWGkxcTZOXzFKSXNEX2ZCLXdqctIBigJBVV95cUxNLS1lVFRQX0c4ZEhQc3Axc3R1V0xTMzhYZkF2RDJuUE5TTlRFR25SdnMyT2tNMUdQWGxrVUY5UEx3dDdmMkxtYUh4UWtTbkd6bVp1SHZyZGpBRlVsQWNKTW9yRlY1UmFUNVI4dHp6ZGJ6RUcwZUd5M2RqOHRXSXNtclNZMnotcjBXbTdWX0w2Rnd6a042cUotMC1Nb19kREV1UVNNdTBSY3ZBU1FMT0o2WF92MWlucGJwR1E3eVBUazdoNlQ1UU1ZMDhvWWl1amZFQlo3OGRlRU9WdXh1eXlFQVpiMXpkd21DbmU1OEM1V2lZZTcwRlR3RGhuNWlmTDlVYkZfUXFzUWdlUQ?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 06:45:37 GMT",
+        "source": "Hindustan Times"
+      },
+      {
+        "title": "Body of US climber Mallory Geis found after Broad Peak avalanche",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GaVFHSUxEdXh2b2Nid2VyUVFMZmdVejJfRDJJZ1NfbGt6MEY4QnBOSkdYRU5nYVNPLWZtTFU1cFIwcGtLUWNqQ1dyVG1JOGliTWZ2d1N1dDgzdw?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 16:41:59 GMT",
+        "pubDate": "Fri, 31 Jul 2026 20:22:46 GMT",
         "source": "BBC"
       },
       {
-        "title": "India’s monsoon rains in danger as UN chief warns planet is ‘on fire’",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX1JQODlyR2l4b3F3aG1ZZTEtUHd1bGktZDNfeTNyUEZlMTY3cUhMakVMZ3YzQ29udUVtTEhpS2J4NXNRUE94RHVfZUVtSDZOekRuSDZtdnlfQ2RYQ3MtYVc3azVBNGVwOTFHbElRT0xERDN0RFdFRGdWYjhfTDFKbG15Y21DNng3SW1udi1sblV3dllQeEYzbTFhTUxVSHczNG1DblQzTFVRTTQ?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 16:24:00 GMT",
+        "title": "World-renowned climber Nirmal Purja among 11 struck by avalanche on Pakistan mountain",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZzRPN05rZS1BU19QMXRpVzJRbjBxRzU1NDJtcTQtRG95b0J3ZTNVb01ZZWJXRU95WUs3ZERkdWRIazVTUmZKNWk2Um9MczdSc1VOR0xBZzUxakhMWkl1RjRRTWotaFJaS25FQTB6M1hXYjFOQjNkWC1qNnZaYll0aXp1Ql9XbzJpZzVfaEVyV3pmN2xrU19CY1NxSWo0VXE5Vjlab1J2ZU96X0U?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 02:54:00 GMT",
         "source": "The Guardian"
-      },
-      {
-        "title": "FIFA World Cup plan fallout: Infantino’s senior adviser Cordeiro resigns",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3pBTDJWZjJEWG92QjU0bmMtYTdYVFlBWWdyb0JySXNvbzVqdThLMXhnbDVDSUJteVFMODN2WkY0R1kxa0pqTkRUWlphbUJTV1hOLTVOcTRnYnlTS2xwR2lsTEV3RFAxRnU1WFRKMVRGcFg4anBhcTFXS3JxTzNuM0Jxa2dDVGtyM0pBaXMxbnM4V2lod19fNjhZeGN0UlNKM1BNdzlJZkMwWl9kRnlR0gG0AUFVX3lxTE9NV09rWWZ2d1FxenpNdGg4OW1qUTdpSHk1cUJNVjVvVmEzWGJ4ZmRBNTBFc3Z6WVB3NEpQcm1MRHhvdTlqY2NabUx2YVMzYWN0aXVrRWpDa05OOTBPdGZoOUpyVFB1TDBOS1VqRHo2ZW02M3ZxcVFUUnlscnYwYXVmQmVIRlFRb0JnRHdNaXR3YndJczJrSFhhSUJ6YWhYTFNFT0xSZlVweUJFaTJ1Nzg5SDJRbg?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 11:47:08 GMT",
-        "source": "Al Jazeera"
       },
       {
         "title": "Renowned Nepalese Mountaineer Nirmal Purja Among 10 Missing In PoK Avalanche",
@@ -227,28 +227,28 @@
         "source": "NDTV"
       },
       {
-        "title": "'Cockroach' fear reaches Pakistan, top minister says 'they can overturn everything' | World News",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOGt2dF8xVERtS1Bac2toc09VUnFmR0NtR3EzOVlZUmlKZnRvZW85WjJ0SmFzOWZ0b3pZemhHYUl2VkNoZGN5Z1MxUnZsb3EySFktWHFoNlZhWVhBQXE2S0NJUWhfdlZ1VmJ5eEgydGVqTnFYNjFTM1F6YTBWZW12cDFIdHB3Sl9QTm1ldy14bnBmMjExb3dWQWtFckdBMHV5VF9NdFQyVUM2MnZiellBYmVxcTY4LWlHNk5oYS1feE5nTXMyVm02ckxlVmRlVFpjTkRqd3h0d1FFenlmQXJ4b0d2NWFoQnNMQnc5Ry1oMFloNHPSAfgBQVVfeXFMTzlCcDdrdHR3eFJjenlieVlqOFZoS21lT0w2Q2phS0tGNlcyZzZaeWp0Ym5lZks5Z3VmY2pYZjFJWGZtNkFPQ2h0dFRwNy1Oc1p2bXBiSTZUdDBlUzJDMUlqT2ZaNEEyaXNhRjBpXzRTWEdOdVFxanlmY1BBcGJUbVJZZnp6eWtyMjVyelhjWmtFb2c0TFkwbFdRcVVXRExIbW93V3JKejl5YmM5UUJMNnQ3LXczbzBoYXlNMjlnM0VndVRyRlYtbWJrNHh5aTBaYjZlVHN5N3FiSjYtMXgtaERIdE82WXpTMDlyYUdDOWNfVmtzMjJJbXo?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 07:49:54 GMT",
-        "source": "Hindustan Times"
+        "title": "India’s monsoon rains in danger as UN chief warns planet is ‘on fire’",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX1JQODlyR2l4b3F3aG1ZZTEtUHd1bGktZDNfeTNyUEZlMTY3cUhMakVMZ3YzQ29udUVtTEhpS2J4NXNRUE94RHVfZUVtSDZOekRuSDZtdnlfQ2RYQ3MtYVc3azVBNGVwOTFHbElRT0xERDN0RFdFRGdWYjhfTDFKbG15Y21DNng3SW1udi1sblV3dllQeEYzbTFhTUxVSHczNG1DblQzTFVRTTQ?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 16:24:00 GMT",
+        "source": "The Guardian"
       },
       {
-        "title": "Daily life around the world, in photos",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLS1qanF6ZFM2d3dWcU4wZERJeVpCTE9udHYtZ0NfN0ZXMkxUT0h4bW1Vb3dvUWZnaUpVRFlMUFhhOVFwbXlfVjhTNGFLWXZIN2FXbGtSWTNqRF9COEtGcm02YVpwSmN3dERUOWZxVXVTNVZxNi1UbDEtLVpoZXVaTnNwUUxOSFdRTVN2QWFwMHlqRS1ZYl9DYkR4VDg?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 15:15:00 GMT",
-        "source": "AP News"
+        "title": "Italy Says Spain Should Be Suspended From Schengen Zone Over Migrant Crisis",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaE15ZjFDU2d2RGFBRzMwQng0YzRCa0NaM01NbnpKN3MtYzdzWGo2VXdwNE50ZlN3Z25VdElvTGtvZ2pjZWo0SlV3WTRQTy1fSXQyeVcxcWI1SVMybWdSek43MEpOZDA2dnQtTnNvQXRUM2VCV3VtTHVSSkZ3bF9EelE0TVRHNWoyb2hoZU5GdTdqcndId3hseXhXWENCZnNDLTlxZE1sbEVvSFQzOVk4Y2pEVnJJYVdUZlZzeDNuMnM3M083eHNaMXlhaXEtU0xUMDBBVDFfZl9GR09DUkZUX3h1NNIB6wFBVV95cUxNbllycXk0Q2lSRV95eHhObnFsYll1WG5vNk4xeGxEMEJITUE2N2l4UGQ2Nlc5bUcxYmVTS1d0VmNGTXl2bV81czVmM0JIODlWRFZLWER3S3hzTDROakJoUWdHZDJCWFNMZkQ4RUlES2owaUd5VzNPdWYxbkRzeDBzcGJwYlVtUTRDbjE4bmlPVkRUMGtsejJIblBhdTUzSDg5VXdibWhpM0dRb3MwMFlNRlBCSFVfRjlPcTBmUFNfOTgtX1phTGdNXy01VVcwcVFEMzNWUXc0SjFLVkdJSHRwOW1yc0FURzg1Rlhr?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 03:56:08 GMT",
+        "source": "NDTV"
       },
       {
-        "title": "School assembly news headlines today- July 31: Top national, sports and world news curated for you",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNTczTW55QVBoN2dPU1IyOTFONTJZVzhxeEZaVTBISE1rU2R6a1NzUHNEX3JnVWtSa0NmeGFGRlBmMFZPZXV3bXp1TUFDQmVFMTBVMkZwN3EtYVVOMXhwcXloZkdxNC1iX2pJck16czVJWlQwMFBjNzJRWGw0amVCWW1wTHpscXJZLV8wZFBrMExzczVmMjgtSS1VTUZzQTFHVkdETS13VFd6ZGZmNFFfNzlBUzZqSWstSnA3R0p0MTRBMU1DOXl0Y2hBSGZnU3VSaWdRWVNtSEF3dUdZUTJYVklB?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 11:06:42 GMT",
+        "title": "FIFA World Cup plan fallout: Infantino’s senior adviser Cordeiro resigns",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3pBTDJWZjJEWG92QjU0bmMtYTdYVFlBWWdyb0JySXNvbzVqdThLMXhnbDVDSUJteVFMODN2WkY0R1kxa0pqTkRUWlphbUJTV1hOLTVOcTRnYnlTS2xwR2lsTEV3RFAxRnU1WFRKMVRGcFg4anBhcTFXS3JxTzNuM0Jxa2dDVGtyM0pBaXMxbnM4V2lod19fNjhZeGN0UlNKM1BNdzlJZkMwWl9kRnlR0gG0AUFVX3lxTE9NV09rWWZ2d1FxenpNdGg4OW1qUTdpSHk1cUJNVjVvVmEzWGJ4ZmRBNTBFc3Z6WVB3NEpQcm1MRHhvdTlqY2NabUx2YVMzYWN0aXVrRWpDa05OOTBPdGZoOUpyVFB1TDBOS1VqRHo2ZW02M3ZxcVFUUnlscnYwYXVmQmVIRlFRb0JnRHdNaXR3YndJczJrSFhhSUJ6YWhYTFNFT0xSZlVweUJFaTJ1Nzg5SDJRbg?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 11:47:08 GMT",
+        "source": "Al Jazeera"
+      },
+      {
+        "title": "School assembly news headlines today- August 1: Top national, sports and world news curated for you",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTXp0bWpkdXJxTENDbmhyaEFoUTRlM1EwOFVYY3R3V0NLbHVNdWFhMWRDWmlvZzJiMkxaLS03dmdXM3dpejJWbVZITHQ1Q29HZmw4YzQ0bUszRXB6WUtPOEJCMUJwZUFLcjMwR1ltWU5pZDJuWmwyRmxWMEdjOFlvUTYyTmlBZmJLQ2hKU29fZjNSNHdWT0lGTlpIZVpHdFcxbWdtaDZwVVAyYVJXNzc3MjJueW9KaW9kRldCYkEtTVFES2ZXbExvR1NFYVlEdDFxSTlwZUhnVkQ2OXBnU2lQVkVhYw?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 15:03:40 GMT",
         "source": "India Today"
-      },
-      {
-        "title": "World News in Brief: Rohingya refugees, Bahá’ís in Iran, disarmament in the Central African Republic",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE53R3hYZWRvNDNFMFlLVklhSUNZNUtReDM3SUh2OVd3Q1NEdWxUOFptazYzMzg0RXVfLWw2VkNUSWV5WkwteV92MTBCa0FYOXhXUlBrdWwxYw?oc=5",
-        "pubDate": "Wed, 29 Jul 2026 20:16:52 GMT",
-        "source": "UN News"
       }
     ],
     "Health and Pregnancy": [
@@ -256,25 +256,19 @@
         "title": "Better Cardiovascular Health in Pregnancy May ID Cardiometabolic Risk",
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU0pHN2NlVF9YZnhTZ29DM3ZRM24yNlh1UF8xVzRocHRULUxLb2RldG1QbmhaX3JXVVo2cHZQVm8xb2lCQkdzcXRhX0d6YlctOVVKbThqUEFEczdIeWNwckNZV2NxcWFueHFsWmZ3b1JNOHdlNmZaMF9qcndpQ1p6Qzl2TU1sQ3h5X1p3akVaTV9EemE0bHZKQi0tMmxVRmZvbFNPNktPRzRHV245?oc=5",
         "pubDate": "Tue, 28 Jul 2026 04:00:00 GMT",
-        "source": "Optometry Advisor"
+        "source": "optometryadvisor.com"
       },
       {
         "title": "Heat and Pregnancy: Guidance for Healthcare Providers and Community Health Workers",
         "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0JWTHNPU1A4V1RZZUpzWC1faHVQRXJmSkczWmxLOVNMWkwtY0k4NTZ4cnhadEdhQzd5cjFtc2p4TlN0YWxkZnpmWktWN2tOSndqMFJPa0t4RDdmSHFnRy1XTlowQ2NDV0lTcm9IR2JJZHFINGhsakJTWm0wTWpWU1JscklLakREQ2pLckMzcXlsaUtDcUZwUnJPNEZWcUxIYXBCWUFQSHd4RDA1cVpmVzZyazNwb21m?oc=5",
         "pubDate": "Thu, 07 May 2026 01:57:00 GMT",
-        "source": "india.unfpa.org"
+        "source": "UNFPA India"
       },
       {
-        "title": "Healthy Pregnancy Series for moms-to-be in San Antonio starts Aug. 6",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQVJ0S1FucUc3QldER256TU00VXI4dlgtSmd5a0VZZTF5Y05PWUhIakdxZER0Umw1R0M1dFQ3UVd4ZGN2RU1JN2Q5TXgtSXpvZi0tMERDaC0wNGc1ZWhtUGVKR0x6QjBVNE5tRkloZXkwMHZVVlVuTVo4RTNMemtCeWxhajBTakZyR3hWNHRRTjNmN1c5TlhoN09Gak5mTm1HVktWd2diVkFIUjBXSzlxZ1lDVQ?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 21:01:42 GMT",
-        "source": "AgriLife Today"
-      },
-      {
-        "title": "Air Pollution Linked To Risks In Male Fetal Development: Study",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWVdYTnoxUVF0QWFQay00Vm5DUmV3cTdxbFJOWjNaeXIzdm1xUkFtRmlPQjA0RnB4MG5DN1A0UTUzNENyZUxMWkZoVUg4RE5pNGVXNXBsNVVZUVJ2VUtPektpdFhTU0w4YWtoOVZEamxFbmp4bUhHSnlaWkJvbm5KdTBxQUZrQ2lTODdWOGpGTHJQaEZkVTdrd05UZTUzejEy?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 05:36:57 GMT",
-        "source": "NDTV"
+        "title": "Midpregnancy herbicide exposure linked to increased preterm birth risk",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2NxaEF1ODBJaVF1TEZxc0ZXNDJMVkRuM1FUb3N5YUlfV2ZDQ0ZUYUZEWlpCVUZCVUI2VG9IT3Z2Zm9zQ3ZQN2FzbWR5V0w4TlczalU4TXM2SnRtWWFCY0hFNlRES0c0TE9hVE40SWJwZEE5eUh2b0xySDlSQVdfdmJFRUstMEZIX2ZiZFRQTEFkSXVnbm41R1JSM0JFUHR0M05iMXdNRmxLTUZKVXR0TWJoVHhUcTh0aGc?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 18:43:00 GMT",
+        "source": "News-Medical"
       },
       {
         "title": "When every negative pregnancy test hurts a little more: Doctors explain why fertility burnout is becoming the hidden mental health crisis nobody talks about",
@@ -289,16 +283,22 @@
         "source": "Nature"
       },
       {
-        "title": "Tea, tap water and child IQ: What a Canadian pregnancy study found",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRm95NURicHNIYVdDcmt0R28wLVlYVlZnOFBLSGZoX0Y1VkVGVXJEMzdEekV1c213MGkwZGVLRlNBekhIMHppSkdsYnVNUTFLVWxpc0VQMVVsX1NsT21paHZscS1KQlJKdlJKQm1MN2J3T3NFQUJIOXBJQkJqZkplZWF4YzR2aHVGZk1jSGN5ck5VSUloMDRGeS1TTXk3cEVHY3MwLTBSSWpENjVNTG9scW1B?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 04:50:00 GMT",
-        "source": "News-Medical"
-      },
-      {
         "title": "Rates of High Blood Pressure Are Rising in Pregnant Women, Study Finds",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5femVjUWUzRWZPa0U1WG5SdHlpOUJmOW1aMDIwMFl1dTV0ZXU3RHNlVFd2RzJUZXJpQnBhZWhNZmd5X1NCbHJ1YXktTmlFdFJwdGRLZUF6M1FIN3R1TmpoWUF2WlQ3X2NkbkFjVzdfZFFrUEt5d0Z2SDFNZTBzRzQ?oc=5",
         "pubDate": "Wed, 29 Jul 2026 04:01:25 GMT",
         "source": "The New York Times"
+      },
+      {
+        "title": "Why a man’s health before pregnancy matters for the next generation",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONkZaczlJNVN2M0dfMmpTSzBEUVpSWjBUbDNxZ2NicVRJTXVKMnduZ1RfSEc0bkNCcklSOU5nNzlyYlJTSTcyNEN5LTNVeUxiVzBGTVFDYjdoeGpCNHItNmc1aVNhYk93dzlubm5JMDdmWFd4d0pDZlRVOGlneHhkeGJKT2RvSGt4bmR0Y0VDUUxoMHlpU05LbHdfV0ZoRGdibnFr?oc=5",
+        "pubDate": "Thu, 26 Mar 2026 07:00:00 GMT",
+        "source": "The Conversation"
+      },
+      {
+        "title": "Mother fights to have post-pregnancy complication treated",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVmlKdzE0MF9oams3VHFONld2aVV5N2xqbFhtcWVlWjY2N245TnVCaWZGV2NlSmNINnprV3BGWjFvNXRxLWJOVEQ1Yk80UGRHaF9TQzBhQ0JMNUdBNFZRZU4wSTRsT0d3dkkxdGNkSl9OdlJ6SmlNQW5MNDV5NmV6ckVneDEzVTJDTmVTSnBLZDRzTjljSTUzWjZkUTZreGJGanpYc0hwM2dydUplNWpoWkVjbw?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 23:07:35 GMT",
+        "source": "NBC News"
       }
     ],
     "Food and Recipes": [
@@ -307,6 +307,12 @@
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd1h3R21BQUx0bUxuS2R1SFJqMktleXhWeHZUejBkaGR1azYxbl9kN0FVd1NrVWE3Vll4TUY4eExqcnF6T1F4dGdWdHNxWENmSFI4SHdPVXBCNU8yN0NUemJuR0pBSEFRNkRkS3NoQ19jSzZZbGlhNFZTVzhyOG9la05sUmpUWGZNQWdqNERiYlJ1T3RIZ0E?oc=5",
         "pubDate": "Fri, 31 Jul 2026 07:24:36 GMT",
         "source": "hyphenonline.com"
+      },
+      {
+        "title": "19 Irish Recipes That Bring Ireland’s Cities, Coasts, and Countryside Home",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TZ3g5WTR2eUZ4SmNuNnJQM2VxWXdPUi1QLW1KRExzTzBHenFxMGJDR1dUWUUyWk5jWmlTcG15VEVSdVVUY2Z3d2ExWkRud19odUlQMFBDZW5fX2VKRnZJ?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 15:58:00 GMT",
+        "source": "foodandwine.com"
       },
       {
         "title": "Secretary Kennedy Launches The Real Food Show to Inspire Americans to Cook Healthy, Affordable Meals at Home",
@@ -321,22 +327,16 @@
         "source": "Allrecipes"
       },
       {
-        "title": "19 Irish Recipes That Bring Ireland’s Cities, Coasts, and Countryside Home",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TZ3g5WTR2eUZ4SmNuNnJQM2VxWXdPUi1QLW1KRExzTzBHenFxMGJDR1dUWUUyWk5jWmlTcG15VEVSdVVUY2Z3d2ExWkRud19odUlQMFBDZW5fX2VKRnZJ?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 15:58:00 GMT",
-        "source": "Food & Wine"
-      },
-      {
         "title": "Mid-Day Anniversary: Armaan Jain on serving Raj Kapoor's favourite dishes with The Junglee Kitchen",
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOODY1NlliNXU0SHBPQ3N2b1QzUDRCSFlwYXNHdUJvSVJTMWNZMTdtZGpHRFZhRmgtR3NuUTNZU1pWX1ZSVWxJd0lDVnVxOWd1UDQ1N1BjbU1RVktyUENfUkFBVWdMMVdhSUZ4cjFhX1lDY3pMdURsV2gxZHU4U0xhbWZBWGdkVEpLWURTTG1PekRpenZRZFQxMWdKOElPLUs2eW9fbVFVRXpnSXNOU200akVFMU9OcTYzbF94aVp2UDZ4bVhNVGpuUGJVRXJMak1aRFVuellhT1F3NVkwZ1NBcE1qNXBSS2FwZHVV0gHwAUFVX3lxTE5nX3ljVTRKTkZxS2o2dEJHajNYMTczRDJ0TW0xQzB1NUFJR0RNX2JIMTRPLTlpOVptQ3F1bkRTbk5TZ3hDY0tnc0VpZGZ5QXRjNjR5cnJReW0yVFVOOXdyZV93YUtERk9CN1VYeVRUZ0Z5RF9fQl9uV2UxX0NhallMcThuQ3ZZcml3RXlFMXI5eFRVNW42Rzd6RDdtNnhSOFhaWWFpdmxXTklRVW9acVFkQ0RSVUVZYU9HUHlSdS1HblpEbXozOVgwbEJhbkdPXzRxcEwyMzdSb3JUdmpVelZEMC1FMWVXWWNKYi04NDd5QQ?oc=5",
         "pubDate": "Fri, 31 Jul 2026 02:36:00 GMT",
         "source": "Mid-Day"
       },
       {
-        "title": "Exclusive: RFK Jr. hosting a new cooking show with celebrity chefs",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRl9OQ2N3Nlp2eThKckZRWU83MDZmN054Vzhhd2txMkJyQ21EUkxiM05aUlFQeUZzc28zYkN6N2JxeVJ5QlozUkdfNkF1REpCSHEwTGFnSUhtc3IzXzNtdmpqV1VaR1dVWW0xZnViY2dBUWMybkN1eVltMXBUZ2pZUEYxNGRsTmhhYURmelpyS01LR0hIWUUtZHphWQ?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 19:52:00 GMT",
-        "source": "USA Today"
+        "title": "Dupes of My Favorite Restaurant Dishes",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVm01QVBnTzZaOV9UU3p4ekNiWW12UVQ3LTV3Y1lCRHRFYXBmalR5Y2dQMmt3M2R4UEFsb01xTzRKUUFOYm05UV9zbUhGSlRIOUhWTDRtRTZabmstc0o4dnZ2aVVoMWVQUXhhQTYtQktaamNVYnpWbWtyN2FseHFwb2JvUHNYUFYzR1k5YVhn?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 17:00:04 GMT",
+        "source": "The New York Times"
       },
       {
         "title": "Joy of Cooking's pie dough recipe is a professional baker's go-to",
@@ -345,13 +345,19 @@
         "source": "CBC"
       },
       {
-        "title": "Dupes of My Favorite Restaurant Dishes",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVm01QVBnTzZaOV9UU3p4ekNiWW12UVQ3LTV3Y1lCRHRFYXBmalR5Y2dQMmt3M2R4UEFsb01xTzRKUUFOYm05UV9zbUhGSlRIOUhWTDRtRTZabmstc0o4dnZ2aVVoMWVQUXhhQTYtQktaamNVYnpWbWtyN2FseHFwb2JvUHNYUFYzR1k5YVhn?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 17:00:04 GMT",
-        "source": "The New York Times"
+        "title": "15 Easy Pantry Meals You Can Make Without a Grocery Run",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aRkdjaVJnVFYzZ0Q5eTB5bkZIeUVCTmRXQi03QnhrUjdnRWszRHBMTkFOMmtqTDh4Y0RSaWhleEFmV2VoWkJKaWNPb3h0N3ZXb1BvZ3pHLWF3WEFuYmdNenRYSXpvb3ZaLUhpbA?oc=5",
+        "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
+        "source": "simplyrecipes.com"
       }
     ],
     "Karnataka News": [
+      {
+        "title": "Karnataka outfits call State bandh on August 13 over water release",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOLS1FaXJZVlAyNDFMRng0Mmpad0JFS2pKMUE3Vms0azIxcU1JZjRsZzNKU1NyMDJRSFYyVEtUcGFENlNIZGFmN1BSSmN3WjVlWUZCVEF3ZlZJTjFkdmZqZnEzbEg0dk50SE8wcHRNSG91Q3VkRDJ0T3oxUDIzOGp6LW80WkdjOXJLTmh2TW4tbzFEMG8xemtKbGFET01DMktGYU92UF9oTHo3emJzcGVwM1luOEVKMzBDcE9jcnFIdEhvRkdfNWFMQVMtajAwUDBQcGZPSVFWNkRJM05adUtiNm5meDN3ZTZMUDZ6N0lyWHFJRy1OT0HSAfwBQVVfeXFMTVMzd0hKZ3dGcGpTMmhtZVhTVmtUTl8zc2xoeGNFQXA2ajVyMEJaT1I3c1d3VUN2d3lWOXhuQlZ4RTZwdUI3bi1Bc0xVWXlHckZfSWdObGk5NEtNZmxlQjJZYjhLVzNqTzhoTDdaMl9oQm52MEFZbzBaRGF6bkdNdnVJa0t6NFhZeEFNMmhwZGlCMVVFNUdNb0hzWUV3YncwbGcxX3F0c1R4dnlQMDd4QlJlQzNWY21XNDlfNy04NE1zN1RFRzJVd2dYd2NKdkdfTi1hX0xDV0tVLWVCMjlyWHl5T3QzXzNTUzMxdlVqdW1HVWo1V20wZ3dOb3BU?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 12:41:28 GMT",
+        "source": "The Hindu"
+      },
       {
         "title": "Cauvery Protests Hit Vijay's 'Jana Nayagan' In Karnataka, Theatres Cancel Shows",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaWlMMThkRkQ5VTNneDFueWphalEyOThlNmJ4Yk9yZXloSnA0S2ZFQ25WaElNaXFYSXdlLWZRZlZiQkdmWURKWGtna3JsUFZ0bWxHRVBueC1CNG9sV2FIeC1CUVVWM0I4dVprUjhTQ3BQdWVOUzlranpvX2JlNkRkTE1FdEdiMDFjQ042eXlzWnMwalZDQndaTzFITjE4WTg2dTF2d0NWYnlpdnZra0xqeXJMNjFsckXSAb8BQVVfeXFMUDNWakhHbG9iWVhZRm5OYzBpVkN1SmZCdHJUWXI4bHdZMThMbklSMWxEY1lvNlpWYjg1THlKaE5rVDJVMzc4RmpIM21HQ0ktV2k2aVlBMHpMcDhFbU5LdEZGQTNla2FtZVNUOGxYRUxQNGJrYXpzR0t4UHJiRnFfajU1UEdHS2ZnYjM3NWN6X0dxMlA5T1ZqWlFhRVFCOFBPNHo0ZE9fYUczWDZUenVzZzZpRjd4bHNPb2pXN0JCVEE?oc=5",
@@ -359,54 +365,48 @@
         "source": "NDTV"
       },
       {
-        "title": "Cauvery water row: Karnataka CM D.K. Shivakumar asks his Tamil Nadu counterpart Vijay to defer his visit to Bengaluru",
-        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMHdnR05ONkNOZWV3cnBTSmtzaF9ub3JDZ2pYRGVxRVA4ZGtMQ3RWWVJYUEhxYnRuWTR4MWM1aUpZZHl4NVpXQzdaYUN5TzlYcHlOUDJyNjZxMDRQYlZJMlRnczExbG1RYjFFSlNLVFRMc1lsWkJkelVNTzZaN1liYkoxUm16eUhOamNmTGMtRUhXQ0kxWUFtR2hTUWhzWndGREJkb3FCdnU0eDNGQzdnRmxqWC1WWDVVcVFfM2Nla3l3T0dOUVlTWmRpWEN5ZU5UUjFnaThxb3BVNWZhSFNxOW9DdlpmX3V6cy1MYjFENV9kODRJTnUtZndkWV9rX3MydEk5ZjlpVEt4TmRrOTd3QtIBlwJBVV95cUxNa1RELWV3SlJ4NVkzVGRIa3FUd1lvczhNVW55bjFJLW81b2h4ZW1ESjkycjhBYTh0YW8yZC1na1ZvNXNyU3pRbWZJMkllTTRrR1dWdmZYeEF0Z3FYMGVvSHo2VmNfZ2luc0J2LXVCRlhXYjlicTBTeXNEanduQ3p4Q1JvVWdNQ0U0VmhaWXFkS2xmQVd4ZTlYeE1xUU5sQ19fYk1OWHhRNnUycUdUdDV2c3U4al9JSjdFLW9lR3M0ck12M1BGRENQamhWVHU2VFphc2hQTUc5SGxDa09mYkJ1QkRpX3UwLUtNWTZGV1M1bW96dzI3YWpFMHhRNWRHNnZQQmxxRm5uZnN2NFBaSXIyT2UyQTRSNkE?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 10:13:21 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "Karnataka’s refusal to release water unconstitutional: TN farmers",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVkZ5S3FwOGJTYnVwbkJrVUtyd1lGeV94cVBnRU1lTmxnMXo0TnpKYmlLS25RVkNDb1hrd1NYb3h6Q1AxbEJzTDdibVAtcFJiRmF2T2x4SHo2ZkRDRkN2TEY0ZUFraE5YV1d3VDFyU2tWTW95SEc5OTRfMjNJZGR0dzFIX1lTcDFpb1JBN0ZySzNEWTNfbW9uTHBURTV2a25XTE0wU083cXpHbXBZSnVzZjgyU2ZVTm1MQjE5Y3NGT25PN3kxZW5fWVRROUZKdnFKMks00gHYAUFVX3lxTE5DTDhaUklFQldGdGt3ZkRncEp3ZUl6Y2FQMW9TSFFhdnhTSk5hNmtyZ2JlMk1UR1ZucHZBYXV3M0k2azNMcHp6eUI5bUJKV0VWcGVKdzdtU2xHcy02WVlESkRMTjZMV1I5QUh6dk9BcU9Na3VRR2Z3MWl4XzZONzJwaGxWVlRiUml4amlRNTl6enhuQUwwMWcyZ3poeE9CdjJpeThVeV9SSEdMc1M5SFV4aW5zRnctLXBvd3V2UlUtSXVwcllNb0hkcEdjVHFrS3ZRZk5JSFE5ZA?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 15:18:00 GMT",
+        "title": "Karnataka CM DKS urges Tamil Nadu CM Vijay to defer Bengaluru visit as Cauvery protests grow",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQWRYNlF5eE96RXltb29GV1NHbmNSR2g1LTZPT1NmLXF6c0tDVGhlLTBFRXNoNU1tR1M4TTRpRURWZnZSNEFucUoyZmZKRFN5MllMWUFvRGNZTk4taDJlOFZtLXluNmRXSHJkNkhkdi1kdHRxdDNiUXFPN2xwTnRUVklBeFUyX3hPWU9EVTRaN0tfM1hoMFV6Q1VkMDI4Zk5HREJqdldsM3g4ZWk2Yk1BdXlJVVNYNEEtSGx2UDVzcGNXNnZyb0EwbElUU3ZYSnpOZWZPYTVIek03YkVscWtfWGNSWjNNQzUtTWJ1UWtGS0s0dlhvQ3A0UdIB_gFBVV95cUxQNGtEbm94Z3U0c2N3VTlMNUVRS1pUWldRaGxWdWpzT0lTYUNLWTJTT01OakRxdk1oVmFDdTBQWUR3V09BU2R0bHpKRFE4TGZNbktjbXl5MkdWZnB3UUJzVFNZLUNGUEpHaTh4a1h2QzB6a3pkOG5saGVsVC05bnh3ZEFwVzN1cVd4bVExUFFzQk51WjdrQWVzVHhNbWZ1T0JBUXNGeUN5OUdzZ1AxcnUwNXBvN21xbzFkQUxZaXZFd05YNG9JU1lZY0ZhUjhPX2hPbmNodDB0OTdKU2NHZ2FqQ0JFMTRXRmdXbzZzdDBJS0lib3pndEdSOFcxR3gyQQ?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 01:47:00 GMT",
         "source": "The Times of India"
       },
       {
-        "title": "Karnataka HC stays conviction of ex-minister Vinay Kulkarni in murder case",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPd0FCRGVxRjFUQjVaMkpsNVp1ajhSWFhTbXFoa25hc3Qza1cwNEtLMENfampDS19WMVV1b1N1V1M2ZUEyeGd5NmFvZ0ZYQVF0VFlhSWFsdl9iMEtjMlc3MnJHQTRZSTFVMDY4dnMxVmVkUXV3RVB1b0FucGZqNDJfekRJaDBiOEgySlR4bzBRM0NDcVdaTUxjcWJBU25iV1ZNdGxRM0ZWdGtVbnJHSzJaMFUwdHQySGhQTEhsc0lyMDU2YXpVaHk5eEpzOVFKSnNEOHpobDNIWUI4MkRsYUl0Y1c2OXl4Rzk3NkIxY052YzQyR3A5YWtGSDJVVGc0dVNJRHB3Z0stQUFCd9IBkAJBVV95cUxOQ2wwY1dlQloxb0w2VnF2NnRjSEpXbWo5ZmlabHJDaDJma2E0RnZLMUtiOGRuSlc0M1FNSTVBQmpJZHhVZ19nVFFicGMycWVSRXlZeU0ycDVEb18tR0tlSlplUEZieU1zRnVlRVhSbmxLLWFfbFVsZkRUc294YmZSNFRYX24wOHo5aGVpZlJycDJlRGJQSm56dDBScENzbExyY0owMktCa19xeFlaOVZ6RzNFLTdYVl9VVDdpV251cWFDN3VNVmtaamRHeEtnMTktSU11NTFaTE5YVGlPSER5ZXRBM0ZfMktNeTRfb2Jhbmd3R012TXZ0Ry1mV2t5OTdHdDEybWxOWlBDaENKbFRCVA?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 07:07:20 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "'Nation's Security Under Threat, Don't Appease Illegal Immigrants': Karnataka High Court",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUWZ1OU02eEltakZFbnZldFlTdG93YmxoTkRSdUI1WDhaQkhlN1hHOEpnU1kxSVYyX1BPd043dTQ2cUdBNXZWR2RnSExIS2VNLTdrRGk2cjRyT1l0Rjk3RF9EbWFlTDlzZXc1SzFZSUhWU0dHaTFaTlFJSVBCVFBuaEpzM2tsbzJKQ0J3a01GbXM0TTNvTWNsQzRyaFJYMGRGX2gyOC1iTFYtSzZRY2Z2WlM0UDg0ODBuOVdkWEZYODRFXzVJWXfSAc4BQVVfeXFMTnh0eUhQTzBDTWJiZndzcHhPRjZSbHFfel9Dc3BVS0h3V2FOellBTmVCMXpvZy14RGh3N2dTcllGNl9QWVBEeWFsZFgtcDRhNHRYd29kdHpxTi1DcHI5MXJ5RWlTc1p4cGROTi1OSmtsdUs3SEc3WE5FMXNHQzRYbG9Cb0tublctbmRPS25VajBCblI1b0lHT2pCLXFNU05aYnBwS1hOa1VPcEY5blZUY2xuc1QtZTRzUUNoUEJBM3NRVXF5WndSbTBQNFhJMkE?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 05:02:49 GMT",
-        "source": "NDTV"
-      },
-      {
-        "title": "Women before women: All-women law officer team to represent State before women-only benches of Karnataka HC",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ0dEblNuelZwYXBNRDE4Vm5vSVd3bEpENjMtN0tNVkZmdUNYM1dEbHVxSTUyNkhHSG4td3RPdnB1QW5VOEp1amFBbWFVQ29KdC13LVZkNjFBSGNoOVZFaW9CcUFvSFl5bldrT083cWNUZDZMbDJEaVQ5NHZ0ZEFKRnlRb0lOVG5HX0lnZTM1dlNTUEVvVzBBN01WMjJHa29LZFYxa3ZYZDZFLWZ4bWRuVXZ1SVhwQjFVOEdtU09MTFhDbUM0MnowbldMNlJqdmtfQldGaERn?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 06:19:24 GMT",
-        "source": "Bar and Bench"
-      },
-      {
-        "title": "Karnataka | Dress code mandatory for PC exam, says DC Lakshmi Priya",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORnZyVDRhY0J6MHpjSmdIV29Bdm1qeW9OYUYzUkFLZ2tCd1hvcjJxdTJ6dG9XWk9zWWpQWjlQd182VGxQYTBsQW9yRHZEWGpUWWF1SWhZbkpRNUI2cHBWejRuZFZHaU1JUnV2XzIyYWJCcE5tcGw3YjNwREFCVWN1bEtuLXhWYVVlUUJQRFBwZEx6YVF3QTFtanNPdHF4S0hCUDYtUWhsRGdCaW5TRm41ekRXclM2WUN2?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 21:39:05 GMT",
+        "title": "Heavy rainfall lashes Malnad areas of Karnataka",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYWpYMTBNTDV0ZHk4UThzdjU5QWFsS2R0cm5maDk2OHVDYkFyQXlVcEZGMkt6ODNUMzNSY3NlT3JFemw2Q3hnM2xKdGRRMlFWbWJpVV9teVVWUFNSSWlRRTFtLXRpM3RWLXV3Zl9LVVU5ZzJtQXdEWE0wem9YRUFWRGtUcVlCQkFvcnNzRUVtNTlWSGFDdTgyQ05xblBUajMwZFE?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 23:35:45 GMT",
         "source": "Deccan Herald"
       },
       {
-        "title": "Karnataka: Civil police constable exam on Aug. 2 under CCTV surveillance",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbGFZRFY5MjlZM0czNW1fZV9HdVUxSjNyYjNOaU5RQWF5X094YU8yME5MSEVUaS0wMF9FTzhRaGprYkJsM0l0STV2ajRISFJQaExMb0hsUTVrUnJSTGJGYTlQTk5uWVpsN2U5RWNaWTZVRXpGWTJIWGZhTjgwTFduNjJpMklESExDY3VRc1lJVHZsNzQ4QmZhTjdpcWZUSjBEOWRLUXdlNDZsV3BLamx1ZEJ5aWZQSlRmcmlkX1hRSXFUU2NsUThzcUh4bVB0cmRfMTdxNEhn0gHcAUFVX3lxTE1fa3ZneDM1ei1BalFPQ2hEdWFlRWhnWm0yT3BKeWhpM1h0b2RkckluUmZ3eEd1NTZtWDV0QkF4eWRadHAxZ1QtSzNLTjQyeDE1X3RiaFBlU0RQaUJiWGxKRzIwRVk5NUdXeEdMMWY1OF9ROVJCZHF1TF8wY3YtcDh3V20yZjdOdS1OYkszZ3hmbzd3V2FwSkt5MTFCVVFKVkwxWFpRWTBqZVR4M3JNNGs1S0NTRTR6ZVhEUzhJUVM1V3h0bE1nc0dBN2hObTJqb2NhemRxdmMtb05zaGE?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 16:01:49 GMT",
+        "title": "Karnataka rain: Holiday for schools, anganwadis in Chikkamagaluru district",
+        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQdVFqd2tlOFUxNzlCU1NGZkN4bGVIc0V4SkpSRzQxUEtFYXVCakNZMy1SOW9HZWlDMjhaR3VrOHpvVHhFVWxTMTVTbjdPbERCRUZ1dDRPMjlMRHpjUTNEUW84X09BakZHblo0OFhCWWl4Q0VUUjYtOGh0T0hDUWctNFdEVDRHbzdmekRsZ19TNFQ2U2gzamNHbTJBYW9iZzA5ZlZvb0pCSGlwbWlNRkF5NTdlMm85RFpNSm1mdEdPWUoyTTVaWXJiWHhnQUJYR3NxZHd3NjJpbnd3WEJjVkl6azlwclVrZlFCUzk4cEJpWGM1WGdGOGVqUXNVUjdpdTI4WmJsTmNB0gGMAkFVX3lxTE10Q19FWEpZQWZSdlVDZFROMElodWlwTWF6NHhYeEhuVURscmdYNDJfYVdDWWRvUDlWOEhab085RXBPMmRIX3h0MFo1cExtUVJaNnl6VTJhNzJCVGMtQUhyamtCSmFEMm9zdEg1dU9QQXZYMzZXOHZkWFhsXzFKUHV2M1RzZEJ6bE5WOFQ1alpfa0tmOWpDTHdHSUstRVpwOF85OTR6TG1IdVdzVXdDN1U4NThIRlpqdzdBWmVFVzl6UXl2QTNTNFVHa09nYjlXdDR5YmtseGhMeXd6WWlibXB2TzhpWVRuUm95bW9EU19uV3VGOUQ0amZ5Y1B2dmo1YmZkSjkyMjhKbVptdjg?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 04:02:45 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "IMD heavy rain alert Karnataka: Holiday declared for schools, colleges in Dakshina Kannada on August 1",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWHRhWHNRaDVBTHRjSU5sb01KOWVQNXdDUGcxNVA5bUNrTS1yRE1tWUJ2eXA0T3JjNnFIVEJZQloxWkFfSDBEQ1NUSTBLdld1N0c3eWxDa2p3YUZqU2N2Wk9Wc1oxNmhZcVVoYTV2bWt6MjI0SzEwOGl1b3JfRkJ0c2lvT1BZcGhud0pJN2R1Zm4xNUg5c3Vrc1owdnFWU25rSW1kclJsWFBpN1FvczRqd2tWU3J6eVV0UVNuYTBQNnkzZjFjVDZNMHV2ZkxwYlBhaXNLRGhUV3g5QdIB3wFBVV95cUxOMUYzdXRNWVBfUlB0MHNaNVRRTWZwWS0wNnotSVN6SXdKV0pRQ0I5cmxwWWV1Nm9XaVktWERTQjQwUjJoeFhOX0ZDZEppQ2kycjdvbGwzUE9RUGxWanFLTVdtZ0dLR2ZlNnl1a2NNajNSZmFZbm9RTi1Xa2h4NXVRX242UzFZaUFUUlRpa29fRDBZMVVVZVBiZ1hWWE1CTGI2Q0xoV29aSzBGXzJjWlV5ZmM4Y2ZxN05zYWt0OFBrQWZNWnFtOFduNWhZOXlPZlBBX2hNZ2lCS2dWVF9xQmk0?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 17:37:13 GMT",
+        "source": "India.Com"
+      },
+      {
+        "title": "Karnataka govt forms panel to put in place transparent recruitment system",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdzROOWxpeWk2ekhkQTRIUmVoSlJWOUJsQUEwQlJ0bXgyOFoxdVpnMkJuc2NQTnhHVFV1d0xTT3RkdThkNGV4SkJpUGE4N2NaSEdMTFFhclNic1dYVUl6ekdXMjJBVTV6TWxDQWZZYklSUjlYZzFyNHRtaUhyVEt0ZUxISEY5bXJXYjUyWXNXRG1MeERuYjFmekNkYnBZSGFHVVMydm0za0tyUWFLVlVxX0tHRy1jN3QwR3BwakhQRnhqQXlQMnVBTTNmc1R6eF820gHeAUFVX3lxTE51ZmFNYnFQZk02WXZSbTYzWDBrdUsxNW9EVC1HOFlnOTVtZWZOU2ptWGNUTS1Rb0RPR0t0T3Fza0QzSUFEYmQzRWRtMjRGZGpqNy1FTVF3bDdBaThNYTZOUUpmR2ZFLWNyelFsV0VXWUxIY0I0YUl6VGVGa2NUSUdqYkVaWm9xd0d5VF9KWGhuUTl5UkJWYkYweGR0SFp5NUkxWTV0VmstOWFPOFNsU0RvZjNuVmlpQnBndFBwV3dmMDNLVEdlNFZnVERZb3lNYnVsQlNjaDNHVlFJUFp1UQ?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 03:13:05 GMT",
+        "source": "The New Indian Express"
+      },
+      {
+        "title": "Karnataka govt. sets up panel for recruitment reforms",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNkZoMkVQRXVieVNqTUc2ZTN3Z0pLcUYxYjhaeHRJQW14OWh1WVlMN2VfUmxBYWZXaDlOck5ZckdCR2VON3M2cWxXTFczNWtSTDZJcWFfQzhXeUxBY1REVl8tLXFuT2Y0R2dGTVp1ekdRdFlTOFB6ZlhRU2NOLUJwVGdmRE9wd0dWWi15Y2JzUDZCUjFMMWdqUUx1bk0tM1FQY3FQQlphZmR6U3U2TEFxRHVmQVdfTUszM1JTcm130gHEAUFVX3lxTE43eU1HTTNMb0E1WHQ0azZabkNIY1NtUlZJRGxQV1RiMUxaT1B1OUhHTzlJTG9ldHloSzFNLWNjc2ZWV1hQMEl0T1JXcnk5YUYtX0ZUSU03UklMV3NqX1czY1Vlb0VzTGZlRXpFUjV5ay1fOWlFbzExLTg0WWZvMEgwN0JHOWJjX1FiYXNXRmMwcTU2dDRRV3J4REhZMnFyYzJsMUhuVVN0UGU2UmNtTW1Yd2ZoeUVRZlN6ZTVVYURrYUlMUk0?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 19:15:47 GMT",
         "source": "The Hindu"
       }
     ],
     "Technology": [
       {
-        "title": "Amazon and Apple just told us more about their AI plans - here are three things we learned",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4Tk9KM0RQSVhlNjVDMWlJWUQ4YmxpQlZ0NFdXMF9qZEpPSnd6OGVBeHJmYWNXTkw4SXF2djM4MlcyX3hIenowbC1WRkpVMkV4WEFNQW1OOV9vZw?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 01:31:50 GMT",
-        "source": "BBC"
+        "title": "Modi, Burnham discuss trade, technology, Hormuz over phone",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbG1TcmQtWjFLNG9NdjRZazFNNGZST1E5c2M2dHh5Z0JHcHFuZ3UtQ2V4NG5oVDF3bWFlN1dNTVFIZFZlSF9iVm9jempfajZWQW12akVURkxxeVM0a1hSdTJsSGZlTmtLTTZKcER0c3M3MnJ2R0ZUME1nb204eXNRbDkxNFV2cmktdjJYU0hubnkzT1R0d3BONjl1cVVudUxlVjk1SGZWVXdNaW1DMERV0gG2AUFVX3lxTFBPMGlVZUpqV016TVRFM1BNam9FX3JyTlQ5RHIxYUJJSnF5TG9MVC1KUFFqS205dC1iOGZJX2cwZHZrVWNYTkUxLXN4NnZuWjlEdXVQNUxBQl9yX3JneDFRbDFKTEVSR2dPSmZjOFZNUFM0blgxQ0JudmY2am1uWDUxWDFRT29WWW1EaDRsY3lYVVE0QXFXVXdBWVZfbXlUZGNIbkFYZDFjdGg3QjVMVTMzdWhIdU13?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 13:49:02 GMT",
+        "source": "The Hindu"
       },
       {
         "title": "The New Architecture of Consumption: How Technology Is Reshaping Consumer Behaviour",
@@ -415,10 +415,16 @@
         "source": "orfonline.org"
       },
       {
-        "title": "PSNA strengthens industry–academia collaboration in drone technology; signs MoU with Garuda Aerospace",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSEUxek03aEJvTVk5QW1kcDdoeHdqQmtXYXM4b2d1QW9zUk9yMFN6eEpDeENmSzFmR1NlTVZpanFlWF8tTjV5QXRRZnliQ3R2dnprTHUzZXQxQ1l2TW9fUUgtNlZQc0tGYzh0dmhlQ3I3NDQwSmtpakZMRHdFak9IVmdwclFMSUR2UHdjdG1uS2FWVmMtdWJKckVjMVZzSFRFb1dmZWZZblNRVkRFV0FmcEJUblZqeS00Y3ZtWXJHT2JGeTZfdm80Sko5NG1GZDRpVTZWQ0xDRHpQY3dHSjNZcmE2WUhLTi1uUVE0c3dLZjlRWjlkX2RB0gH-AUFVX3lxTE9vbF9HS0FacUNrMWM3S0haSVAxaDUxYzBONUlwdEFhTXd1TS04cFItcWtRMlFVSGI5UVhtMlU5VVh2THZJT1NCM0c1YnVYNndpZE1OS2xaYm1UTnZKRmRhcVVOMWFHMzhzUXIyOGZ5b1JreG1peGp5SVVTbGZQUHFjNlZWellZcjlWR09adDU5cXlOdlBydnNENHljSncwNENCMXRGU1Btb2RmVnRGQzNrdENHbHhoaThDZVFmUGlVTmhlWXNjRWVBZDc0MjRBclBib2FPdzRTNmNrVkM4eUw5WVZHSUNQelBXc1daaFdPS1RfcHo1RzRUYkZGanVR?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 15:36:20 GMT",
-        "source": "The Hindu"
+        "title": "Winners Announced for Essay Contest on Peaceful Use of Nuclear Energy and Related Technologies",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSEhrSWdudzlWUnFsTWtpYXZWbU43TzdqandzQTl4ZEpFN2t2ZjZzbkpzNUlNQlFxTDR1ZkM3aF9QZ3Z3RUhfZ0RuVlZnR2g0WWdPOTBCQUhUSWtXOGp1OUdIQ1F5ODRIZDhvQTQ4U0FwSzlVZ0ptZnVpWC1yaE1VZDctcWdYYWROOWVOTldDQjhqc3JEOFRYVF9vNlJpbkZxZzU0OTBseS03RmpGbE1MUWZac0V1Y01C?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 02:20:13 GMT",
+        "source": "MyGov Blog"
+      },
+      {
+        "title": "Industrial-style technology museum set to be built in Bengaluru",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaWozRm9Ha3NiUzFDSEYxX182Mnl1ZEhpQjVPNWpMVzdBTmExOWxVUC1pS2V6S1hSX1dSbVJqd29hU0tFVGxqT3R2NW56c2paSVcxR1RsdEVHakNZYUpLZFd5bHhES3dJbVdxU1kya2Yza2poOXR3bTN2bV85NUJNdUxmeV9HanR2?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 09:15:00 GMT",
+        "source": "Dezeen"
       },
       {
         "title": "Latin America is becoming a laboratory for tech-supremacism",
@@ -427,31 +433,49 @@
         "source": "Al Jazeera"
       },
       {
-        "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSWduREp1NDlRczVvanNUcWlLczk0ZFJwbDlnN245ZmI1ZEZqUWg5YzlCYTZjRXdqNTloQzMyS3hndi16eTVlVFRqTFZXN3JMRHNvUm41T29yS1hmeTM2aGFPc0phSW1aSXdoYzFmUWJVS3Q1NTlFWWxBdEctMlZhUEpaQ1dKQVJBYWF3bWpISm16VUNGQUl4d1FjVmZGQlpuZ0pXMncxYw?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 10:15:19 GMT",
-        "source": "MIT Technology Review"
-      },
-      {
-        "title": "Opinion | FaceTime, Zoom and Ring Cameras Are Warping Our Reality",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVV9hWE1WWjZPUkxpdkxJUGQwbTJFRXlCaF84MjJhODZvRjRpWWJGWnBQOW9UdkR1LXdxcVMyS1BUYTlDVUNCcWZwM1FMZi1RaTlTY0FzSThPX29fejZqNHlWallBYWpKa0ZpdjY5Rnc4LWNCRjdqUDRLOVRCRk5IRVI4ekVVZ2wtN0NWRVV3?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 09:00:19 GMT",
-        "source": "The New York Times"
-      },
-      {
-        "title": "F-35 Fighter Jets, Features, Variants, Technology, Global Use",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jd2xyYlJxd053VmVfak1yeTRKZUh4cjJSdThtZE1YY1Q4TXU0NWdhNDRKdkxpZVo0UHYzMm5CZlNPUS1lMjBzemY3S1ZIcTg3dUdacVEwR0lKU1RTVEw0UU1JZWZfLXo0R1Jzblpn?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 12:31:41 GMT",
-        "source": "Vajiram & Ravi"
-      },
-      {
         "title": "Financial market technology moves into focus",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdk9Wa1V4bHhpNU9kSnB5TkxobloyLWRDY19ULTBYcEZRWUgyQlI0Vk1ET0E1LUh4ejRwLTRRTDZsYVBUVU1BTWhSQ2VYRnlOSTJ1bURlT2dzLTFYRkNoakFpdlF0Ml9FRkRvVWlEVkVQd2hteV8wWHhtdFl0WGlsWi16SmJkZXpfVmVybHNhYUZVV1JZWk5LVkdTUGFONnpTbEl3cU0xTjRqUQ?oc=5",
         "pubDate": "Fri, 31 Jul 2026 13:06:28 GMT",
         "source": "J.P. Morgan"
+      },
+      {
+        "title": "Why slotless motor technology WILL transform the next generation of UAVs",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHdPSXRKU2g1SFdiN2hFUW9ubmNvMlBEMHU5ZGlka3Vrc215UHBreDYwRG5fSURiN1J4TVdGVll2WUt4TmVKUEhjTjRlbFk0WmJmTV9NeDgycjdtcmJOeXZsei1kN0dFTEtmMlBja2VzQmRybVd2ZlRnTkdMYXowYWkxTG9kZkJjME0yMFVxZzNYOENSYmR1eW85T2YyQndEWDdoeGVyOGViSTlrbnhhdUJtT0JzLXg0M0Y3cHE0UQ?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 11:46:48 GMT",
+        "source": "New Electronics"
+      },
+      {
+        "title": "Why Marriott's Most Valuable Resource Isn't Technology",
+        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQa2F1ZVFoRXhqQV82RWZscEVrX2oxZVBjeEl2bWZnM3pUWFFLZDBteVVrWFNoNFhvWkg3LTRmVHNxWWlGcklydThOa1IybXpXTzRfZnJvdXgwY05CUEZQZFlwLTh4TG1TR1pCTEVxUHFlZjBrUWJJakVCb2pLXzJzNnpWSk1HWjVQWjlkc2EtNnMwV2FIaXlPdjVNRDFGMlRtMm5rSW9zQWx1ZkgtWVlPYlhKVFFWMXVDcXpmdDlVRnVWZ0dXN25IMFJvRFhlYzh6UVdlbThCeHZtd1FzZ0VDSGFZb2JzVWdKMVE?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 13:55:42 GMT",
+        "source": "WSJ"
       }
     ],
     "Bengaluru": [
+      {
+        "title": "UNSW Sydney opens Bengaluru campus; V-C promises industry-driven education and high employability",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSFVYb3g1VlFXRkpSbG9CUmJyaUxGcUdtS0VVOUtWZ2M3OGplT1htZjE1N1NKUUF6TlE4NEw3WGsxWGdGNE9mRFY4SjhoN0E2RXJhTnI4cXI0NEVITWRVSEk4bEN4RXJlb3FBWWRSd3hBa2xOcDBsRWJYNXRpQ05qajdTbDc2R2llNEUyMzlCXzZTNFp5dW5tckJxeUVKVl8yQWd4Mm5VTmZMZG1nWjd0Y190cFMtbmI2ZUJidkNaTVBEN2U4aHcxQW12WTRRVGZnYjB1ZUV4UGRFSjJSTll5cVc2MWtDNnl0cjBCVHh4RjFMNHFJYmtGQtIB_wFBVV95cUxPRmlMLVB3MFZldnhMMUtDZzFlTGJqZldtVmpfMGswcXNpVWxmeUZld25PVHhZTmttWkNxWkR6X1lqUThLSXJZcTJvZGlNS1QtSXhpcE5kUEVTRURnVndsemMyZTZ0aDdyQWVBaWZIcmZlZ29HdjJKMHVLcE9HM3owbU15WnIwMDRkTXc4LVZ3akNqbFlHMlVGVUZLZk5DUng4MWU3cVdXWkJwRDZCd1M5VVJ4ZGdsWF9pMFhWYzdKNUJVa2gzRmdvM0VDdHRFRDFTMDhEeFJfUVdIY3VBQ1ZGcEU5RUc0a2tkQXdDM0hLU2pYRlN5QUJ1TEpyU3ktQnM?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 16:24:03 GMT",
+        "source": "The Hindu"
+      },
+      {
+        "title": "Australia opens permanent Consulate-General premises in Bengaluru",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbDhnc3dDWGJJWG9JVzVucHJuaHRIclA3RHVlVi16LVg0MWgtekJRaVF4bHlDZVhER21OTTBfazZzNjRlMFd5WjQxRHp4ZFl6aEd6WWVLejlGWmhoZExvNURnUjM0bkRodXVWNDM2aGdpeU1tdEE1YmFDRE1VVVdNblI3UkFuUTBuWDF6UG1kNm9tRm1tc0hHUFkxejdRaDhjZU5CZmQzUGpCdmkzekZoRnVMNXdaMkZBRTlDLU9ZNS0zQkQzZ25j?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 01:07:44 GMT",
+        "source": "Deccan Herald"
+      },
+      {
+        "title": "UNSW Sydney opens doors to Bengaluru campus",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNTM2Vkx5YV9jMVN6RUFsakloVC1rVVQzcm12SV9CcVdsQi1Bb2s5S0tGaDZXT1R2TnpySjRNYVJId2VOaWk3ZEdJMWRVQWlWN0dYV2ZfMDFVM3RLdnRWWTNFWmNpelpxcVpsTkxsYU5tV3JqSDdkWnBMd1RnNnBmTV9CWHlQRXpaWkhMdUZBNXF6TGM?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 10:52:12 GMT",
+        "source": "unsw.edu.au"
+      },
+      {
+        "title": "Cauvery flashpoint: DK Shivakumar asks Vijay to defer Bengaluru visit as Karnataka protests erupt",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQY2N6QkRMMTFiaDN3U053T0FsZWd0ZUN2QWZXV2VhZmZaYmJHYjZzYTk3eWNkZDU3TlpHaG9aT05WSUh3d0FZYi14a3BpSnRPa0UxalVzdUZ1R3NyOF93OWcwb3lyTmhmQXFaM2V1TlBBRlZWZmZ0R0dIdmZMY2JZWGlPbzExWVBvNUlBNUotN1pSZnpoMTNaY1RRU3YwSnI2TTkyenhBejhvUE43SXotc1llN3VWTHNaVmROeVFvWGcxTnVXeDRwUjBQeVNHNXVSM3kyM0owOVJoQXFycjA0aHZJTnRiT09RTkpJTVMtbEs1N1Bkc3NqWENwNWdDNHc5bWhR0gGIAkFVX3lxTE1GTnFNWGMzZk85X1cwR2txRGFRVk8ydTROUkt4bFlSU19qMVU3ZkZDeXBZYXpnN1BnX3h0RFlvZEZJaGhWYVNSQTNIMkdjc1llc0tWa0ZoQ05vZEZFWmhnWGdIdTl5bXpodEhyRjVDbXZkTS1FRkJ1NW8yZ3U4V0NPY18yQVl0NnpoaGlVczdtM09fR1dsSHE0dFZkLVBpRF9YM1VRNXpuQ3owU3JuTmZvZFNPOFlvSTliak13T3pubzY0OXFQQUt0SU8xaGQ2aEFrdGNrWXVhdDBMRWFqVjR0MlNBM0t2QTRuenJ1TUpNYThTa0F4U0trLVhuWTc0UFhVRmRlMk1aZA?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 15:36:00 GMT",
+        "source": "The Times of India"
+      },
       {
         "title": "DKS appeals to Vijay to put off Bengaluru visit",
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSEdjdDNRM0hCc1VueVN0UlFka005djRQQTBicC14NG4yWFFwa2ppMGtqc29DUXNBOHBpelRSaWVXa1RVWF9aMGRoWkxzeGhKc1NUNlpPUzI4OHdCa0xhVENBXzBqclN1cTNNR216T3QtRkF6RGRMNnJiT3NDbWVCNlNCZWlXVGI4MjhKdlNzQ2ltd3Q5UzVqZ3JlR3doMjJuaTZZNTI5UVhPd0FlWlA2dkd0RW5vYUpMYWstTXFsZHFuVW1uakJheTREWVNILUl6Qm1PdGhqMFdidTNNa1HSAeABQVVfeXFMTWMwQkxPeGNFakFJVFdhNkNCbE5PZVJQbU8tcTFtYWRoLU1xeUdmeGNaMmtYVTFuemtXZUw1a3dNRnM5MVZxd2Q2VFlRZjdleVk1WmFGMnp4dTJxeEZ3a2tWakJNQ1d4Qmg1QldXZDVwN1pWMThIVGtZbWRwWFJrc3NGMlV1eXZib0lGR2JDQzhXOWtGOXRhMlBuX09fV2FpNUh1Nzg4cU9JVEJ1emtFWmhGR3BwOVV4R0FORWtmQXREdmpjOS1EdTJBYU5UVy16MHA4dDVVTEo2YmRzeUtFSWw?oc=5",
@@ -465,40 +489,16 @@
         "source": "The Hindu"
       },
       {
-        "title": "Pro-Kannada groups call Karnataka bandh on August 13 over Cauvery water release row",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWGo2X2xEOWk3Ynk1aElZc2dxX0x1c2RjSTZGdWYtendYV2pQSHBQV01QSXhwVmJONDJsajNaODhKNVI1emdNZy15OFkxRThjVktLZVNkdzZrSlpIc2VKX1FiZlZ1bEdVZ2s1NUNTd0NFWTZvSUd0dTN2V2VmR014eHBsOE9lcFJfODlVTjFYRW9pMi1tWlFDNnBYYlBid3Q3RFFiOTJnUjhucHllMmVpOHdNZURweUpaM2Q0aHladDhGbWxncFpLS2dQRExubFBRVU84UDFYcFgtUXZzeGxOTTRidUZaN1VINnpFa1Fyd3Rtdw?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 08:22:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "'You dare to demand PM Modi's resignation?': Masked men assault student protester in Bengaluru",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWjd0VEg5dWRMeWV5MVd2MHFvTFJZTF9CZFZfS3E4Y0t0b1h5ZlJ3MmVYN3drNW52VGMtR0FGNGo2V0xHaVhaUEJpNFp4aE5FTnU3UUxucWdMQzRfYUJLTFZfcXc4cmVDc1pQM21uVjc4MVlQM2taUHVHWl95UVhySzY1bjZzenVPdHh2a2c0UlZRaW5tMkl3bHlodWdHWHZRTWhaMHpwZEdCeEJucjNzVWdBd0p4VEhPei0teVBQSkFiTXVaWXJNVkFOZGFIQ1djWnF5eGYzQVE5bFNIZzk1QjFZLVNuV2h4YjBpTTk1RXJZZjVyeEHSAfsBQVVfeXFMTlVqaE84aTdBR2ppRWNwdlJzVjhvdmp6UVZoMzdTQ2RSX2V6czFEUklIb1EtMXNiRmtrQ29mZlYyNWpHZFk0SUxDN2t2MlFDOTNqRDlsaHJwQ1JleURfMVU2bTlsVzBuQXEyVnhTYjZZZDhrdjVzMThoWW53TG5fNy1fUTF0Z0JFUFAwNzJkMXRLTzN1YUVhaXJ6RlNHQmkzTk9wRnhSY0ZNX2F5T2NzaGxvenFDMWdWYjJ1R1Q1QXUzaFFtbmNLQk5qOEY3NlJtSHRLbTVGU3kwX29YR2lhZE5CSzVyMkxUUE80UC1rRmdMOUFQYWxIYnpjbTQ?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 06:57:00 GMT",
-        "source": "The Times of India"
-      },
-      {
-        "title": "Bengaluru: Student part of Freedom Park protest assaulted; FIR registered",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb0U5ZzlrTjNnaFFBcmQtTjBfNkxwUTdHN055bzB1LTZoN3h1Q1poemxkT3BUTXNfUGMwSmhOZmxzUElEWWxyTTVIRTVodWw5dDdWZ2syLXVtYVZXU0Y0bzhuQl9BMDhTNkZZUWVzQUtCclhCQnNJai1vWnJJdkYyOU1CUVc2T3p1amhjTjZaX0xKTV93aHl4YmlEaHBrZkUzSU1NMzJoTXh3d3dNZHZNbTVNeVhiTnhIU1VpSjFmaHBvSUFGSTVTb2RVX0J3eURsUkRMcktYa9IB3gFBVV95cUxQNTZkRVNkY0Q2c283XzZsM0lCdFZwRHdNcG5WN1B6QndDaTVmQUJpSEQxM0JtS2V2SDlGNlUxeTFaaGdnR0dwMlZNamR0VHBQVk5wb3F2eWFzbGFPaDRpbER5eW11a2FpNVhCNHlhcjlLUE9ScGtuaWJHN29DeDZkUDRoRF9JUEgwLWxxTmMyUm1aa1FrRk9LM3o5ZVZhQlZsR3UxV2ZCTHdtbWVLRWJoX0ZyLUY5WjA3cG9XQ0JxWVUzSmNrT0NjWHJoTTZrZDVhVTBPS3dza0JFT3dHbWc?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 15:16:53 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "FIR registered after NEET protester alleges assault in Bengaluru over remarks on PM Modi",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdFcyaWZqcU8zSlRZNnNMRDhJTDg1U0VvU0pEM29UY21jRkUxd1Y2SFpSZnhhY3V4NVFBaGJDaHF1c3BBMkVYNUU1WVAtcVNBbTJaOTNOWHpLMmxlanhQUkJ2VFdBMml5UXdsMG1yTFpIbkpPSDFzUFgtWHZSWm9IVU5vclQzS0EtTHlyaHJWT2laMHRIbTA5QVhJYmYzZWlxLVJuemdyVXdaQ2ZmYVN4ZkxYdVFub2RmSHN0M0ZtSTjSAcYBQVVfeXFMT2M1dnVWV21JcWtKdlNwSlJ0SlB2TkdrbHZBUnlDNG9KYkxuVzVMazJkdnRiXzVrWVdVekRBZlRBbWRhLWNVbHJadU41eXRVN2RQQzFxM1FIa0FjNWE0WkJSMVRwbC1OZEhFSFduQnpMZU5aMHRUdXlxMEY2Q1lmc0ZrZjR1REVDS3R2bWZYMk5iVm53TEdtTVRVd0Rab29teV9ObGpqb1M1ZlFZYlhabmZ5NEFsTEhWOG1DRW8tU1lxRjQ5WS1R?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 10:49:01 GMT",
-        "source": "ThePrint"
-      },
-      {
-        "title": "Bengaluru: GBA plans mandating GPS for debris transport vehicles to tackle illegal dumping",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVERpSHc3cUZCOUlzUEMycHEtVGVGTHN2VUFpUDY1QURBaV9mdm4ySEg3UktnY3o2Z2kzeTU0ajdHQlBRblhwSWNaUkFjNDJVQVFqS0JvNnZQLUp5SXJFeFo4anhoMVoxZFU1SnNDOWc1RERxUUYtU2FzT2FDNE1uY3NQWWcwenhTV2xta19sYS1heGFNcHA3NEc5cENyaGZia0ZvY1pTZEVSVHFqMVVtdWxfVUduanh2UWxBa2tXWnpPOFMwdURGSFBWeGpMMktsMnEwRGV1d3J4azQ3bTRrcUp3ZnpUZ1JnX2RLQ9IB8wFBVV95cUxQUWRia0Q0SG56eE5mS2w0U2JHeTVaUGtka0tacW9xbjdreDAwNk9lREpiRGE5bXJPZXZ5V3NxamVQN0hWV2Fua0ZZeWtiV2ZkbDRRcS1WTzdCRk1hUUNFTTBpZVpyUXNmU3pLZXZWVnE1T1VOekVXSVFkTjhCLThfVDVMUEU3YUtwZnUtc0dkZEl3VExON0hRZ3AzbllZaDhDX1M5b1RSNDJXbTlwQmRCejBvQXczUGJ5R3lVbHRNUE9KclVLOXdyVmZpaU8wYnFoTl80a1QtY3V6em5wRFRJLU9zUk40ZXZTalUwWlBPSnJmcjA?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 13:22:05 GMT",
-        "source": "The Hindu"
-      },
-      {
-        "title": "JCB rolls into Bengaluru: GBA's month-long clean-up drive begins Aug 1",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSXJhNkt4eWZEU1NGN1JNRTc2My1uNGw1cHpwUTA5RmZJOWlxVHJKT0lxVmdiZGtsUGxwQzQtdFR3NTRMd2UwdXRCT01RR1R1eE1RaE5HOFF0UmhjZ2MwQ18ySTZiZFhKT05CTGVoYU44Mjk4a1Z4S3ZTMHlXZ0FmcTNxV2UtSjI5ODVSZWU0bWpXeFlNRVdIYXVnVXJCTnNacHRNSC11MFk5ekg2TzdEaTdHZ0ZDZlVIVUt2SXlXYXZuUUZOajJaTlYycw?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 16:26:24 GMT",
+        "title": "Bengaluru waste collection back to where it began as corporations regain control",
+        "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTGpPNW44cEZhSEJIZUV4RlNBZU1uNVdKejVUbi1lX002Vi1vazJULU0tbmwzdlRZMndNNERnRXBwTlhlZ3Zwb2lBcnhKSGpJM21iWlVyR011Vk9vX0ZJR2NhOFJSS2p0T29PNTlZTWRxWGJwX1I2ajRCQ2VnSHZQM3dxc0pNSEZNVFNVQUZXQzdRWDBQRG9mTTRkZmZ2RmFFUkhvSjg2dGlWaG8zYkpFWjZXT1REX1N2WjQ5OTZoeFpsMUJZcmQwN1lqQlBjYzd2bEptZV9obnBJLWc?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 01:29:22 GMT",
         "source": "Deccan Herald"
+      },
+      {
+        "title": "Freedom from Waste: CM DK Shivakumar, Minister Krishna Byre Gowda to kickstart drive on August 1",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQNUFiaDdVWndhZ3FXU0VTWjh6Z0hEaEtZRGVBUktRUGJ4OVRqWV9qZ183Ylp3N2I4T0hralhKb3cyTTR0LVdEVl9aVy1YYnROWWhEZzRDRnJzNzFzSWJxalowWEx4OWFkMlBOVFNYdnl0enBFYW13c2FoUmszZGxrSHlKMEEzbjlRWlpKWThIRG5BSUVPVG1OTlc0d1NmLW45Uk8xdkxlS0I5QUxEdlJpZVJvVGN6MUJRcndmT1hKMTJYeFZSZHpCY1R3cUJtVVF2d1VDRWgwZUoxN1VVcjJkczVIT1RQcjJxT1FPWNIB-gFBVV95cUxPczVvTHpMbktSTnhDekwzSmVzTkFLbnk4X1R3Z3FRY2FzRXc5bWw0OURMYWRpUEt2SDVXWmJVMFJ2Z0Y4UThJNlZyelN3U0UzdVdEVVlDX19aU2RVNmowcnV1MDdHeF9MTTVMLUVVVi1XckgzcV9IR3pLeTA2VWNBaDJXUEppZTZVVFh6VlRNV2E5Um13dnpvV25YSXR1dm1faWpvMnpEclZXLUpBZTUzUEtIb0dna1loUHROZUpDT3pPY01vMm45Z2NydGZtbWt6MWpnUE12ZHBPWThvSE5XejVndGE1ODNkamFNTXNJeGxSVC03b0tWUGFB?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 02:27:11 GMT",
+        "source": "The New Indian Express"
       }
     ],
     "Diljit Dosanjh": [
@@ -515,10 +515,10 @@
         "source": "The Times of India"
       },
       {
-        "title": "Main Vaapas Aaunga: Imtiaz Ali reacts to Diljit Dosanjh, Vedang Raina, Sharvari starrer completing 50 days in cinema",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVUNEVzU3WlhFZUdCM09CSnNFZEwxRDZXRm5ZZWNwcGZjbE52V2s4dndGT01neklyWUZGVzlUQzIwLW9JZkNmM3F5OURLbmE4QzNDSTdBX3lvWkpacExKTkZWQVRTMm9PdDFKc2t0T1VuRjc2bTJMNUNBTW92c2FUeF9zZ2ljbkxzS1BZVXB0TGpYOHB2Ung2NVd5d1ozMEZHa1ozaTBsOU44czZjcUV4Y0ZKWFlmUHgzcVhxTjdYMkpqa2U2SXk5T3g1YnVhckJjdjRNYzFPZG9jM2tpSjRuOGI4cnZTZEVFZ1RHRFlXSGY1QWPSAfgBQVVfeXFMUGtGbUh1Z0RCekxCYzhQQ2hIdEpLbUt3M0NxSi1JNnRCSkd1VGtYcWVrcHM5cnJBWjVlMVV4MDJZbEJhRkdjU25XUUoyWDQ0OF8xRXJ0Q05KbWRUeDdSTVJ3ZmxUZ0xPOGl0V0hWbVItU09jSnQ0ajB1RjBwN0o3NnlyczFseTBYWTJEejRPekxpRjhVNUZWblpybGQtZEJmajlNRzdqa2N0M2VMdENlUHM4MkJYdjZSSHZqcTFQQjBZMXJRV0NRS1JrWGZKX3Q1NTA5LVktMzh6RV84MDZBZEpzcXpFWmpoZUdXLVVZTzYwYlBXSDZOYlM?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 09:50:05 GMT",
-        "source": "Bollywood Hungama"
+        "title": "\"Listen To Students\": Diljit Dosanjh To Shabana Azmi, Celebs Back Protesters",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdHJWM3I0SFA3eHVIN3E0RzVRaC1kQWRBTkxiekpmOS1mZURqZlgzNTVfdm9uOGVEUXYxdndXcTVtR0dlUWowME1zRjIxNFVMdUhlYlVuMVA4SDNxdnRUbFBpVTdSelZ0amVUdm9DelF5LU9OdWQ5NXhFalJnOFI1Ujd4bTBVbi1zSENkbEcydm1pcGxQM1ZxZGFvTUpTMEoydG83UlFnQzhFazcwN2NueVlVX3VHZzZObU1KcmFOb3lXMDVuNk5haWs5OG51X3hlSDdfUEMxX0ZIREFMSFhDU0l6S1psRGY3aUVNUnJ3b9IB9wFBVV95cUxOeVhGOEtFSmdOMmVMdUVsREN0bFYyZy02QWVKaXdqdnBoWHhySlVpVUxSenVwZmdvZFZfbVNvTk5ReWVvSXFBd1RNRVBhYWV1Yi02a1lWTkNSUW0tZnNwMFFsTzBMalhEM1BmSnFOVFFYZFJxM2hobkw2MDEwV2JGTmxqOUxqbHR6elYtRldmRGtqOHlXSy1ZUmx4QTJ0bTAtdk9ocThsb1JaSHdMazBXb1VxTVFUV2EyNzNBcGx2TGVzQkJEVDluaTFtVThDN0hVTWF2MHRDaWY3WnNtc2lpT1pJQmNLTTZhYkpjUzFzekx6OEttUnpr?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
+        "source": "NDTV"
       },
       {
         "title": "'Will be called anti-national again': Diljit Dosanjh backs CJP protest after students face lathi-charge | Bollywood",
@@ -533,30 +533,30 @@
         "source": "The Indian Express"
       },
       {
-        "title": "Imtiaz Ali thanks audiences as ‘Main Vaapas Aaunga’ completes 50 days in theatres",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaHhDbkpsc0sta1VOSmZKeWdCODlNcUlZOWdDSl9yZXpGZGtpRTdac2ctZHlQQlBBaDBqMHVfRExtbTM2TTVud0o0WTBDRnk2TjlCSUE0OUxFR0d5Q1ZQZmlJTTIzbmk2TXhGd1d4XzFBVEVSbUZ4MEFfdjZKSWxLTHhhY3Z2aDFEY1lub2hub0hiRVBoSGlsbjJjajJWbTRSdnN1b1daYzk4QQ?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 10:05:48 GMT",
-        "source": "Telangana Today"
+        "title": "When And Where To Watch Main Vaapas Aaunga on OTT?",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb2NWZ3QtbVFoOHpiRVJNZTI0ZUI0akhTbnduNXd4ekVfODhmVmtUY1dtWjJSZV9HTnFyeUdXa0pYWGs1TWNoVFhlQVJZckZKU3NQbk9KUTN0V0dLVHNWcHRvdkotOXJkbFp1azV3Q2JPS1dwTVYzeHR3bE9xR25HdmVXZWE5dGV0aG5ORk9NM3l0emc1Ul9Obkx6WlBia2FVRlp1NGVzc3l4bTR1VDhvVG8xRDl3alZSTVkyNTRhQ3pWWlU0eGJDbzRHeHdvNHdYQjBn0gHgAUFVX3lxTFA5YzNNV2hEa1FvY0wtaHh6WndxUmlhd3VhVW5JSWFCMjdNZnQ4emc2TUQwTGM1NU9NMFVyZXVXdW9Sa2otUy1LMmNya0h0M242TkxzZnVDLU5maTc1RFlHcC02WnNZSVdVZHdNVmdYTHEtbTByaUczRTRzaVU3V19uZF8yOTNGbUhFY3dQSk9SbERYcWFHdzlLcG9KWk9uMnhSa0NGT3Z0N1g2b2xmWWZRTGxMWktNSWdEdVF4XzVXdmw1T0FPVGVkX3I5eExrRDJTeWVOSXVSTkxSQTFKVHJ0?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 02:30:00 GMT",
+        "source": "Esquire India"
       },
       {
         "title": "I'll be called anti-national again: Diljit Dosanjh supports youth-led CJP protest",
-        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaThjV1RydVhZYjRVUHJlRFZMSnFLRnpPdVFBc19pdGFLc3pIdk50NG1LaXA1WU9mV2RwcW5oU1h1Y2VPOVppbGJUOWxEOXIybEIwbnQtbVFHb3YzT2VtVEZoYWlNUUpneUpHaGZnX3pKZHdyMEdacFBIbnBXNnMyR214T1FYemNpYkR2ckxueWptVlk5dUozYm42V0gyOVc2ZndTdG5LdXBHaHpleVNBbzl5clBVMVE2Tllsa0x6NHZQel8xV01YLXFqN09GRjFsTklWaFJHaXRxU3Y2d1JCZHRaei0xWnpKOEtEZkhza0s2ekdTZWlnTw?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaThjV1RydVhZYjRVUHJlRFZMSnFLRnpPdVFBc19pdGFLc3pIdk50NG1LaXA1WU9mV2RwcW5oU1h1Y2VPOVppbGJUOWxEOXIybEIwbnQtbVFHb3YzT2VtVEZoYWlNUUpneUpHaGZnX3pKZHdyMEdacFBIbnBXNnMyR214T1FYemNpYkR2ckxueWptVlk5dUozYm42V0gyOVc2ZndTdG5LdXBHaHpleVNBbzl5clBVMVE2Tllsa0x6NHZQel8xV01YLXFqN09GRjFsTklWaFJHaXRxU3Y2d1JCZHRaei0xWnpKOEtEZkhza0s2ekdTZWlnT9IB_gFBVV95cUxOQTY1NjBDeXlvSmlBTU5RNEk3RHZ5MEp2b1dheDVvVTlJQ0NTU0ZyelBKM2QxYkxLZkljSllWMVhmeWJ4b2htMXlJcnRneVQwY2FxaUxOOUtMTnhtcFUxYnJwQUxQbTVzaWVoSlBMdTFSeWJJVkZqRHNTOC1xV2RmdG5pZ0NXTHR4TnJILWdkS0diYThERzd5SDlrcEhSbXBzTkFqV3Vsd3pOZUhzNTdxYllzaVJDNkRIZW9ESm9rTGw0T0lsQnR2bHJrdDkxQ2xMcm9NOUV3eWFOYW5VQXVlbVJVaVpBdFo0MHljQ19zbmtUYW5ld1BMLW1WZzYxdw?oc=5",
         "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
         "source": "India Today"
       },
       {
-        "title": "Where does the Satluj actor live? Inside Diljit Dosanjh's homes across three continents",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdVRUei1EYURMcGRjQ1UxenBkOGVzSEFmQnJaOU1nVTg3ZU1RbHNrU2IwdlFLSGp6eTZLcGs2RHhCcGdKMFVzWl9TaXNXSjRFZVliWm1lWXVWT2ZqNmJEZHcyelh3c3o3VkRqUWZ5NmhmdG9oalQ4bm9qNEl4ZTJHbWJsZ1diR1ZtanB3UVpjWlFCd3V0WTBDN25oQTZOcnQ5b19jT1pZeF9RMm82YkhuNGdSTzZwX08tSTZRRGhXVEF0WjBMa1E?oc=5",
-        "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
-        "source": "architecturaldigest.in"
+        "title": "Main Vaapas Aaunga: Imtiaz Ali reacts to Diljit Dosanjh, Vedang Raina, Sharvari starrer completing 50 days in cinema",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVUNEVzU3WlhFZUdCM09CSnNFZEwxRDZXRm5ZZWNwcGZjbE52V2s4dndGT01neklyWUZGVzlUQzIwLW9JZkNmM3F5OURLbmE4QzNDSTdBX3lvWkpacExKTkZWQVRTMm9PdDFKc2t0T1VuRjc2bTJMNUNBTW92c2FUeF9zZ2ljbkxzS1BZVXB0TGpYOHB2Ung2NVd5d1ozMEZHa1ozaTBsOU44czZjcUV4Y0ZKWFlmUHgzcVhxTjdYMkpqa2U2SXk5T3g1YnVhckJjdjRNYzFPZG9jM2tpSjRuOGI4cnZTZEVFZ1RHRFlXSGY1QWPSAfgBQVVfeXFMUGtGbUh1Z0RCekxCYzhQQ2hIdEpLbUt3M0NxSi1JNnRCSkd1VGtYcWVrcHM5cnJBWjVlMVV4MDJZbEJhRkdjU25XUUoyWDQ0OF8xRXJ0Q05KbWRUeDdSTVJ3ZmxUZ0xPOGl0V0hWbVItU09jSnQ0ajB1RjBwN0o3NnlyczFseTBYWTJEejRPekxpRjhVNUZWblpybGQtZEJmajlNRzdqa2N0M2VMdENlUHM4MkJYdjZSSHZqcTFQQjBZMXJRV0NRS1JrWGZKX3Q1NTA5LVktMzh6RV84MDZBZEpzcXpFWmpoZUdXLVVZTzYwYlBXSDZOYlM?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 09:50:05 GMT",
+        "source": "Bollywood Hungama"
       }
     ],
     "Harry potter": [
       {
-        "title": "HBO Max’s ‘Harry Potter’ Series Officially Sets Season 2 Filming Start",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2RnMjB4RTZtLS0zWjJJTkNUaVdYT0lrdjA2cUNaUDlUdG55VmJpMl8wQ2NOcUkxemNZbTBOcjN1U3dXX3FmemlQTkFUM21zc0N0MUsyYkFodHZudkZIVXBwb3p3RVo5Y3lrVkpHMjY3cHRKdFVYX1haNFNBUUladm1Scw?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 19:26:55 GMT",
-        "source": "Collider"
+        "title": "Harry Potter Cast: Where Are They Now?",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX082YURiOXRyM0h3c1dhWTVHLTZXSVRsSExVOVZFbEkzMW5UZ3kxbkV5NDh1clpFOExaRGJ1VWlUbFpCRmZqSW9Odmhmb3NmUmprRk9hZVM0MkZBeExtTTFQY1dxRy1FSndYNW5ZWlROTFBYQmR3V3VXM1BUeXU1S2kwaXBaVHJnT1E?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 20:58:02 GMT",
+        "source": "Rotten Tomatoes"
       },
       {
         "title": "Harry Potter turns 25 on screen and Bengaluru is ready to celebrate",
@@ -565,16 +565,22 @@
         "source": "The Times of India"
       },
       {
+        "title": "Happy Birthday Harry Potter: 7 magical book moments you never got to see in the films",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcDliVk5OSWJtdlZxLWNBLVhkSU5uNTlXakJoQjRVTEpZTm5CRnh2NmhON01VWEZiYVltLWRPdFhkckxBTUVIUDZMR2dPS2g5VnpQXzFOaHk4UG5DeDFIYnRlcjRvSmd3QkR4LWNIY2RsS2M0OXF6X3hYb0xMbV85cVJGVklzOUk3UWItRkZKcDNteVVtY2sydXB6dkhFOTZnaUJVaXRHMnlud3VsaWVXNEhaVzBYVklSUFU0WktVTE5OX0U5MFh3YUhWUjlac1k3djlkX3pXR1phVEpqUlZMUHZRc9IB6AFBVV95cUxOei1MUElWVXdMMVFJalpNMFNoZlI1U3lEU1BCcUxPWEFTMnNMeUY3UGRtOVpqRGlmdHlPbm5GNzhPOUNtV3hTVDNlRFhYT0daZ2VhWGJjNzNRamR5QV9BcTVmU0dmQzBPS3c3NEh5Z1ByVFpzVWhNdE1lLWZRUzFHdFJGQzdlWXdVLVpBcnNhRmFJd2l5US1jbm9KZ2M1MXl3OW5SWGFoZHhhQy00Q3FoaXlnRVA0WWswWEdqUElhV2l6WDJ5bm9TVXZyVXN0RDhXNGtSR3l2UEZOOVpRU3BiOFJmWGhBQ2JD?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 13:00:27 GMT",
+        "source": "Moneycontrol.com"
+      },
+      {
         "title": "H﻿arry Potter and the Cursed Child marks 10th year",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxU3hBeDhGX1NXYWZsY0Npc2UwUGZIaGFxMzI5ZE9yRFk4d3BzcXpuTm0wbDN1YnlNd19RRmg3UGZZcThyNXJ5WS1NRWs5b3BUQnRaYVZkT1VHdw?oc=5",
         "pubDate": "Thu, 30 Jul 2026 05:03:52 GMT",
         "source": "BBC"
       },
       {
-        "title": "Happy Birthday Harry Potter: 7 magical book moments you never got to see in the films",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcDliVk5OSWJtdlZxLWNBLVhkSU5uNTlXakJoQjRVTEpZTm5CRnh2NmhON01VWEZiYVltLWRPdFhkckxBTUVIUDZMR2dPS2g5VnpQXzFOaHk4UG5DeDFIYnRlcjRvSmd3QkR4LWNIY2RsS2M0OXF6X3hYb0xMbV85cVJGVklzOUk3UWItRkZKcDNteVVtY2sydXB6dkhFOTZnaUJVaXRHMnlud3VsaWVXNEhaVzBYVklSUFU0WktVTE5OX0U5MFh3YUhWUjlac1k3djlkX3pXR1phVEpqUlZMUHZRc9IB6AFBVV95cUxOei1MUElWVXdMMVFJalpNMFNoZlI1U3lEU1BCcUxPWEFTMnNMeUY3UGRtOVpqRGlmdHlPbm5GNzhPOUNtV3hTVDNlRFhYT0daZ2VhWGJjNzNRamR5QV9BcTVmU0dmQzBPS3c3NEh5Z1ByVFpzVWhNdE1lLWZRUzFHdFJGQzdlWXdVLVpBcnNhRmFJd2l5US1jbm9KZ2M1MXl3OW5SWGFoZHhhQy00Q3FoaXlnRVA0WWswWEdqUElhV2l6WDJ5bm9TVXZyVXN0RDhXNGtSR3l2UEZOOVpRU3BiOFJmWGhBQ2JD?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 13:00:27 GMT",
-        "source": "Moneycontrol.com"
+        "title": "Harry Potter Turns 25: Best UK Destinations Every Potterhead Should Visit",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVWtyazQ0ZzhXQUhRM3U1NHN5ZWxHWkduUm96RUlWOHZjZWFmbHRjM2J4MEtyWFBKanh2N2tScFdXWVg2dUYtcXQ1QVNWejBtOVJDTV9GMDFMcXQxMEtUQVdFM2g0bG1yX2l2dTR6NUc5c2JGLXk2RGhTNWVXSktBUFY2blNWTVhveVJSd1BGd0ZrcnFPaTJFekc0al9md0xoSlJGTk51TjlTWmRUYjNiWVJMZ3dHaDdQSnRQTC1ib2pmUEttY3VZd0VnVzc1bDByOFHSAd8BQVVfeXFMT1pYYmhyRl94R3JZeno0bTBWRWh3U1lBcVRYYS1GZTFjSTlRUlJKRzlKQlc1MUxRa1R0LTdnQ2gyUUlRUlJKWHk1Uklpbng2akVRc2NkWTQyUXdFNzNkOVZQaFBBTVgtOTVNWEljSHNZd0ZvSDNFbmxpYWx3WE1vS0tMVTBiMlhmRHFDRElEcW1iTkg4MzVuMGoyVVRIWnpiRnRBZjFRZnpPbnZpcG92VzB0RGQwb1k2N0Ewc1I1SC12VXFLNHZfR280VWpudDdYQm5zNm03Q3lkY2QzRHJNTQ?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 07:45:54 GMT",
+        "source": "outlooktraveller.com"
       },
       {
         "title": "BUILD-A-BEAR WORKSHOP CELEBRATES HARRY POTTER™'S BIRTHDAY WITH ENCHANTING NEW COLLECTION AND FAN GIVEAWAY",
@@ -583,22 +589,16 @@
         "source": "PR Newswire"
       },
       {
-        "title": "Harry Potter turns 46: Celebrate the Boy Who Lived with Hugh Laurie, James McAvoy, Keira Knightley and more in Audibles star-studded series",
-        "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQUzRRN2J2aVdrX2w3TWtRUXhNWURpUE5LNXNVaE0xeXFUSEd1allRd3RLLVFzalVFLUpaczVja1lQOXl1Qk9uM01MalNOYlpEQkRtcUE1OVpaV0tuNFFwYktWaklFQkR3R3dmRGhkZng1VFJHSEp4cWY1bGQxVjdpdGZGTDBLdlFGOE9wNVBSMG9ENXd5aXFPS3U4dHB1UjV1VFJUN1diaFJEWnhaWDkxUUdIUWhZazdhMHF6SU0xZWZXeERsQ1pMZUdPWkpMclM1aW9PTFJYRV9VZncyNXQ5OTgxOVItZXdfZU1Pb25wMWwwYnVqRk9CRFFHSWZtc0hyb05ZcjZpSWEwTVZQenZOb3YyQ1g0b19Q0gGeAkFVX3lxTE9HTmVfYWxZWVFxTlJuWlo2RHZJZnFEU08tYWpPQkVMWkVqY21uZ2FKa0FfeWN1M1JRV3pFbC03NFgySG9sQzdheTE1VFpUa29CZW9QcXhNMmhOSklwN0ZVN2h5MGlYY2pKVVdVa3pnR01SZG1VRXpGRllBSUJrTFF1TkZ3ZnFyY2ZjbDFTR2QyeUhWVllBcTVwd3ZITDNwRkdCNjFGUmdNSHNXVFBoR2UyOGtfelp6NXBKWTF3MUkwaGVWNzE5bFgyTXEyMi1ZN3gyMUlXNWVWM2NaMzRacVNSNXY2VGtpeFcxTWlEN1ZsbEp2WVBDY1czbUJuUWJ1MVg4dldNb0trRG9WUkJiTTR1VUt2UHhDeWxuN2tFa2c?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 04:30:19 GMT",
-        "source": "Bollywood Hungama"
+        "title": "HBO Max’s ‘Harry Potter’ Series Officially Sets Season 2 Filming Start",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2RnMjB4RTZtLS0zWjJJTkNUaVdYT0lrdjA2cUNaUDlUdG55VmJpMl8wQ2NOcUkxemNZbTBOcjN1U3dXX3FmemlQTkFUM21zc0N0MUsyYkFodHZudkZIVXBwb3p3RVo5Y3lrVkpHMjY3cHRKdFVYX1haNFNBUUladm1Scw?oc=5",
+        "pubDate": "Thu, 30 Jul 2026 19:26:55 GMT",
+        "source": "Collider"
       },
       {
         "title": "HBO’s Harry Potter series is moving fast: Season 2 could film before Season 1 premieres",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd1JyTlVhMXpTT1VEb1dZZ05tZENRRjhUQ1hDbjNUbmItd2xTRVVLTnNuYjNxMnlBMUNwY0lRWTQwdlAzdmJKUkZITlZ4T01jMmhTbU9US3dLOEtaMk5MaHRkOEdCLTJUbzJBOEw4UVA1Z1Bqa3phVkRsX0Y2WEhERTlYTEcwWlhaQXlyd2NOdlhEV2ZOdjRleHBYQ1ZBLVpDWFlBeGNfbklMd3pGVWFYaV9pVnN2d0N6UlE?oc=5",
         "pubDate": "Thu, 30 Jul 2026 20:36:07 GMT",
         "source": "en.softonic.com"
-      },
-      {
-        "title": "Critics slam Tim Hortons Harry Potter promotion as un-Canadian, anti-trans",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQlVrRldLa3lESjVEUU5zYkRfdWpMQTAwYkhqQkNnejlQNzVaR0xDMk9ZbEMwMXNoT2N1TzU2SkZQZTA5WGxOX1NaeGxrWEl0VDZOajNqRVFRNHJkWEN1Z1dtZ3pGdlNGdWZIM1RsVTVGWXJRRE5Mc0FuRmJ0RTJ2dHdn?oc=5",
-        "pubDate": "Tue, 28 Jul 2026 17:10:34 GMT",
-        "source": "CBC"
       }
     ],
     "Main waapas aunga": [
@@ -659,6 +659,12 @@
         "source": "Global Times"
       },
       {
+        "title": "11 K-Dramas Featuring Multiple Members From The Same K-Pop Group",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON1RnUnU3bmVDQms3dFI3am96MHBUTlNkUGUxTjlzejhrVXlRZ25iVndNRF9qdklFVFB0S3lnVUtlSGJLLU5tRDFFTDlDRnFHaFA3bGtXcUNPb2VHNnBFWmdSY3lGb2IxYl9JLUI1QU9fVEN1MERvUkVSMWNhSERlWHQxRHIxZ3JIQzJ5NVlrRUJ3dzJ0VFppY1pGZFl2YkJMZDk5UGtQMDlGZw?oc=5",
+        "pubDate": "Sat, 01 Aug 2026 01:40:04 GMT",
+        "source": "Soompi"
+      },
+      {
         "title": "7 of the best new K-dramas to watch in August 2026, including Our Sticky Love",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYUJ3bllCRGVSYlB3TTJ4Y0dIZXFGZC1SOVNrdy02em50blNDVzdsZ294WmdnUnB6U3g3a3NrNzA1STZ5b0NOZTd4UGROamdTRk1IRDJYZ0xZSWxJenFGWnpYUXl0dzZldGtiZU1wQ1k3Ml9lTGdHVFFEOXZEMmtQNHlEVlhIaU10OWxBeWZZREtHR25JU0lOLWJ2NVEybGY2dTVjT3gwLWo4MllZYlVCc2xJbFVxRmRTWXY0czNjODByazhreHdDSkVzdlpiUmPSAc8BQVVfeXFMTjVmRzZOWjBEZmd0cW9Ba2hQSHNBYW5OTldUNGZGZzc5RWI5U1RrS0VzT0k2bmpOSUljOGVocFJYb1d6ZHpXaHpxYTFwR2xOQXFpSmxGdVpsTlpFZUZPYUtrc1lhZjlOUkF6TndPNDhyV29TelBSb1V3YXpKeTJvMDh4YmpXS24zRUJPTzBITjEtdThFck4zRGpMcl81b3ZZb3NsZFFKWWhtc3U0YXhnb3BlRGc3VTNXc2N0b3hsNXVLWFl1dmNwb0hGT2tobG1N?oc=5",
         "pubDate": "Thu, 30 Jul 2026 13:15:06 GMT",
@@ -674,7 +680,7 @@
         "title": "5 best Nam Joo Hyuk dramas on Netflix for K-drama beginners",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObUwzVURlZk1YajVLV2hudzF4VG9wQlRxRW9CcDdPdzhEMl94RXc3dFJ5WkxyYXloU0RBVHJsaGxwai1objljeXg4UzNic2JVNWRlRGkybFVHMTBVTUJKWTh2YTd2ZUtMME5kX2JLenFGR0YxdFRFeEtPUTR2NkFYazZRdTd4b0xnUVZ5TEJhOXZaZ1JCVWc?oc=5",
         "pubDate": "Thu, 30 Jul 2026 09:30:00 GMT",
-        "source": "GQ India"
+        "source": "gqindia.com"
       },
       {
         "title": "High Drama Before Bihar Bypoll, Prashant Kishor Claims Supporters Detained",
@@ -693,12 +699,6 @@
         "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMGxzMjhIbWhCY01RTEZMbEtFSlJMdzU5MmQ0TmxxemRodDd1VVR3NjY0b3ZYT0xnc0V2S0g5M185bFc2cGpadk1OelVJNzAybGUzd2ZiRDgxODNkbEc3bTI3TV84UkpiUjlhc19UYXFKanlPVFdBU0VZNlBqeVN5NTI1WHhQQW5XczdCMXk0SUhlZTFYa0U4Z2dvQ2NVc1Z4R3BPeGtmdmlUVVRKem1xaTNMRDF2UdIBuwFBVV95cUxOeEkyVWVKMnJRTnFfRDY4eHY0SlRQbHI0cmdrVDFaUHF2VXpDbkFscnE0S2diQkswZ1Exb1BiT2NHZEN6YXJ5dGRHTFRKSnM5cjg1WlVWWG44UnppeXZmeFd2ZmR2SEhTbTQzRE5LOFU0ZEtpcnFUZWtOclo0SC15S1dVT1FWdnRISHFsa05YZncxQXRwVVRSQTZsbk9FNG0wNWhGV3FqVTVzY2UybFRoc0pKNUl0VE10enVr?oc=5",
         "pubDate": "Thu, 30 Jul 2026 04:32:25 GMT",
         "source": "Lifestyle Asia"
-      },
-      {
-        "title": "Drama at Parliament complex: Pappu Yadav's 'priest' skit targets Centre on Ram Mandir donation theft row",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdnZFZzVlanRQcEJCOXpHbEFtdmV4VWIwTl83Y21yRDNSVU1zdG9jWXJMZzVZN19EXzEyQ3N1UDVfMnVCbmpjV0h4SHd4VXBpWkZlN1ltbDJULU5HSmdsQ05NWWZCT1RtbWN2LVlwR3E5ZGUtcnpDNjIwVkl5RGlKLUw0eXFwQjIwQzRhSW5SUXRpTy1VaGVOdkZuNWwzY3hFWVp1YVhEUXl1YTIzYU5CVmxubWhRYTltZlN2a2NQdFpVVlRhVDQ0?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 09:58:31 GMT",
-        "source": "prameyanews.com"
       }
     ],
     "Preganency tips": [
@@ -706,7 +706,7 @@
         "title": "Monsoon mayhem: 12 health risks every pregnant woman must know to stay safe",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTG1ONEdzREF4WEQxZkY1b0R3eTFmYlFXbjB6TXhiaW0tV2xUZVNETUh5MkJINno3TGt5RUtyOHUyMm9WbWxVbTdhbUs4eU5EdmJVV2hlTm9WWGd4QkhJeXRkWW10a0ZnOEpCQzQyd3pST2VNR3dQTTJGZjBHNnlrcTRONlFiSWc0Rm5zQV9ZQVo1bU9iRzgtRFpKY251UdIBogFBVV95cUxObGtIM0Jfa0IwbC1kV1RTOXplanhsX25YdzV4QWZFUDVxT1lkelZ6SjNuT2FsRU5FQXZOZ0EzTnluVUJZMDNkSXRZb2NqZ2VOWVN4MVhpWWNIcEdfeHk3YjlrV1o5TGRBY2U4bk1XNzNsNFc5NjUtU2dpc1NSemNkS1cyNnJ0eFk2X09pUEd5OTZxa3hrVko5VEVqVG5Sa19leWc?oc=5",
         "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
-        "source": "healthshots.com"
+        "source": "Healthshots"
       },
       {
         "title": "5 Tips for Reducing Stress in a High-Risk Pregnancy",
@@ -730,13 +730,13 @@
         "title": "Fever During Pregnancy: Step-by-Step Guide for What to Do",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQelNsS2psajBKcDQ3TmJhWmJqUUQ1bnFnVE4xRGNpbEdNbkRGYm9Bb25IT3RsZy1odGpmSng0NVhxVzlXQzNDMWFfN2RzWWZCdlhNMDhPZ3BVX2ZGVkVnallRMXFRZ1VHN1J4bGtRekhwOXJMUlB4Zk5mZjdCS2d0eVphdUJkMkUwVVNjUHlzRGpTZ2lrVUhhNS1UMzQ?oc=5",
         "pubDate": "Mon, 05 Jan 2026 08:00:00 GMT",
-        "source": "medscape.com"
+        "source": "Medscape"
       },
       {
         "title": "A Guide to Pregnancy After 35 | Health Matters | NYP",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Ick1Ba2R0SUVCQTRxVnRxaGVzcXdJbGt2bktteWpJcGw4SHo5Umg3OHZkcERCaENNcDhTM3BaRmlsQkM2VzQ5MVFJSDFCSG5wVm1MSXM3cEYxR1dXb2RzdWxtS3BKSHBBcWlUVTN3cUI?oc=5",
         "pubDate": "Fri, 24 Apr 2026 07:00:00 GMT",
-        "source": "NewYork-Presbyterian"
+        "source": "nyp.org"
       },
       {
         "title": "Oral health in pregnancy: Tips for preventing dental decay",
@@ -745,8 +745,8 @@
         "source": "American Dental Association"
       },
       {
-        "title": "Tips on exercising when you're pregnant",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSkdQVmFTZ3VFZXNNcF9EbXVjQ2JPMUlpNFZTVGNFbGhTR3FNX0VQZzROckRCX2FicXFVb3hTci1qNE5MRUJlZG00QnRodU9uR0hlX0E4OWIyMXpFSmxCckZ2N1d3NTYwcW51dGVIVmNiZlJzRUw0cUhWZjhpeG5ZRQ?oc=5",
+        "title": "Tips on traveling when you're pregnant",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RbDhsdWlybGlPNExqS0Y4U0x4dXpHb1p5REZpSHdlVUh4N05FTklfZXBPWnJibWdTT19CeTNrekxURGpLV0xUc2NlUERENFJMcGNQdWFhZTZaWU00bGJuY2tDeExtOTU5Sk10Y1hYaldHcFU2QmctWFBOcWFLa2c?oc=5",
         "pubDate": "Wed, 05 Nov 2025 08:00:00 GMT",
         "source": "PeaceHealth"
       }
@@ -777,22 +777,22 @@
         "source": "The Indian Practitioner"
       },
       {
-        "title": "Maya Chambers' Chic Pregnancy Style Tips for Parents",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94VlplQkdnYVJudzlpb0JsY1ZWTFdjR25yb0FLZmZ1TWhnRUtzT20zRXR5WmVaS3Y0VnBydXJzMGNVTmpiamFrTTltdDJ4TXM3Z2ZoZ3VXbXJaMDRxZjNuQzhlZw?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 17:12:32 GMT",
-        "source": "Motherly"
-      },
-      {
         "title": "Traveling While Pregnant: 9 Expert Tips | Health Matters | NYP",
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sT2NLQzZ2UjQ0NVBValoyeUppNkNEcVVfa19VdVRYTTdrUEUxM21xM1RuVFdweFY4LXNwS01QRmJwZTREdVQzcThXRXNsSEVENTRlWFREcVpNUHN4MkhjWDBsdlhEek5RN2Raam0wSlpFTzlWOTE2Vg?oc=5",
         "pubDate": "Wed, 11 Feb 2026 08:00:00 GMT",
-        "source": "NewYork-Presbyterian"
+        "source": "nyp.org"
       },
       {
         "title": "9 winter pregnancy care tips to stay warm and healthy",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZG00R2ZobWttQkRpbTYtUmxNYjAzX2ZuV1JCdS00LWNmbG9ZN2R3cFdPU3VVRjdVY2M5U01fd1hHSEl3OTNNRENnWGxOMkJxRGkwUWZBNk9YOUpHNGFMOHlJaW9Ra1k2T0JsTnQtbXhLYkJILU4zM2lqTnRlY0ZlSGx3YjAwbEpsc3J2d3F3b1BuWUnSAZcBQVVfeXFMUExXMjU2d2JzSkxmZVdPRUpnWF9rNy1TMl9HZjNfNjNGUVR3QjlJOGJpUzJrc2RSS3pZMk1OWnNOMjEyRnN6OXZqenFCdWEwTkJWUGEwN3VDbEthY3FPSUZSQjY4RUNlWGtrUTZ4STB0WTBiNWhCUExTSkNXNzk3aldsNUJMZW9ZYlNpZV9IcUk4cmVERk8zYw?oc=5",
         "pubDate": "Sat, 03 Jan 2026 08:00:00 GMT",
-        "source": "healthshots.com"
+        "source": "Healthshots"
+      },
+      {
+        "title": "Maya Chambers' Chic Pregnancy Style Tips for Parents",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94VlplQkdnYVJudzlpb0JsY1ZWTFdjR25yb0FLZmZ1TWhnRUtzT20zRXR5WmVaS3Y0VnBydXJzMGNVTmpiamFrTTltdDJ4TXM3Z2ZoZ3VXbXJaMDRxZjNuQzhlZw?oc=5",
+        "pubDate": "Fri, 31 Jul 2026 17:12:32 GMT",
+        "source": "Motherly"
       },
       {
         "title": "Maternal Health - What Should Pregnant Women Know?",
